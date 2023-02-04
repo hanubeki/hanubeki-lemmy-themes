@@ -7,7 +7,7 @@ https://m3.material.io/theme-builder#/custom
 /*!
  * hanubeki-lemmy-themes for Lemmy / Bootstrap 4.6.2
  * Copyright (C) 2023 hanubeki
- * Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-theme/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
  */
 
 $theme: "hanubeki-cold-v5";
