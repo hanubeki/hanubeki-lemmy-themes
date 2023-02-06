@@ -1,6 +1,3 @@
-Bootstrap Theme Builder:
-http://bootstrap.build/app
-
 HCT Color System (Material You):
 https://m3.material.io/theme-builder#/custom
 
