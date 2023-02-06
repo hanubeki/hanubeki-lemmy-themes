@@ -34,7 +34,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "M PLUS 2", "M PLUS 1", "BIZ UDPGothic", "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans", "MS PGothic", "Osaka", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: "HackGen", "PlemolJP", "Sarasa Term J", "BIZ UDGothic", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
+  --font-family-monospace: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "BIZ UDGothic", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
 }
 
 *,
@@ -175,7 +175,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: "HackGen", "PlemolJP", "Sarasa Term J", "BIZ UDGothic", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
+  font-family: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "BIZ UDGothic", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
   font-size: 1em;
 }
 
@@ -8907,7 +8907,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: "HackGen", "PlemolJP", "Sarasa Term J", "BIZ UDGothic", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace !important;
+  font-family: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "BIZ UDGothic", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace !important;
 }
 
 .text-justify {
