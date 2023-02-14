@@ -54,9 +54,12 @@
  $body-color: $black;
  $body-secondary-bg: $gray-300;
  $border-color: $gray-700;
- $font-family-sans-serif: "M PLUS 2", "M PLUS 1", "IBM Plex Sans JP", "BIZ UDPGothic", "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans", "MS PGothic", "Osaka", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
- $font-family-monospace: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "BIZ UDGothic", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
- $text-muted: $gray-700;
+ $font-family-sans-serif: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ $font-family-monospace: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "M PLUS 1 Code", "Source Han Sans HW VF", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
+ $font-weight-light: 250;
+ $font-weight-normal: 350;
+ $font-weight-bold: 600;
+  $text-muted: $gray-700;
  $blockquote-footer-color: $gray-500;
  $mark-bg: #f1e580;
  $table-border-factor: 0.7;
