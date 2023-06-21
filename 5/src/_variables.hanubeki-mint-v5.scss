@@ -1,0 +1,106 @@
+$theme: "hanubeki-mint-v5";
+$white: #e2f5f3;
+$gray-100: #d3e6e5;
+$gray-200: #c5d8d7;
+$gray-300: #b8cac9;
+$gray-400: #aabcbb;
+$gray-500: #9dafae;
+$gray-600: #829493;
+$gray-700: #697a79;
+$gray-800: #506261;
+$gray-900: #394a49;
+$black: #233333;
+$blue: #5787be;
+$indigo: #6f71b4;
+$purple: #9c74b6;
+$pink: #c37aa6;
+$red: #c16b71;
+$orange: #ce7c52;
+$yellow: #d9a14c;
+$green: #769c56;
+$teal: #45adab;
+$cyan: #429bba;
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "black": $black,
+  "white": $white,
+  "gray": $gray-700,
+  "gray-dark": $gray-900
+);
+$primary: $teal;
+$secondary: $gray-700;
+$info: $cyan;
+$light: $gray-300;
+$dark: $gray-900;
+$min-contrast-ratio: 1.5;
+$light-bg-subtle: $gray-100;
+$dark-bg-subtle: $gray-500;
+$light-border-subtle: $gray-300;
+$dark-border-subtle: $gray-700;
+$body-color: $black;
+$body-secondary-bg: $gray-300;
+$border-color: $gray-700;
+$font-family-sans-serif: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "M PLUS 1 Code", "Source Han Sans HW VF", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
+$font-weight-light: 250;
+$font-weight-normal: 350;
+$font-weight-bold: 600;
+$text-muted: $gray-700;
+$blockquote-footer-color: $gray-500;
+$mark-bg: #f1e580;
+$table-border-factor: 0.7;
+$btn-link-disabled-color: $gray-700;
+$input-color: $primary;
+$input-disabled-bg: $gray-300;
+$input-border-color: $gray-700;
+$input-placeholder-color: $gray-500;
+$input-group-addon-bg: $gray-300;
+$form-select-disabled-color: $gray-500;
+$form-select-disabled-bg: $gray-300;
+$form-select-indicator-color: $gray-700;
+$form-floating-label-disabled-color: $gray-500;
+$nav-link-disabled-color: $gray-500;
+$nav-tabs-border-color: $gray-700;
+$nav-tabs-link-hover-border-color: $gray-500 $gray-500 $nav-tabs-border-color;
+$nav-tabs-link-active-bg: $white;
+$nav-tabs-link-active-border-color: $gray-700 $gray-700 $nav-tabs-link-active-bg;
+$dropdown-divider-bg: $gray-500;
+$dropdown-link-color: $black;
+$dropdown-link-disabled-color: $gray-500;
+$dropdown-header-color: $gray-700;
+$dropdown-dark-bg: $gray-700;
+$pagination-border-color: $gray-700;
+$pagination-hover-bg: $gray-300;
+$pagination-hover-border-color: $gray-900;
+$pagination-focus-bg: $gray-500;
+$pagination-disabled-color: $gray-500;
+$pagination-disabled-border-color: $gray-500;
+$tooltip-bg: $gray-700;
+$toast-header-color: $gray-700;
+$alert-border-scale: 20%;
+$progress-bg: $gray-300;
+$list-group-disabled-color: $gray-500;
+$list-group-action-active-bg: $gray-300;
+$figure-caption-color: $gray-700;
+$breadcrumb-bg: $gray-300;
+$breadcrumb-divider-color: $gray-700;
+$breadcrumb-active-color: $gray-900;
+$kbd-bg: $gray-700;
+$pre-color: $gray-700;
+$light-bg-subtle-dark: $gray-700;
+$dark-bg-subtle-dark: gray-900;
+$light-border-subtle-dark: $gray-500;
+$dark-border-subtle-dark: $gray-700;
+$body-color-dark: $gray-300;
+$body-bg-dark: $black;
+$body-secondary-bg-dark: $gray-700;
+$body-tertiary-bg-dark: $gray-900;

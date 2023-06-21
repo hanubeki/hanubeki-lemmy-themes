@@ -1,20 +1,15 @@
-/*!
- * hanubeki-lemmy-themes for Lemmy / Bootstrap 5.x.y
- * Copyright (C) 2023 hanubeki
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-$theme: "hanubeki-cold-v5";
-$white: #ebf1fd;
-$gray-100: #dde3ee;
-$gray-200: #cfd5e0;
-$gray-300: #c1c7d2;
-$gray-400: #b3b9c4;
-$gray-500: #a6abb6;
-$gray-600: #8b919c;
-$gray-700: #717782;
-$gray-800: #595f68;
-$gray-900: #414750;
-$black: #2b313a;
+$theme: "hanubeki-mint-alt-v5";
+$white: #e2f5f3;
+$gray-100: #d3e6e5;
+$gray-200: #c5d8d7;
+$gray-300: #b8cac9;
+$gray-400: #aabcbb;
+$gray-500: #9dafae;
+$gray-600: #829493;
+$gray-700: #697a79;
+$gray-800: #506261;
+$gray-900: #394a49;
+$black: #233333;
 $blue: #5787be;
 $indigo: #6f71b4;
 $purple: #9c74b6;
@@ -41,9 +36,9 @@ $colors: (
   "gray": $gray-700,
   "gray-dark": $gray-900
 );
-$primary: $cyan;
-$secondary: $gray-700;
-$info: $blue;
+$primary: $teal;
+$secondary: $blue;
+$info: $cyan;
 $light: $gray-300;
 $dark: $gray-900;
 $min-contrast-ratio: 1.5;
@@ -109,5 +104,3 @@ $body-color-dark: $gray-300;
 $body-bg-dark: $black;
 $body-secondary-bg-dark: $gray-700;
 $body-tertiary-bg-dark: $gray-900;
-
-@import "../node_modules/bootstrap/scss/bootstrap";
