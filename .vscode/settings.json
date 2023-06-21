@@ -1,0 +1,12 @@
+{
+    "liveSassCompile.settings.formats": [
+        
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../dist",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.forceBaseDirectory": "/5/src"
+}
