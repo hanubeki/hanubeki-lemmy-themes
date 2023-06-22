@@ -12040,7 +12040,6 @@ textarea.form-control-lg {
   }
 }
 .card {
-  border: none;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
 }
@@ -12053,8 +12052,8 @@ textarea.form-control-lg {
   margin: 16px 0px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
-  padding: 8px;
-  padding-bottom: 0px;
+  padding: 16px;
+  padding-bottom: 8px;
 }
 
 .post-listing > .card {
