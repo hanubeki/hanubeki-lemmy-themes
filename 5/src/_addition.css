@@ -17,9 +17,8 @@
 
 .comment > .comments > .comment {
     background: none;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
+    padding-left: 4px;
 }
 
 .post-listing > .card {
