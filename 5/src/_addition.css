@@ -7,12 +7,19 @@
     background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.post-listing {
+.post-listing, .comment {
     margin: 16px 0px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     padding: 16px;
     padding-bottom: 8px;
+}
+
+.comment > .comments > .comment {
+    background: none;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .post-listing > .card {
@@ -21,4 +28,9 @@
 
 .post-listing + hr {
     display: none;
+}
+
+.comment > .details {
+    border: none !important;
+    padding: 0px !important;
 }
