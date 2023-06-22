@@ -12049,7 +12049,8 @@ textarea.form-control-lg {
 }
 
 .post-listing, .comment {
-  margin: 16px 0px;
+  margin: 0px;
+  margin-bottom: 16px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
   padding: 16px;
