@@ -12048,15 +12048,15 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
   padding: 16px;
-  padding-bottom: 8px;
 }
 
 .comment {
-  margin: 16px 0px !important;
+  margin: 0px !important;
+  margin-bottom: 16px !important;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
-  padding: 16px;
-  padding-bottom: 8px;
+  padding: 8px;
+  padding-right: 16px;
 }
 
 .comment > .comments > .comment {
@@ -12073,24 +12073,16 @@ textarea.form-control-lg {
   display: none;
 }
 
-.comments, div > .comments > .comment > .details, .comment:first-child > .details {
+.comments, div > .comments > .comment > .details {
   border: none !important;
-  padding: 0px !important;
 }
 
 .details {
-  margin-bottom: 16px;
-  padding: 0px !important;
-  padding-top: 8px !important;
-}
-
-.comment:has(> .details > div > div:only-child) {
-  margin: 8px 0px !important;
+  padding: 8px 0px !important;
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {
-  margin-bottom: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
 }
 
 .details:has(> div > div:only-child) {
