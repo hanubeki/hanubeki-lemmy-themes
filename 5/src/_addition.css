@@ -1,6 +1,6 @@
 .card {
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .form-control {
@@ -9,20 +9,20 @@
 
 .post-listing {
   margin: 0px !important;
-  margin-bottom: 16px !important;
+  margin-bottom: 1rem !important;
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
-  padding: 16px;
-  padding-bottom: 8px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .comment {
   margin: 0px !important;
-  margin-bottom: 16px !important;
+  margin-bottom: 1rem !important;
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
-  padding: 8px;
-  padding-right: 16px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
 }
 
 .comment > .comments > .comment {
@@ -44,11 +44,11 @@
 }
 
 .details {
-  padding: 8px 0px !important;
+  padding: 0.5rem 0px !important;
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
 }
 
 .details:has(> div > div:only-child) {
