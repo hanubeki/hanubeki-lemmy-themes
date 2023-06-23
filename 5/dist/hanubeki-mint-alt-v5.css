@@ -12054,7 +12054,6 @@ textarea.form-control-lg {
 .comment > .comments > .comment {
   background: none;
   padding: 0px;
-  padding-left: 4px;
 }
 
 .post-listing > .card {
@@ -12065,11 +12064,11 @@ textarea.form-control-lg {
   display: none;
 }
 
-.comment > .details {
+.comments, .details {
   border: none !important;
   padding: 0px !important;
 }
 
-.mini-overlay {
-  background-color: rgba(255, 255, 255, 0.6);
+.details {
+  margin-bottom: 16px;
 }/*# sourceMappingURL=hanubeki-mint-alt-v5.css.map */

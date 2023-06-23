@@ -19,7 +19,6 @@
 .comment > .comments > .comment {
   background: none;
   padding: 0px;
-  padding-left: 4px;
 }
 
 .post-listing > .card {
@@ -30,11 +29,11 @@
   display: none;
 }
 
-.comment > .details {
+.comments, .details {
   border: none !important;
   padding: 0px !important;
 }
 
-.mini-overlay {
-  background-color: rgba(255, 255, 255, 0.6);
+.details {
+  margin-bottom: 16px;
 }
