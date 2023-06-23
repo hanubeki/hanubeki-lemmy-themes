@@ -9248,26 +9248,35 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .card {
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .form-control {
   background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.post-listing, .comment {
+.post-listing {
   margin: 0px;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
-  padding: 16px;
-  padding-bottom: 8px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.comment {
+  margin: 0px;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
 
 .comment > .comments > .comment {
   background: none;
   padding: 0px;
   padding-left: 4px;
+  margin: 0px;
 }
 
 .post-listing > .card {
