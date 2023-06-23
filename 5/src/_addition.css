@@ -17,6 +17,7 @@
 }
 
 .comment > .comments > .comment {
+  margin: 0px;
   background: none;
   padding: 0px;
 }
@@ -36,6 +37,8 @@
 
 .details {
   margin-bottom: 16px;
+  padding: 0px !important;
+  padding-top: 8px !important;
 }
 
 .comment:has(> .details > div > div:only-child) {
@@ -43,6 +46,7 @@
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {
+  margin-bottom: 16px;
   padding-bottom: 16px;
 }
 

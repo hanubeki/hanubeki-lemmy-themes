@@ -12052,6 +12052,7 @@ textarea.form-control-lg {
 }
 
 .comment > .comments > .comment {
+  margin: 0px;
   background: none;
   padding: 0px;
 }
@@ -12071,6 +12072,8 @@ textarea.form-control-lg {
 
 .details {
   margin-bottom: 16px;
+  padding: 0px !important;
+  padding-top: 8px !important;
 }
 
 .comment:has(> .details > div > div:only-child) {
@@ -12078,6 +12081,7 @@ textarea.form-control-lg {
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {
+  margin-bottom: 16px;
   padding-bottom: 16px;
 }
 
