@@ -12042,9 +12042,17 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.post-listing, .comment {
-  margin: 0px;
-  margin-bottom: 16px;
+.post-listing {
+  margin: 0px !important;
+  margin-bottom: 16px !important;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 16px;
+  padding-bottom: 8px;
+}
+
+.comment {
+  margin: 16px 0px !important;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
   padding: 16px;
@@ -12052,7 +12060,7 @@ textarea.form-control-lg {
 }
 
 .comment > .comments > .comment {
-  margin: 0px;
+  margin: 0px !important;
   background: none;
   padding: 0px;
 }
@@ -12077,7 +12085,7 @@ textarea.form-control-lg {
 }
 
 .comment:has(> .details > div > div:only-child) {
-  margin: 8px 0px;
+  margin: 8px 0px !important;
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {
