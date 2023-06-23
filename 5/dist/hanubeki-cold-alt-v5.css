@@ -12071,4 +12071,16 @@ textarea.form-control-lg {
 
 .details {
   margin-bottom: 16px;
+}
+
+.comment:has(> .details > div > div:only-child) {
+  margin: 8px 0px;
+}
+
+div > .comments > .comment:has(> .details > div > div:only-child) {
+  padding-bottom: 16px;
+}
+
+.details:has(> div > div:only-child) {
+  margin: 0px;
 }/*# sourceMappingURL=hanubeki-cold-alt-v5.css.map */
