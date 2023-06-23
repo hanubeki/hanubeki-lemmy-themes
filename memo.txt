@@ -1,13 +1,11 @@
 HCT Color System (Material You):
 https://m3.material.io/theme-builder#/custom
 
-/*!
- * hanubeki-lemmy-themes for Lemmy / Bootstrap 4.6.2
- * Copyright (C) 2023 hanubeki
- * Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
- */
-
 $theme: "hanubeki-cold-v5";
+
+$container-max-widths: (
+  lg: 1140px,
+);
 
 $light-text-emphasis: $gray-700 !default;
 $dark-text-emphasis: $gray-700 !default;
