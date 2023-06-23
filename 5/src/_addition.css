@@ -29,7 +29,7 @@
   display: none;
 }
 
-.comments, .details {
+.comments, div > .comments > .comment > .details, .comment:first-child > .details {
   border: none !important;
   padding: 0px !important;
 }
