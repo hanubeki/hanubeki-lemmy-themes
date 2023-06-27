@@ -76,7 +76,7 @@
   --bs-dark-border-subtle: #707884;
   --bs-white-rgb: 234, 241, 255;
   --bs-black-rgb: 41, 49, 60;
-  --bs-font-sans-serif: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", "SF Compact Text", "Verdana", "Ubuntu", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "M PLUS 1 Code", "Source Han Sans HW VF", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(234, 241, 255, 0.15), rgba(234, 241, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
