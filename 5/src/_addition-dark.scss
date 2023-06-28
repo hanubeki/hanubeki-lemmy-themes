@@ -1,4 +1,5 @@
 :root, [data-bs-theme=light] {
+  --#{$prefix}highlight-bg: #82791f;
   --hb-post-background: rgba(255, 255, 255, 0.1);
   --hb-overlay-background: rgba(0, 0, 0, 0.6);
 }
