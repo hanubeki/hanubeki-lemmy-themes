@@ -15,11 +15,13 @@
   border-radius: 0.5rem;
 }
 
-@include color-mode(dark) {
-  .dropdown-menu {
-    --#{$prefix}dropdown-link-color: var(--#{$prefix}gray-500);
-    --#{$prefix}dropdown-link-hover-color: var(--#{$prefix}gray-600);
-    --#{$prefix}dropdown-link-active-color: var(--#{$prefix}gray-700);
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .dropdown-menu {
+      --#{$prefix}dropdown-link-color: var(--#{$prefix}gray-500);
+      --#{$prefix}dropdown-link-hover-color: var(--#{$prefix}gray-600);
+      --#{$prefix}dropdown-link-active-color: var(--#{$prefix}gray-700);
+    }
   }
 }
 
@@ -75,9 +77,11 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   margin: 0px;
 }
 
-@include color-mode(dark) {
-  .markdown-textarea > div > div > div.bg-light {
-    background-color: var(--#{$prefix}gray-900) !important;
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .markdown-textarea > div > div > div.bg-light {
+      background-color: var(--#{$prefix}gray-900) !important;
+    }
   }
 }
 
