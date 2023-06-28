@@ -77,7 +77,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 @include color-mode(dark) {
   .markdown-textarea > div > div > div.bg-light {
-    background-color: $gray-900 !important;
+    background-color: var(--#{$prefix}gray-900) !important;
   }
 }
 

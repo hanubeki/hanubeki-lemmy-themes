@@ -12116,7 +12116,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 @media (prefers-color-scheme: dark) {
   .markdown-textarea > div > div > div.bg-light {
-    background-color: #53424b !important;
+    background-color: var(--bs-gray-900) !important;
   }
 }
 .mini-overlay {
