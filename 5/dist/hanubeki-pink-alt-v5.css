@@ -12055,13 +12055,10 @@ textarea.form-control-lg {
   border-radius: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  .dropdown-menu {
-    --bs-dropdown-link-color: var(--bs-gray-300);
-    --bs-dropdown-link-hover-color: var(--bs-gray-400);
-    --bs-dropdown-link-active-color: var(--bs-gray-500);
-  }
+.form-control {
+  background-color: var(--hb-post-background) !important;
 }
+
 @media (prefers-color-scheme: dark) {
   .nav-tabs {
     --bs-nav-tabs-border-color: var(--bs-gray-700);
@@ -12071,10 +12068,34 @@ textarea.form-control-lg {
     --bs-nav-tabs-link-active-border-color: var(--bs-gray-700) var(--bs-gray-700) var(--bs-gray-900);
   }
 }
-.form-control {
-  background-color: var(--hb-post-background) !important;
+@media (prefers-color-scheme: dark) {
+  .dropdown-menu {
+    --bs-dropdown-link-color: var(--bs-gray-300);
+    --bs-dropdown-link-hover-color: var(--bs-gray-400);
+    --bs-dropdown-link-active-color: var(--bs-white);
+  }
 }
-
+@media (prefers-color-scheme: dark) {
+  .pagination {
+    --bs-pagination-hover-bg: var(--bs-gray-900);
+    --bs-pagination-hover-border-color: var(--bs-gray-500);
+    --bs-pagination-focus-bg: var(--bs-gray-700);
+    --bs-pagination-disabled-bg: var(--bs-gray-700);
+    --bs-pagination-disabled-border-color: var(--bs-gray-300);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .popover {
+    --bs-popover-header-bg: var(--bs-gray-900);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .breadcrumb {
+    --bs-breadcrumb-bg: var(--bs-gray-900);
+    --bs-breadcrumb-divider-color: var(--bs-gray-500);
+    --bs-breadcrumb-item-active-color: var(--bs-white);
+  }
+}
 @media (prefers-color-scheme: dark) {
   .thumbnail {
     background-color: var(--bs-gray-700) !important;
