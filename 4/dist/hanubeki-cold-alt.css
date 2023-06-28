@@ -38,7 +38,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Verdana", "Ubuntu", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Verdana", "Ubuntu", "Cantarell", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "M PLUS 1 Code", "Source Han Sans HW VF", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
 }
 
@@ -61,7 +61,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Verdana", "Ubuntu", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Verdana", "Ubuntu", "Cantarell", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 350;
   line-height: 1.5;
@@ -5411,7 +5411,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Verdana", "Ubuntu", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Verdana", "Ubuntu", "Cantarell", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 350;
   line-height: 1.5;
@@ -5513,7 +5513,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Verdana", "Ubuntu", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Verdana", "Ubuntu", "Cantarell", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 350;
   line-height: 1.5;

@@ -7,4 +7,3 @@ These files are legacy themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-u
 
 ## License
 Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
-
