@@ -18,9 +18,9 @@
 @if $enable-dark-mode {
   @include color-mode(dark) {
     .dropdown-menu {
-      --#{$prefix}dropdown-link-color: var(--#{$prefix}gray-500);
-      --#{$prefix}dropdown-link-hover-color: var(--#{$prefix}gray-600);
-      --#{$prefix}dropdown-link-active-color: var(--#{$prefix}gray-700);
+      --#{$prefix}dropdown-link-color: var(--#{$prefix}gray-300);
+      --#{$prefix}dropdown-link-hover-color: var(--#{$prefix}gray-400);
+      --#{$prefix}dropdown-link-active-color: var(--#{$prefix}gray-500);
     }
   }
 }

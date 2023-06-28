@@ -132,18 +132,18 @@
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --bs-body-color: #bfc7d5;
-    --bs-body-color-rgb: 191, 199, 213;
+    --bs-body-color: #eaf1ff;
+    --bs-body-color-rgb: 234, 241, 255;
     --bs-body-bg: #29313c;
     --bs-body-bg-rgb: 41, 49, 60;
     --bs-emphasis-color: #eaf1ff;
     --bs-emphasis-color-rgb: 234, 241, 255;
-    --bs-secondary-color: rgba(191, 199, 213, 0.75);
-    --bs-secondary-color-rgb: 191, 199, 213;
+    --bs-secondary-color: rgba(234, 241, 255, 0.75);
+    --bs-secondary-color-rgb: 234, 241, 255;
     --bs-secondary-bg: #707884;
     --bs-secondary-bg-rgb: 112, 120, 132;
-    --bs-tertiary-color: rgba(191, 199, 213, 0.5);
-    --bs-tertiary-color-rgb: 191, 199, 213;
+    --bs-tertiary-color: rgba(234, 241, 255, 0.5);
+    --bs-tertiary-color-rgb: 234, 241, 255;
     --bs-tertiary-bg: #3f4753;
     --bs-tertiary-bg-rgb: 63, 71, 83;
     --bs-primary-text-emphasis: #8ec3d6;
@@ -2330,7 +2330,7 @@ textarea.form-control-lg {
 
 @media (prefers-color-scheme: dark) {
   .form-select {
-    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23bfc7d5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23eaf1ff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
   }
 }
 .form-check {
@@ -12057,9 +12057,9 @@ textarea.form-control-lg {
 
 @media (prefers-color-scheme: dark) {
   .dropdown-menu {
-    --bs-dropdown-link-color: var(--bs-gray-500);
-    --bs-dropdown-link-hover-color: var(--bs-gray-600);
-    --bs-dropdown-link-active-color: var(--bs-gray-700);
+    --bs-dropdown-link-color: var(--bs-gray-300);
+    --bs-dropdown-link-hover-color: var(--bs-gray-400);
+    --bs-dropdown-link-active-color: var(--bs-gray-500);
   }
 }
 .form-control {
