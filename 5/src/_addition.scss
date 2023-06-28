@@ -30,7 +30,7 @@
     .nav-tabs {
       --#{$prefix}nav-tabs-border-color: var(--#{$prefix}gray-700);
       --#{$prefix}nav-tabs-link-hover-border-color: var(--#{$prefix}gray-700) var(--#{$prefix}gray-700) var(--#{$prefix}black);
-      --#{$prefix}nav-tabs-link-active-color: var(--#{$prefix}gray-500);
+      --#{$prefix}nav-tabs-link-active-color: var(--#{$prefix}gray-300);
       --#{$prefix}nav-tabs-link-active-bg: var(--#{$prefix}gray-900);
       --#{$prefix}nav-tabs-link-active-border-color: var(--#{$prefix}gray-500) var(--#{$prefix}gray-500) var(--#{$prefix}gray-900);
     }
