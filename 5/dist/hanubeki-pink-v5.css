@@ -12072,7 +12072,7 @@ textarea.form-control-lg {
   }
 }
 .post-listing {
-  margin: 0px !important;
+  margin: 0 !important;
   margin-bottom: 1rem !important;
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
@@ -12081,7 +12081,7 @@ textarea.form-control-lg {
 }
 
 .comment {
-  margin: 0px !important;
+  margin: 0 !important;
   margin-bottom: 1rem !important;
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
@@ -12090,9 +12090,9 @@ textarea.form-control-lg {
 }
 
 .comment > .comments > .comment {
-  margin: 0px !important;
+  margin: 0 !important;
   background: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .post-listing > .card {
@@ -12108,7 +12108,7 @@ textarea.form-control-lg {
 }
 
 .details {
-  padding: 0.5rem 0px !important;
+  padding: 0.5rem 0 !important;
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {
@@ -12116,7 +12116,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 .details:has(> div > div:only-child) {
-  margin: 0px;
+  margin: 0;
 }
 
 @media (prefers-color-scheme: dark) {

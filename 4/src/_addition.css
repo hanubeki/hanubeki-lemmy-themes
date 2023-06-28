@@ -8,7 +8,7 @@
 }
 
 .post-listing {
-  margin: 0px;
+  margin: 0;
   margin-bottom: 1rem;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.5rem;
@@ -17,7 +17,7 @@
 }
 
 .comment {
-  margin: 0px;
+  margin: 0;
   margin-bottom: 1rem;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.5rem;
@@ -26,9 +26,9 @@
 
 .comment > .comments > .comment {
   background: none;
-  padding: 0px;
+  padding: 0;
   padding-left: 4px;
-  margin: 0px;
+  margin: 0;
 }
 
 .post-listing > .card {
@@ -41,7 +41,7 @@
 
 .comment > .details {
   border: none !important;
-  padding: 0px !important;
+  padding: 0 !important;
 }
 
 .mini-overlay {

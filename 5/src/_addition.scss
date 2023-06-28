@@ -38,7 +38,7 @@
 }
 
 .post-listing {
-  margin: 0px !important;
+  margin: 0 !important;
   margin-bottom: 1rem !important;
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
@@ -47,7 +47,7 @@
 }
 
 .comment {
-  margin: 0px !important;
+  margin: 0 !important;
   margin-bottom: 1rem !important;
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
@@ -56,9 +56,9 @@
 }
 
 .comment > .comments > .comment {
-  margin: 0px !important;
+  margin: 0 !important;
   background: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .post-listing > .card {
@@ -74,7 +74,7 @@
 }
 
 .details {
-  padding: 0.5rem 0px !important;
+  padding: 0.5rem 0 !important;
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {
@@ -82,7 +82,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 .details:has(> div > div:only-child) {
-  margin: 0px;
+  margin: 0;
 }
 
 @if $enable-dark-mode {
