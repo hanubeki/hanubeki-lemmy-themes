@@ -12137,6 +12137,11 @@ textarea.form-control-lg {
   display: none;
 }
 
+@media (prefers-color-scheme: dark) {
+  .post-title a:visited {
+    color: var(--bs-gray-500) !important;
+  }
+}
 .comments, div > .comments > .comment > .details {
   border: none !important;
 }

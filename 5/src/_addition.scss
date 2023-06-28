@@ -81,7 +81,7 @@
 @if $enable-dark-mode {
   @include color-mode(dark) {
     .thumbnail {
-      background-color: var(--#{$prefix}gray-700) !important;;
+      background-color: var(--#{$prefix}gray-700) !important;
     }
   }
 }
@@ -116,6 +116,14 @@
 
 .post-listing + hr, .comments + hr {
   display: none;
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .post-title a:visited {
+      color: var(--#{$prefix}gray-500) !important;
+    }
+  }
 }
 
 .comments, div > .comments > .comment > .details {
