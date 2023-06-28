@@ -3,7 +3,5 @@ https://m3.material.io/theme-builder#/custom
 
 $theme: "hanubeki-cold-v5";
 
-/* place before $font-family-sans-serif */
-$container-max-widths: (
-  lg: 1140px,
-);
+/* lemmy-ui 0.18.1, font-weightも見直す */
+$font-size-base: 0.875rem;
