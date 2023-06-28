@@ -12066,6 +12066,11 @@ textarea.form-control-lg {
   background-color: var(--hb-post-background) !important;
 }
 
+@media (prefers-color-scheme: dark) {
+  .thumbnail {
+    background-color: var(--bs-gray-700) !important;
+  }
+}
 .post-listing {
   margin: 0px !important;
   margin-bottom: 1rem !important;

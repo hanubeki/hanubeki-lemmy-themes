@@ -29,6 +29,14 @@
   background-color: var(--hb-post-background) !important;
 }
 
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .thumbnail {
+      background-color: var(--#{$prefix}gray-700) !important;;
+    }
+  }
+}
+
 .post-listing {
   margin: 0px !important;
   margin-bottom: 1rem !important;
