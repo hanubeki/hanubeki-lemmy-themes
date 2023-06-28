@@ -35,7 +35,7 @@
   background: none;
 }
 
-.post-listing + hr {
+.post-listing + hr, .comments + hr {
   display: none;
 }
 

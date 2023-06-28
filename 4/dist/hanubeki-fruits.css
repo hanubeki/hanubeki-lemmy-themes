@@ -9283,7 +9283,7 @@ a.text-dark:hover, a.text-dark:focus {
   background: none;
 }
 
-.post-listing + hr {
+.post-listing + hr, .comments + hr {
   display: none;
 }
 
