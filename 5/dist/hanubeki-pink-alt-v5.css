@@ -12062,6 +12062,15 @@ textarea.form-control-lg {
     --bs-dropdown-link-active-color: var(--bs-gray-500);
   }
 }
+@media (prefers-color-scheme: dark) {
+  .nav-tabs {
+    --bs-nav-tabs-border-color: var(--bs-gray-700);
+    --bs-nav-tabs-link-hover-border-color: var(--bs-gray-700) var(--bs-gray-700) var(--bs-black);
+    --bs-nav-tabs-link-active-color: var(--bs-gray-500);
+    --bs-nav-tabs-link-active-bg: var(--bs-gray-900);
+    --bs-nav-tabs-link-active-border-color: var(--bs-gray-500) var(--bs-gray-500) var(--bs-gray-900);
+  }
+}
 .form-control {
   background-color: var(--hb-post-background) !important;
 }
