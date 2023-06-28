@@ -10,6 +10,14 @@
   }
 }
 
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    pre {
+      color: var(--#{$prefix}gray-500) !important;
+    }
+  }
+}
+
 .card {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;

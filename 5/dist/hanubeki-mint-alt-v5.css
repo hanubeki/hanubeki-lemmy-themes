@@ -12050,6 +12050,11 @@ textarea.form-control-lg {
     --hb-overlay-background: rgba(0, 0, 0, 0.6);
   }
 }
+@media (prefers-color-scheme: dark) {
+  pre {
+    color: var(--bs-gray-500) !important;
+  }
+}
 .card {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
