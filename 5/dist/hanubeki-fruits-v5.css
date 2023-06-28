@@ -12055,6 +12055,13 @@ textarea.form-control-lg {
   border-radius: 0.5rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  .dropdown-menu {
+    --bs-dropdown-link-color: $gray-500;
+    --bs-dropdown-link-hover-color: $gray-600;
+    --bs-dropdown-link-active-color: $gray-700;
+  }
+}
 .form-control {
   background-color: var(--hb-post-background) !important;
 }
