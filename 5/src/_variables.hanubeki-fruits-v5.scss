@@ -38,6 +38,19 @@ $colors: (
 );
 $primary: $orange;
 $secondary: $pink;
+$success: $green;
 $info: $blue;
+$warning: $yellow;
+$danger: $red;
 $light: $gray-300;
 $dark: $gray-900;
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);

@@ -1,0 +1,85 @@
+// Dark color mode variables
+//
+// Custom variables for the `[data-bs-theme="dark"]` theme. Use this as a starting point for your own custom color modes by creating a new theme-specific file like `_variables-dark.scss` and adding the variables you need.
+
+//
+// Global colors
+//
+
+// scss-docs-start sass-dark-mode-vars
+// scss-docs-start theme-text-dark-variables
+$primary-text-emphasis:        tint-color($primary, 40%);
+$secondary-text-emphasis:      tint-color($secondary, 40%);
+$success-text-emphasis:        tint-color($success, 40%);
+$info-text-emphasis:           tint-color($info, 40%);
+$warning-text-emphasis:        tint-color($warning, 40%);
+$danger-text-emphasis:         tint-color($danger, 40%);
+$light-text-emphasis:          $gray-100;
+$dark-text-emphasis:           $gray-300;
+// scss-docs-end theme-text-dark-variables
+
+// scss-docs-start theme-bg-subtle-dark-variables
+$primary-bg-subtle:            shade-color($primary, 80%);
+$secondary-bg-subtle:          shade-color($secondary, 80%);
+$success-bg-subtle:            shade-color($success, 80%);
+$info-bg-subtle:               shade-color($info, 80%);
+$warning-bg-subtle:            shade-color($warning, 80%);
+$danger-bg-subtle:             shade-color($danger, 80%);
+$light-bg-subtle:              $gray-700;
+$dark-bg-subtle:               $gray-900;
+// scss-docs-end theme-bg-subtle-dark-variables
+
+// scss-docs-start theme-border-subtle-dark-variables
+$primary-border-subtle:        shade-color($primary, 40%);
+$secondary-border-subtle:      shade-color($secondary, 40%);
+$success-border-subtle:        shade-color($success, 40%);
+$info-border-subtle:           shade-color($info, 40%);
+$warning-border-subtle:        shade-color($warning, 40%);
+$danger-border-subtle:         shade-color($danger, 40%);
+$light-border-subtle:          $gray-500;
+$dark-border-subtle:           $gray-700;
+// scss-docs-end theme-border-subtle-dark-variables
+
+$body-color:                   $white;
+$body-bg:                      $black;
+$body-secondary-color:         rgba($body-color, .75);
+$body-secondary-bg:            $gray-700;
+$body-tertiary-color:          rgba($body-color, .5);
+$body-tertiary-bg:             $gray-900;
+$body-emphasis-color:          $white;
+$border-color:                 $gray-700;
+$border-color-translucent:     rgba($white, .15);
+$headings-color:               inherit;
+$link-color:                   tint-color($primary, 40%);
+$link-hover-color:             shift-color($link-color, -$link-shade-percentage);
+$code-color:                   tint-color($code-color, 40%);
+
+
+//
+// Forms
+//
+
+$form-select-indicator-color:  $body-color;
+$form-select-indicator:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='#{$form-select-indicator-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/></svg>");
+
+$form-switch-color:            rgba($white, .25);
+$form-switch-bg-image:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-switch-color}'/></svg>");
+
+// scss-docs-start form-validation-colors-dark
+$form-valid-color:             $green-300;
+$form-valid-border-color:      $green-300;
+$form-invalid-color:           $red-300;
+$form-invalid-border-color:    $red-300;
+// scss-docs-end form-validation-colors-dark
+
+
+//
+// Accordion
+//
+
+$accordion-icon-color:         $primary-text-emphasis;
+$accordion-icon-active-color:  $primary-text-emphasis;
+
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+// scss-docs-end sass-dark-mode-vars

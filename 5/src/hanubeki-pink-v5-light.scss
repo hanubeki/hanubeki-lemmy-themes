@@ -9,13 +9,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ $enable-dark-mode: false;
+
  @import "../../node_modules/bootstrap/scss/functions";
  
- @import "variables.hanubeki-pink-alt-v5";
+ @import "variables.hanubeki-pink-v5";
  @import "variables.common";
  
  @import "../../node_modules/bootstrap/scss/variables";
- @import "../../node_modules/bootstrap/scss/variables-dark";
  
  @import "../../node_modules/bootstrap/scss/maps";
  @import "../../node_modules/bootstrap/scss/mixins";

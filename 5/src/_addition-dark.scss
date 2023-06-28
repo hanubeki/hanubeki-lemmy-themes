@@ -1,0 +1,55 @@
+:root, [data-bs-theme=light] {
+  --hb-post-background: rgba(255, 255, 255, 0.1);
+  --hb-overlay-background: rgba(0, 0, 0, 0.6);
+}
+
+pre {
+  color: var(--#{$prefix}gray-500) !important;
+}
+
+.nav-tabs {
+  --#{$prefix}nav-tabs-border-color: var(--#{$prefix}gray-700);
+  --#{$prefix}nav-tabs-link-hover-border-color: var(--#{$prefix}gray-900) var(--#{$prefix}gray-900) var(--#{$prefix}gray-700);
+  --#{$prefix}nav-tabs-link-active-color: var(--#{$prefix}gray-300);
+  --#{$prefix}nav-tabs-link-active-bg: var(--#{$prefix}gray-900);
+  --#{$prefix}nav-tabs-link-active-border-color: var(--#{$prefix}gray-700) var(--#{$prefix}gray-700) var(--#{$prefix}gray-900);
+}
+
+.dropdown-menu {
+  --#{$prefix}dropdown-link-color: var(--#{$prefix}gray-300);
+  --#{$prefix}dropdown-link-hover-color: var(--#{$prefix}gray-400);
+}
+
+.pagination {
+  --#{$prefix}pagination-hover-bg: var(--#{$prefix}gray-900);
+  --#{$prefix}pagination-hover-border-color: var(--#{$prefix}gray-500);
+  --#{$prefix}pagination-focus-bg: var(--#{$prefix}gray-700);
+  --#{$prefix}pagination-disabled-bg: var(--#{$prefix}gray-700);
+  --#{$prefix}pagination-disabled-border-color: var(--#{$prefix}gray-300);
+}
+
+.tooltip {
+    --#{$prefix}tooltip-bg: var(--#{$prefix}gray-300);
+}
+
+.popover {
+  --#{$prefix}popover-header-bg: var(--#{$prefix}gray-900);
+}
+
+.breadcrumb {
+  --#{$prefix}breadcrumb-bg: var(--#{$prefix}gray-900);
+  --#{$prefix}breadcrumb-divider-color: var(--#{$prefix}gray-500); 
+  --#{$prefix}breadcrumb-item-active-color: var(--#{$prefix}white);
+}
+
+.thumbnail {
+  background-color: var(--#{$prefix}gray-700) !important;
+}
+
+.post-title a:visited {
+  color: var(--#{$prefix}gray-500) !important;
+}
+
+.markdown-textarea > div > div > div.bg-light {
+  background-color: var(--#{$prefix}gray-900) !important;
+}
