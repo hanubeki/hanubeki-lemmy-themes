@@ -54,6 +54,14 @@
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
+    .tooltip {
+        --#{$prefix}tooltip-bg: var(--#{$prefix}gray-300);
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
     .popover {
       --#{$prefix}popover-header-bg: var(--#{$prefix}gray-900);
     }

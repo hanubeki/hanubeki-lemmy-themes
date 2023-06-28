@@ -12084,6 +12084,11 @@ textarea.form-control-lg {
   }
 }
 @media (prefers-color-scheme: dark) {
+  .tooltip {
+    --bs-tooltip-bg: var(--bs-gray-300);
+  }
+}
+@media (prefers-color-scheme: dark) {
   .popover {
     --bs-popover-header-bg: var(--bs-gray-900);
   }
