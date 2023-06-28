@@ -17,9 +17,9 @@
 
 @include color-mode(dark) {
   .dropdown-menu {
-    --bs-dropdown-link-color: $gray-500;
-    --bs-dropdown-link-hover-color: $gray-600;
-    --bs-dropdown-link-active-color: $gray-700;
+    --#{$prefix}dropdown-link-color: var(--#{$prefix}gray-500);
+    --#{$prefix}dropdown-link-hover-color: var(--#{$prefix}gray-600);
+    --#{$prefix}dropdown-link-active-color: var(--#{$prefix}gray-700);
   }
 }
 

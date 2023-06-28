@@ -12057,9 +12057,9 @@ textarea.form-control-lg {
 
 @media (prefers-color-scheme: dark) {
   .dropdown-menu {
-    --bs-dropdown-link-color: $gray-500;
-    --bs-dropdown-link-hover-color: $gray-600;
-    --bs-dropdown-link-active-color: $gray-700;
+    --bs-dropdown-link-color: var(--bs-gray-500);
+    --bs-dropdown-link-hover-color: var(--bs-gray-600);
+    --bs-dropdown-link-active-color: var(--bs-gray-700);
   }
 }
 .form-control {
