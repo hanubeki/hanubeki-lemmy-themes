@@ -35,7 +35,7 @@
   --bs-gray-800: #575f6b;
   --bs-gray-900: #3f4753;
   --bs-primary: #429bba;
-  --bs-secondary: #707884;
+  --bs-secondary: #6f71b4;
   --bs-success: #769c56;
   --bs-info: #5787be;
   --bs-warning: #d9a14c;
@@ -43,36 +43,36 @@
   --bs-light: #bfc7d5;
   --bs-dark: #3f4753;
   --bs-primary-rgb: 66, 155, 186;
-  --bs-secondary-rgb: 112, 120, 132;
+  --bs-secondary-rgb: 111, 113, 180;
   --bs-success-rgb: 118, 156, 86;
   --bs-info-rgb: 87, 135, 190;
   --bs-warning-rgb: 217, 161, 76;
   --bs-danger-rgb: 193, 107, 113;
   --bs-light-rgb: 191, 199, 213;
   --bs-dark-rgb: 63, 71, 83;
-  --bs-primary-text-emphasis: #1a3e4a;
-  --bs-secondary-text-emphasis: #2d3035;
-  --bs-success-text-emphasis: #2f3e22;
-  --bs-info-text-emphasis: #23364c;
-  --bs-warning-text-emphasis: #57401e;
-  --bs-danger-text-emphasis: #4d2b2d;
-  --bs-light-text-emphasis: #707884;
-  --bs-dark-text-emphasis: #707884;
-  --bs-primary-bg-subtle: #d9ebf1;
-  --bs-secondary-bg-subtle: #e2e4e6;
-  --bs-success-bg-subtle: #e4ebdd;
-  --bs-info-bg-subtle: #dde7f2;
-  --bs-warning-bg-subtle: #f7ecdb;
-  --bs-danger-bg-subtle: #f3e1e3;
-  --bs-light-bg-subtle: #dbe3f1;
-  --bs-dark-bg-subtle: #a4acb9;
-  --bs-primary-border-subtle: #b3d7e3;
-  --bs-secondary-border-subtle: #c6c9ce;
-  --bs-success-border-subtle: #c8d7bb;
-  --bs-info-border-subtle: #bccfe5;
-  --bs-warning-border-subtle: #f0d9b7;
-  --bs-danger-border-subtle: #e6c4c6;
-  --bs-light-border-subtle: #bfc7d5;
+  --bs-primary-text-emphasis: #8ec3d6;
+  --bs-secondary-text-emphasis: #a9aad2;
+  --bs-success-text-emphasis: #adc49a;
+  --bs-info-text-emphasis: #9ab7d8;
+  --bs-warning-text-emphasis: #e8c794;
+  --bs-danger-text-emphasis: #daa6aa;
+  --bs-light-text-emphasis: #dbe3f1;
+  --bs-dark-text-emphasis: #bfc7d5;
+  --bs-primary-bg-subtle: #0d1f25;
+  --bs-secondary-bg-subtle: #161724;
+  --bs-success-bg-subtle: #181f11;
+  --bs-info-bg-subtle: #111b26;
+  --bs-warning-bg-subtle: #2b200f;
+  --bs-danger-bg-subtle: #271517;
+  --bs-light-bg-subtle: #707884;
+  --bs-dark-bg-subtle: #3f4753;
+  --bs-primary-border-subtle: #285d70;
+  --bs-secondary-border-subtle: #43446c;
+  --bs-success-border-subtle: #475e34;
+  --bs-info-border-subtle: #345172;
+  --bs-warning-border-subtle: #82612e;
+  --bs-danger-border-subtle: #744044;
+  --bs-light-border-subtle: #a4acb9;
   --bs-dark-border-subtle: #707884;
   --bs-white-rgb: 234, 241, 255;
   --bs-black-rgb: 41, 49, 60;
@@ -83,32 +83,32 @@
   --bs-body-font-size: 0.875rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #29313c;
-  --bs-body-color-rgb: 41, 49, 60;
-  --bs-body-bg: #eaf1ff;
-  --bs-body-bg-rgb: 234, 241, 255;
-  --bs-emphasis-color: #29313c;
-  --bs-emphasis-color-rgb: 41, 49, 60;
-  --bs-secondary-color: rgba(41, 49, 60, 0.75);
-  --bs-secondary-color-rgb: 41, 49, 60;
-  --bs-secondary-bg: #bfc7d5;
-  --bs-secondary-bg-rgb: 191, 199, 213;
-  --bs-tertiary-color: rgba(41, 49, 60, 0.5);
-  --bs-tertiary-color-rgb: 41, 49, 60;
-  --bs-tertiary-bg: #dbe3f1;
-  --bs-tertiary-bg-rgb: 219, 227, 241;
+  --bs-body-color: #eaf1ff;
+  --bs-body-color-rgb: 234, 241, 255;
+  --bs-body-bg: #29313c;
+  --bs-body-bg-rgb: 41, 49, 60;
+  --bs-emphasis-color: #eaf1ff;
+  --bs-emphasis-color-rgb: 234, 241, 255;
+  --bs-secondary-color: rgba(234, 241, 255, 0.75);
+  --bs-secondary-color-rgb: 234, 241, 255;
+  --bs-secondary-bg: #707884;
+  --bs-secondary-bg-rgb: 112, 120, 132;
+  --bs-tertiary-color: rgba(234, 241, 255, 0.5);
+  --bs-tertiary-color-rgb: 234, 241, 255;
+  --bs-tertiary-bg: #3f4753;
+  --bs-tertiary-bg-rgb: 63, 71, 83;
   --bs-heading-color: inherit;
-  --bs-link-color: #429bba;
-  --bs-link-color-rgb: 66, 155, 186;
+  --bs-link-color: #8ec3d6;
+  --bs-link-color-rgb: 142, 195, 214;
   --bs-link-decoration: none;
-  --bs-link-hover-color: #357c95;
-  --bs-link-hover-color-rgb: 53, 124, 149;
-  --bs-code-color: #c37aa6;
+  --bs-link-hover-color: #a5cfde;
+  --bs-link-hover-color-rgb: 165, 207, 222;
+  --bs-code-color: #dbafca;
   --bs-highlight-bg: #f1e580;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #707884;
-  --bs-border-color-translucent: rgba(41, 49, 60, 0.175);
+  --bs-border-color-translucent: rgba(234, 241, 255, 0.15);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
@@ -123,10 +123,10 @@
   --bs-focus-ring-width: 0.25rem;
   --bs-focus-ring-opacity: 0.25;
   --bs-focus-ring-color: rgba(66, 155, 186, 0.25);
-  --bs-form-valid-color: #769c56;
-  --bs-form-valid-border-color: #769c56;
-  --bs-form-invalid-color: #c16b71;
-  --bs-form-invalid-border-color: #c16b71;
+  --bs-form-valid-color: #adc49a;
+  --bs-form-valid-border-color: #adc49a;
+  --bs-form-invalid-color: #daa6aa;
+  --bs-form-invalid-border-color: #daa6aa;
 }
 
 *,
@@ -1894,13 +1894,13 @@ progress {
 
 .table-secondary {
   --bs-table-color: #29313c;
-  --bs-table-bg: #e2e4e6;
-  --bs-table-border-color: #61676f;
-  --bs-table-striped-bg: #d9dbde;
+  --bs-table-bg: #e2e3f0;
+  --bs-table-border-color: #616672;
+  --bs-table-striped-bg: #d9dae7;
   --bs-table-striped-color: #29313c;
-  --bs-table-active-bg: #d0d2d5;
+  --bs-table-active-bg: #d0d1de;
   --bs-table-active-color: #29313c;
-  --bs-table-hover-bg: #d4d7d9;
+  --bs-table-hover-bg: #d4d6e3;
   --bs-table-hover-color: #29313c;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -2214,7 +2214,7 @@ textarea.form-control-lg {
 }
 
 .form-select {
-  --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23707884' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23eaf1ff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
   display: block;
   width: 100%;
   padding: 0.375rem 2.25rem 0.375rem 0.75rem;
@@ -2356,7 +2356,7 @@ textarea.form-control-lg {
   padding-left: 2.5em;
 }
 .form-switch .form-check-input {
-  --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%2841, 49, 60, 0.25%29'/%3e%3c/svg%3e");
+  --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28234, 241, 255, 0.25%29'/%3e%3c/svg%3e");
   width: 2em;
   margin-left: -2.5em;
   background-image: var(--bs-form-switch-bg);
@@ -2414,10 +2414,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #eaf1ff, 0 0 0 0.25rem rgba(66, 155, 186, 0.25);
+  box-shadow: 0 0 0 1px #29313c, 0 0 0 0.25rem rgba(66, 155, 186, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #eaf1ff, 0 0 0 0.25rem rgba(66, 155, 186, 0.25);
+  box-shadow: 0 0 0 1px #29313c, 0 0 0 0.25rem rgba(66, 155, 186, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -2965,19 +2965,19 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #eaf1ff;
-  --bs-btn-bg: #707884;
-  --bs-btn-border-color: #707884;
+  --bs-btn-bg: #6f71b4;
+  --bs-btn-border-color: #6f71b4;
   --bs-btn-hover-color: #eaf1ff;
-  --bs-btn-hover-bg: #5f6670;
-  --bs-btn-hover-border-color: #5a606a;
-  --bs-btn-focus-shadow-rgb: 130, 138, 150;
+  --bs-btn-hover-bg: #5e6099;
+  --bs-btn-hover-border-color: #595a90;
+  --bs-btn-focus-shadow-rgb: 129, 132, 191;
   --bs-btn-active-color: #eaf1ff;
-  --bs-btn-active-bg: #5a606a;
-  --bs-btn-active-border-color: #545a63;
+  --bs-btn-active-bg: #595a90;
+  --bs-btn-active-border-color: #535587;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(41, 49, 60, 0.125);
   --bs-btn-disabled-color: #eaf1ff;
-  --bs-btn-disabled-bg: #707884;
-  --bs-btn-disabled-border-color: #707884;
+  --bs-btn-disabled-bg: #6f71b4;
+  --bs-btn-disabled-border-color: #6f71b4;
 }
 
 .btn-success {
@@ -3100,19 +3100,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  --bs-btn-color: #707884;
-  --bs-btn-border-color: #707884;
+  --bs-btn-color: #6f71b4;
+  --bs-btn-border-color: #6f71b4;
   --bs-btn-hover-color: #eaf1ff;
-  --bs-btn-hover-bg: #707884;
-  --bs-btn-hover-border-color: #707884;
-  --bs-btn-focus-shadow-rgb: 112, 120, 132;
+  --bs-btn-hover-bg: #6f71b4;
+  --bs-btn-hover-border-color: #6f71b4;
+  --bs-btn-focus-shadow-rgb: 111, 113, 180;
   --bs-btn-active-color: #eaf1ff;
-  --bs-btn-active-bg: #707884;
-  --bs-btn-active-border-color: #707884;
+  --bs-btn-active-bg: #6f71b4;
+  --bs-btn-active-border-color: #6f71b4;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(41, 49, 60, 0.125);
-  --bs-btn-disabled-color: #707884;
+  --bs-btn-disabled-color: #6f71b4;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #707884;
+  --bs-btn-disabled-border-color: #6f71b4;
   --bs-gradient: none;
 }
 
@@ -3230,7 +3230,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #707884;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
-  --bs-btn-focus-shadow-rgb: 91, 168, 196;
+  --bs-btn-focus-shadow-rgb: 127, 173, 191;
   text-decoration: none;
 }
 .btn-link:focus-visible {
@@ -3867,7 +3867,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1.09375rem;
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2841, 49, 60, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28234, 241, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
   --bs-navbar-toggler-border-radius: var(--bs-border-radius);
   --bs-navbar-toggler-focus-width: 0.25rem;
@@ -4472,11 +4472,11 @@ textarea.form-control-lg {
   --bs-accordion-btn-padding-y: 1rem;
   --bs-accordion-btn-color: var(--bs-body-color);
   --bs-accordion-btn-bg: var(--bs-accordion-bg);
-  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2329313c'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%238ec3d6'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --bs-accordion-btn-icon-width: 1.25rem;
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
-  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a3e4a'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%238ec3d6'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --bs-accordion-btn-focus-border-color: #a1cddd;
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(66, 155, 186, 0.25);
   --bs-accordion-body-padding-x: 1.25rem;
@@ -6783,7 +6783,7 @@ textarea.form-control-lg {
 
 .text-bg-secondary {
   color: #eaf1ff !important;
-  background-color: RGBA(112, 120, 132, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(111, 113, 180, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -6830,8 +6830,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-secondary-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: RGBA(90, 96, 106, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(90, 96, 106, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(89, 90, 144, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(89, 90, 144, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-success {
@@ -12010,4 +12010,61 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 .mini-overlay {
   background-color: var(--hb-overlay-background);
-}/*# sourceMappingURL=hanubeki-cold-light-v5.css.map */
+}
+
+:root, [data-bs-theme=light] {
+  --bs-highlight-bg: #82791f;
+  --hb-post-background: rgba(var(--bs-light-rgb), 0.15);
+  --hb-overlay-background: rgba(0, 0, 0, 0.6);
+}
+
+pre {
+  color: var(--bs-gray-500) !important;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-color: var(--bs-gray-700);
+  --bs-nav-tabs-link-hover-border-color: var(--bs-gray-900) var(--bs-gray-900) var(--bs-gray-700);
+  --bs-nav-tabs-link-active-color: var(--bs-gray-300);
+  --bs-nav-tabs-link-active-bg: var(--bs-gray-900);
+  --bs-nav-tabs-link-active-border-color: var(--bs-gray-700) var(--bs-gray-700) var(--bs-gray-900);
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-color: var(--bs-gray-300);
+  --bs-dropdown-link-hover-color: var(--bs-gray-400);
+}
+
+.pagination {
+  --bs-pagination-hover-bg: var(--bs-gray-900);
+  --bs-pagination-hover-border-color: var(--bs-gray-500);
+  --bs-pagination-focus-bg: var(--bs-gray-700);
+  --bs-pagination-disabled-bg: var(--bs-gray-700);
+  --bs-pagination-disabled-border-color: var(--bs-gray-300);
+}
+
+.tooltip {
+  --bs-tooltip-bg: var(--bs-gray-300);
+}
+
+.popover {
+  --bs-popover-header-bg: var(--bs-gray-900);
+}
+
+.breadcrumb {
+  --bs-breadcrumb-bg: var(--bs-gray-900);
+  --bs-breadcrumb-divider-color: var(--bs-gray-500);
+  --bs-breadcrumb-item-active-color: var(--bs-white);
+}
+
+.thumbnail {
+  background-color: var(--bs-gray-700) !important;
+}
+
+.post-title a:visited {
+  color: var(--bs-gray-500) !important;
+}
+
+.markdown-textarea > div > div > div.bg-light {
+  background-color: var(--bs-gray-900) !important;
+}/*# sourceMappingURL=hanubeki-cold-alt-v5-dark.css.map */
