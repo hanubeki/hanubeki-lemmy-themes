@@ -11949,9 +11949,25 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root, [data-bs-theme=light] {
+  --bs-gray: var(--hlt-gray) !important;
+  --bs-primary: var(--hlt-primary) !important;
+  --bs-secondary: var(--hlt-secondary) !important;
+  --bs-success: var(--hlt-success) !important;
+  --bs-info: var(--hlt-info) !important;
+  --bs-warning: var(--hlt-warning) !important;
+  --bs-danger: var(--hlt-danger) !important;
+  --bs-light: var(--hlt-light) !important;
+  --bs-dark: var(--hlt-dark) !important;
+}
+
+.img-icon {
+  width: calc(var(--hlt-body-line-height) * 1em);
+  height: calc(var(--hlt-body-line-height) * 1em);
+}
+
 :root {
   --hb-post-background: rgba(255, 255, 255, 0.8);
-  --hb-overlay-background: rgba(255, 255, 255, 0.6);
 }
 
 .card {
@@ -12008,8 +12024,4 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 .details:has(> div > div:only-child) {
   margin: 0;
-}
-
-.mini-overlay {
-  background-color: var(--hb-overlay-background);
 }/*# sourceMappingURL=hanubeki-cold-lt.css.map */

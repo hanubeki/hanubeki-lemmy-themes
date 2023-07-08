@@ -1,0 +1,16 @@
+:root, [data-bs-theme="light"] {
+    --bs-gray: var(--#{$prefix}gray) !important;
+    --bs-primary: var(--#{$prefix}primary) !important;
+    --bs-secondary: var(--#{$prefix}secondary) !important;
+    --bs-success: var(--#{$prefix}success) !important;
+    --bs-info: var(--#{$prefix}info) !important;
+    --bs-warning: var(--#{$prefix}warning) !important;
+    --bs-danger: var(--#{$prefix}danger) !important;
+    --bs-light: var(--#{$prefix}light) !important;
+    --bs-dark: var(--#{$prefix}dark) !important;
+}
+
+.img-icon {
+  width: calc(var(--#{$prefix}body-line-height) * 1em);
+  height: calc(var(--#{$prefix}body-line-height) * 1em);
+}

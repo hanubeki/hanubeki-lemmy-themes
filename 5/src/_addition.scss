@@ -1,13 +1,11 @@
 :root {
   --hb-post-background: rgba(255, 255, 255, 0.8);
-  --hb-overlay-background: rgba(255, 255, 255, 0.6);
 }
 
 @if $enable-dark-mode {
   @include color-mode(dark, true) {
     --#{$prefix}highlight-bg: #82791f;
     --hb-post-background: rgba(var(--#{$prefix}light-rgb), 0.15);
-    --hb-overlay-background: rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -172,8 +170,4 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
       background-color: var(--#{$prefix}gray-900) !important;
     }
   }
-}
-
-.mini-overlay {
-  background-color: var(--hb-overlay-background);
 }
