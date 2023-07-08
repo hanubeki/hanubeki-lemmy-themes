@@ -9,8 +9,7 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root,
-[data-bs-theme=light] {
+:root {
   --bs-blue: #5787be;
   --bs-indigo: #6f71b4;
   --bs-purple: #9c74b6;
@@ -11950,7 +11949,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-:root, [data-bs-theme=light] {
+:root {
   --hb-post-background: rgba(255, 255, 255, 0.8);
   --hb-overlay-background: rgba(255, 255, 255, 0.6);
 }
