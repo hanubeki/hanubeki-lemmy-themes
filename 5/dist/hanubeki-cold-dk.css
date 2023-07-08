@@ -90,12 +90,12 @@
   --bs-body-bg-rgb: 41, 49, 60;
   --bs-emphasis-color: #eaf1ff;
   --bs-emphasis-color-rgb: 234, 241, 255;
-  --bs-secondary-color: rgba(234, 241, 255, 0.75);
-  --bs-secondary-color-rgb: 234, 241, 255;
+  --bs-secondary-color: #bfc7d5;
+  --bs-secondary-color-rgb: 191, 199, 213;
   --bs-secondary-bg: #707884;
   --bs-secondary-bg-rgb: 112, 120, 132;
-  --bs-tertiary-color: rgba(234, 241, 255, 0.5);
-  --bs-tertiary-color-rgb: 234, 241, 255;
+  --bs-tertiary-color: #a4acb9;
+  --bs-tertiary-color-rgb: 164, 172, 185;
   --bs-tertiary-bg: #3f4753;
   --bs-tertiary-bg-rgb: 63, 71, 83;
   --bs-heading-color: inherit;
@@ -11970,7 +11970,6 @@ textarea.form-control-lg {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
   padding: 1rem;
-  padding-bottom: 0.5rem;
 }
 
 .comment {
@@ -12061,12 +12060,26 @@ pre {
   --bs-breadcrumb-item-active-color: var(--bs-white);
 }
 
+.link-dark {
+  color: var(--bs-gray-100) !important;
+}
+.link-dark:focus {
+  color: var(--bs-gray-100) !important;
+}
+.link-dark:hover {
+  color: var(--bs-white) !important;
+}
+
 .thumbnail {
   background-color: var(--bs-gray-700) !important;
 }
 
-.post-title a:visited {
+.post-title a:visited:not(:hover) {
   color: var(--bs-gray-500) !important;
+}
+
+.post-title a:visited:hover {
+  color: var(--bs-gray-300) !important;
 }
 
 .markdown-textarea > div > div > div.bg-light {

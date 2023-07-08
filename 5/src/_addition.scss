@@ -1,4 +1,4 @@
-:root, [data-bs-theme=light] {
+:root, [data-bs-theme="light"] {
   --hb-post-background: rgba(255, 255, 255, 0.8);
   --hb-overlay-background: rgba(255, 255, 255, 0.6);
 }
@@ -89,6 +89,20 @@
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
+    .link-dark {
+      color: var(--#{$prefix}gray-100) !important;
+      &:focus {
+        color: var(--#{$prefix}gray-100) !important;
+      }
+      &:hover {
+        color: var(--#{$prefix}white) !important;
+      }
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
     .thumbnail {
       background-color: var(--#{$prefix}gray-700) !important;
     }
@@ -101,7 +115,6 @@
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
   padding: 1rem;
-  padding-bottom: 0.5rem;
 }
 
 .comment {
@@ -129,8 +142,11 @@
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
-    .post-title a:visited {
+    .post-title a:visited:not(:hover) {
       color: var(--#{$prefix}gray-500) !important;
+    }
+    .post-title a:visited:hover {
+      color: var(--#{$prefix}gray-300) !important;
     }
   }
 }
