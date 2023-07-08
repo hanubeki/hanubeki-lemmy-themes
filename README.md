@@ -10,6 +10,8 @@ These files are themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) 0.18
 ## 4
 These files are legacy themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) 0.17.x, based on Bootstrap 4.6.2.
 
+* Doesn't support dark mode
+
 ## Preview
 
 ### hanubeki-cold
