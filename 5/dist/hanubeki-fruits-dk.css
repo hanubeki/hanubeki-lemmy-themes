@@ -12062,12 +12062,11 @@ pre {
 
 .link-dark {
   color: var(--bs-gray-100) !important;
+  text-decoration-color: var(--bs-gray-100) !important;
 }
-.link-dark:focus {
+.link-dark:focus, .link-dark:hover {
   color: var(--bs-gray-100) !important;
-}
-.link-dark:hover {
-  color: var(--bs-white) !important;
+  text-decoration-color: var(--bs-gray-100) !important;
 }
 
 .thumbnail {

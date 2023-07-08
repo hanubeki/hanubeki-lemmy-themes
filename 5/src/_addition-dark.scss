@@ -45,11 +45,10 @@ pre {
 
 .link-dark {
   color: var(--#{$prefix}gray-100) !important;
-  &:focus {
+  text-decoration-color: var(--#{$prefix}gray-100) !important;
+  &:focus, &:hover {
     color: var(--#{$prefix}gray-100) !important;
-  }
-  &:hover {
-    color: var(--#{$prefix}white) !important;
+    text-decoration-color: var(--#{$prefix}gray-100) !important;
   }
 }
 
