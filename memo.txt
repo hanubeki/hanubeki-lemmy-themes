@@ -2,6 +2,3 @@ HCT Color System (Material You):
 https://m3.material.io/theme-builder#/custom
 
 $theme: "hanubeki-cold-v5";
-
-/* lemmy-ui 0.18.1, font-weightも見直す */
-$font-size-base: 0.875rem;
