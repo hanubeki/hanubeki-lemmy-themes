@@ -11959,11 +11959,7 @@ textarea.form-control-lg {
   --bs-danger: var(--bs-danger) !important;
   --bs-light: var(--bs-light) !important;
   --bs-dark: var(--bs-dark) !important;
-}
-
-.img-icon {
-  width: calc(var(--bs-body-line-height) * 1em);
-  height: calc(var(--bs-body-line-height) * 1em);
+  --bs-body-line-height: var(--bs-body-line-height) !important;
 }
 
 :root {

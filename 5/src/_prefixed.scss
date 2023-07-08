@@ -8,9 +8,5 @@
     --bs-danger: var(--#{$prefix}danger) !important;
     --bs-light: var(--#{$prefix}light) !important;
     --bs-dark: var(--#{$prefix}dark) !important;
-}
-
-.img-icon {
-  width: calc(var(--#{$prefix}body-line-height) * 1em);
-  height: calc(var(--#{$prefix}body-line-height) * 1em);
+    --bs-body-line-height: var(--#{$prefix}body-line-height) !important;
 }
