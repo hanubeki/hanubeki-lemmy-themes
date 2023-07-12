@@ -11992,6 +11992,12 @@ textarea.form-control-lg {
   padding-right: 1rem;
 }
 
+@media (max-width: 575.98px) {
+  .post-listing, .comment {
+    margin: 0 -0.75rem 0.5rem !important;
+    border-radius: 0;
+  }
+}
 .comment > .comments > .comment {
   margin: 0 !important;
   background: none;

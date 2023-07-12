@@ -123,6 +123,13 @@
   padding-right: 1rem;
 }
 
+@include media-breakpoint-down(sm) {
+  .post-listing, .comment {
+    margin: 0 -0.75rem 0.5rem !important;
+    border-radius: 0;
+  }
+}
+
 .comment > .comments > .comment {
   margin: 0 !important;
   background: none;
