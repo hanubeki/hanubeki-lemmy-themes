@@ -144,6 +144,12 @@
   display: none;
 }
 
+@include media-breakpoint-down(sm) {
+  .post-title .h5 {
+    font-size: 1.15rem;
+  }
+}
+
 @if $enable-dark-mode {
   @include color-mode(dark) {
     .post-title a:visited:not(:hover) {
