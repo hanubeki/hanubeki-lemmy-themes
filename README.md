@@ -21,5 +21,13 @@ These files are themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) 0.18
 ### hanubeki-fruits
 ![hanubeki-fruits](/preview/hanubeki-fruits.png)
 
+## Installation
+
+### Common users
+Use Stylish or Stylus and paste all lines of *one* css to the editor.
+
+### Instance owners
+See https://join-lemmy.org/docs/administration/theming.html
+
 ## License
 Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
