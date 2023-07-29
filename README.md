@@ -5,7 +5,7 @@
 * Mobile friendly (if instance owner installs these themes)
 
 ## 5
-These files are themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) 0.18.1, based on Bootstrap 5.3.0.
+These files are themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) 0.18.1 to 0.18.3, based on Bootstrap 5.3.1.
 
 ## Preview
 
