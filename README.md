@@ -31,4 +31,5 @@ See https://join-lemmy.org/docs/administration/theming.html
 
 ## License
 Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
+
 `_colors.scss` is using a portion from Bootstrap, Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
