@@ -4,7 +4,6 @@
 
 @if $enable-dark-mode {
   @include color-mode(dark, true) {
-    --#{$prefix}highlight-bg: #82791f;
     --hb-post-background: rgba(var(--#{$prefix}light-rgb), 0.15);
   }
 }

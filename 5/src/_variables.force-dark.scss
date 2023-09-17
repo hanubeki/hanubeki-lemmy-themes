@@ -53,6 +53,8 @@ $headings-color:               inherit;
 $link-color:                   tint-color($primary, 40%);
 $link-hover-color:             shift-color($link-color, -$link-shade-percentage);
 $code-color:                   tint-color($code-color, 40%);
+$mark-color:                   $white;
+$mark-bg:                      #82791f;
 
 
 //
