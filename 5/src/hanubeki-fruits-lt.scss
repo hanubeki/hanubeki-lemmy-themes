@@ -6,11 +6,13 @@
 
 $enable-dark-mode: false;
 $prefix: hlt-;
+$theme: "hanubeki-fruits-lt";
 
 @import "../../node_modules/bootstrap/scss/functions";
 
+@import "palette.hanubeki-fruits";
+@import "palette.common";
 @import "variables.hanubeki-fruits";
-@import "colors";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";

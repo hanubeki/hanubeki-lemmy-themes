@@ -5,11 +5,13 @@
 @include bsBanner("");
 
 $prefix: hlt-;
+$theme: "hanubeki-cold";
 
 @import "../../node_modules/bootstrap/scss/functions";
 
+@import "palette.hanubeki-cold";
+@import "palette.common";
 @import "variables.hanubeki-cold";
-@import "colors";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";

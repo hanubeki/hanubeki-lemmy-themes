@@ -1,3 +1,30 @@
+$blue: #5787be;
+$indigo: #6f71b4;
+$purple: #9c74b6;
+$pink: #c37aa6;
+$red: #c16b71;
+$orange: #ce7c52;
+$yellow: #d9a14c;
+$green: #769c56;
+$teal: #45adab;
+$cyan: #429bba;
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "black": $black,
+  "white": $white,
+  "gray": $gray-700,
+  "gray-dark": $gray-900,
+);
+
 // fusv-disable
 $blue-100: tint-color($blue, 80%);
 $blue-200: tint-color($blue, 60%);

@@ -6,11 +6,13 @@
 
 $enable-dark-mode: false;
 $prefix: hlt-;
+$theme: "hanubeki-mint-dk";
 
 @import "../../node_modules/bootstrap/scss/functions";
 
+@import "palette.hanubeki-mint";
+@import "palette.common";
 @import "variables.hanubeki-mint-alt";
-@import "colors";
 @import "variables.common";
 @import "variables.force-dark";
 
