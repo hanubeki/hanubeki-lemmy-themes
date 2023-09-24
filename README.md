@@ -32,4 +32,4 @@ See https://join-lemmy.org/docs/administration/theming.html
 ## License
 Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
 
-`_colors.scss` and `_variables.force-dark.scss` are using some portions from Bootstrap, Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+`_palette.common.scss` and `_variables.force-dark.scss` are using some portions from Bootstrap, Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
