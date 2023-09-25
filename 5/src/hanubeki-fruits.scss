@@ -4,8 +4,8 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$prefix: hlt-;
 $theme: "hanubeki-fruits";
+$prefix: hlt-;
 
 @import "../../node_modules/bootstrap/scss/functions";
 

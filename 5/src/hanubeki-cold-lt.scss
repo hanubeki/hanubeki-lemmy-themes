@@ -4,9 +4,9 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$enable-dark-mode: false;
-$prefix: hlt-;
 $theme: "hanubeki-cold-lt";
+$prefix: hlt-;
+$enable-dark-mode: false;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
