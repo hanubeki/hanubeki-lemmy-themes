@@ -9,3 +9,17 @@ $gray-700: #85745f;
 $gray-800: #6b5c48;
 $gray-900: #534432;
 $black: #3b2e1d;
+
+// fusv-disable
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+);
+// fusv-enable
