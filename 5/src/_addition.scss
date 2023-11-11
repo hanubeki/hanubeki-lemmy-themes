@@ -29,7 +29,7 @@
   --#{$prefix}btn-focus-shadow-rgb: var(--#{$prefix}white-rgb);
 
   &.disabled, &:disabled {
-    color: var(--#{$prefix}gray-dark) !important;
+    color: var(--#{$prefix}black) !important;
     background-color: transparent !important;
   }
 
@@ -39,8 +39,7 @@
     background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)) !important;
   }
 
-  &:focus:not(.active):not(:active),
-  &:hover:not(.active):not(:active) {
+  &:is(:focus, :hover):not(.active, :active) {
     color: var(--#{$prefix}secondary) !important;
     background-color: var(--#{$prefix}white) !important;
   }
@@ -56,14 +55,17 @@
     .btn-group-toggle .btn-outline-secondary {
       --#{$prefix}btn-focus-shadow-rgb: var(--#{$prefix}secondary-rgb);
 
+      &.disabled, &:disabled {
+        color: var(--#{$prefix}gray) !important;
+      }
+
       &.active, &:active {
         background-color: var(--#{$prefix}black) !important;
         background-image: none !important;
         border-color: transparent !important;
       }
 
-      &:focus:not(.active):not(:active),
-      &:hover:not(.active):not(:active) {
+      &:is(:focus, :hover):not(.active, :active) {
         color: var(--#{$prefix}white) !important;
         background-color: var(--#{$prefix}secondary) !important;
       }

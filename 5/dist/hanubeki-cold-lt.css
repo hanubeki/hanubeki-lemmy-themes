@@ -11927,7 +11927,7 @@ textarea.form-control-lg {
   --hlt-btn-focus-shadow-rgb: var(--hlt-white-rgb);
 }
 .btn-group-toggle .btn-outline-secondary.disabled, .btn-group-toggle .btn-outline-secondary:disabled {
-  color: var(--hlt-gray-dark) !important;
+  color: var(--hlt-black) !important;
   background-color: transparent !important;
 }
 .btn-group-toggle .btn-outline-secondary.active, .btn-group-toggle .btn-outline-secondary:active {
@@ -11935,7 +11935,7 @@ textarea.form-control-lg {
   background-color: var(--hlt-white) !important;
   background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)) !important;
 }
-.btn-group-toggle .btn-outline-secondary:focus:not(.active):not(:active), .btn-group-toggle .btn-outline-secondary:hover:not(.active):not(:active) {
+.btn-group-toggle .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
   color: var(--hlt-secondary) !important;
   background-color: var(--hlt-white) !important;
 }
