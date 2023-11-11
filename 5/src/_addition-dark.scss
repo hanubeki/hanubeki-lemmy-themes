@@ -14,19 +14,18 @@ pre {
 
 .btn-group-toggle .btn-outline-secondary {
   --#{$prefix}btn-focus-shadow-rgb: var(--#{$prefix}secondary-rgb);
-}
 
-.btn-group-toggle .btn-outline-secondary.active,
-.btn-group-toggle .btn-outline-secondary:active {
-  background-color: var(--#{$prefix}black) !important;
-  background-image: none !important;
-  border-color: transparent !important;
-}
+  &.active, &:active {
+    background-color: var(--#{$prefix}black) !important;
+    background-image: none !important;
+    border-color: transparent !important;
+  }
 
-.btn-group-toggle .btn-outline-secondary:focus:not(.active):not(:active),
-.btn-group-toggle .btn-outline-secondary:hover:not(.active):not(:active) {
-  color: var(--#{$prefix}white) !important;
-  background-color: var(--#{$prefix}secondary) !important;
+  &:focus:not(.active):not(:active),
+  &:hover:not(.active):not(:active) {
+    color: var(--#{$prefix}white) !important;
+    background-color: var(--#{$prefix}secondary) !important;
+  }
 }
 
 .nav-tabs {
@@ -67,6 +66,7 @@ pre {
 .link-dark {
   color: var(--#{$prefix}gray-100) !important;
   text-decoration-color: var(--#{$prefix}gray-100) !important;
+
   &:focus, &:hover {
     color: var(--#{$prefix}gray-100) !important;
     text-decoration-color: var(--#{$prefix}gray-100) !important;
@@ -80,6 +80,7 @@ pre {
 .post-title a:visited:not(:hover) {
   color: var(--#{$prefix}gray-500) !important;
 }
+
 .post-title a:visited:hover {
   color: var(--#{$prefix}gray-300) !important;
 }
