@@ -12013,7 +12013,7 @@ textarea.form-control-lg {
     color: var(--hlt-gray-500) !important;
   }
 }
-.btn-group-toggle {
+.btn-group-toggle:has(.btn-outline-secondary) {
   border-radius: 0.5rem !important;
   background-color: var(--hlt-secondary);
   background-image: none;
@@ -12049,7 +12049,7 @@ textarea.form-control-lg {
 }
 
 @media (prefers-color-scheme: dark) {
-  .btn-group-toggle {
+  .btn-group-toggle:has(.btn-outline-secondary) {
     background-color: transparent;
     background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
   }

@@ -11908,7 +11908,7 @@ textarea.form-control-lg {
   --hb-post-background: rgba(255, 255, 255, 0.8);
 }
 
-.btn-group-toggle {
+.btn-group-toggle:has(.btn-outline-secondary) {
   border-radius: 0.5rem !important;
   background-color: var(--bs-secondary);
   background-image: none;
