@@ -11920,8 +11920,9 @@ textarea.form-control-lg {
   border-radius: 0.5rem !important;
   color: var(--bs-white);
   background-color: transparent;
-  border-color: transparent;
+  border-color: transparent !important;
   padding-bottom: 0;
+  --hlt-btn-focus-shadow-rgb: var(--bs-white-rgb);
 }
 
 .btn-group-toggle .btn-outline-secondary.disabled,

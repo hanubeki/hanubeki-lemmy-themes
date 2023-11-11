@@ -11920,8 +11920,9 @@ textarea.form-control-lg {
   border-radius: 0.5rem !important;
   color: var(--hlt-white);
   background-color: transparent;
-  border-color: transparent;
+  border-color: transparent !important;
   padding-bottom: 0;
+  --hlt-btn-focus-shadow-rgb: var(--hlt-white-rgb);
 }
 
 .btn-group-toggle .btn-outline-secondary.disabled,
@@ -12022,6 +12023,10 @@ pre {
 .btn-group-toggle:has(.btn-outline-secondary) {
   background-color: transparent;
   background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
+}
+
+.btn-group-toggle .btn-outline-secondary {
+  --hlt-btn-focus-shadow-rgb: var(--hlt-secondary-rgb);
 }
 
 .btn-group-toggle .btn-outline-secondary.active,

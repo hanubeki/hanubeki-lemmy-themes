@@ -12,6 +12,10 @@ pre {
   background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
 }
 
+.btn-group-toggle .btn-outline-secondary {
+  --hlt-btn-focus-shadow-rgb: var(--#{$prefix}secondary-rgb);
+}
+
 .btn-group-toggle .btn-outline-secondary.active,
 .btn-group-toggle .btn-outline-secondary:active {
   background-color: var(--#{$prefix}black) !important;
