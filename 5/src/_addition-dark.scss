@@ -7,6 +7,24 @@ pre {
   color: var(--#{$prefix}gray-500) !important;
 }
 
+.btn-group-toggle {
+  background-color: transparent;
+  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
+}
+
+.btn-group-toggle .btn-outline-secondary.active,
+.btn-group-toggle .btn-outline-secondary:active {
+  background-color: var(--#{$prefix}black) !important;
+  border-color: var(--#{$prefix}black) !important;
+  background-image: none !important;
+}
+
+.btn-group-toggle .btn-outline-secondary:focus:not(.active):not(:active),
+.btn-group-toggle .btn-outline-secondary:hover:not(.active):not(:active) {
+  color: var(--#{$prefix}white) !important;
+  background-color: var(--#{$prefix}secondary) !important;
+}
+
 .nav-tabs {
   --#{$prefix}nav-tabs-border-color: var(--#{$prefix}gray-700);
   --#{$prefix}nav-tabs-link-hover-border-color: var(--#{$prefix}gray-900) var(--#{$prefix}gray-900) var(--#{$prefix}gray-700);

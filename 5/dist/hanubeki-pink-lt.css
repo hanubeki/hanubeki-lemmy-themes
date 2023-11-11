@@ -11908,6 +11908,41 @@ textarea.form-control-lg {
   --hb-post-background: rgba(255, 255, 255, 0.8);
 }
 
+.btn-group-toggle {
+  border-radius: 0.5rem !important;
+  background-color: var(--bs-secondary);
+  background-image: none;
+  padding: 0.25rem 0;
+}
+
+.btn-group-toggle .btn-outline-secondary {
+  margin: 0 0.25rem;
+  border-radius: 0.5rem !important;
+  color: var(--bs-white);
+  background-color: transparent;
+  border-color: transparent;
+  padding-bottom: 0;
+}
+
+.btn-group-toggle .btn-outline-secondary.disabled,
+.btn-group-toggle .btn-outline-secondary:disabled {
+  color: var(--bs-gray-dark) !important;
+  background-color: var(--bs-secondary) !important;
+}
+
+.btn-group-toggle .btn-outline-secondary.active,
+.btn-group-toggle .btn-outline-secondary:active {
+  color: var(--bs-primary) !important;
+  background-color: var(--bs-white) !important;
+  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)) !important;
+}
+
+.btn-group-toggle .btn-outline-secondary:focus:not(.active):not(:active),
+.btn-group-toggle .btn-outline-secondary:hover:not(.active):not(:active) {
+  color: var(--bs-secondary) !important;
+  background-color: var(--bs-white) !important;
+}
+
 .card {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
