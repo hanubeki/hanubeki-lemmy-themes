@@ -12056,8 +12056,8 @@ textarea.form-control-lg {
   .btn-group-toggle .btn-outline-secondary.active,
   .btn-group-toggle .btn-outline-secondary:active {
     background-color: var(--hlt-black) !important;
-    border-color: var(--hlt-black) !important;
     background-image: none !important;
+    border-color: transparent !important;
   }
   .btn-group-toggle .btn-outline-secondary:focus:not(.active):not(:active),
   .btn-group-toggle .btn-outline-secondary:hover:not(.active):not(:active) {
