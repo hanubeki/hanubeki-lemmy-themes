@@ -29,7 +29,7 @@
   color: var(--#{$prefix}white);
   background-color: transparent;
   border-color: transparent !important;
-  padding-bottom: 0;
+  --#{$prefix}btn-padding-y: 0.125rem;
   --#{$prefix}btn-focus-shadow-rgb: var(--#{$prefix}white-rgb);
 }
 

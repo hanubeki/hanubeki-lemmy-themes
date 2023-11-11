@@ -11921,7 +11921,7 @@ textarea.form-control-lg {
   color: var(--hlt-white);
   background-color: transparent;
   border-color: transparent !important;
-  padding-bottom: 0;
+  --hlt-btn-padding-y: 0.125rem;
   --hlt-btn-focus-shadow-rgb: var(--hlt-white-rgb);
 }
 
