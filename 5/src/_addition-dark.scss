@@ -1,6 +1,5 @@
 :root, [data-bs-theme="light"] {
   --hb-post-background: rgba(var(--#{$prefix}light-rgb), 0.15);
-  --hb-overlay-background: rgba(0, 0, 0, 0.6);
 }
 
 pre {

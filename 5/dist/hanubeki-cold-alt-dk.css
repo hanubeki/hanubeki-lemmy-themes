@@ -12007,7 +12007,6 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 :root, [data-bs-theme=light] {
   --hb-post-background: rgba(var(--hlt-light-rgb), 0.15);
-  --hb-overlay-background: rgba(0, 0, 0, 0.6);
 }
 
 pre {
