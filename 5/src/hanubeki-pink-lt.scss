@@ -5,6 +5,7 @@
 @include bsBanner("");
  
 $theme: "hanubeki-pink-lt";
+$prefix: hlt-;
 $enable-dark-mode: false;
 
 @import "../../node_modules/bootstrap/scss/functions";

@@ -13,7 +13,7 @@ pre {
 }
 
 .btn-group-toggle .btn-outline-secondary {
-  --hlt-btn-focus-shadow-rgb: var(--#{$prefix}secondary-rgb);
+  --#{$prefix}btn-focus-shadow-rgb: var(--#{$prefix}secondary-rgb);
 }
 
 .btn-group-toggle .btn-outline-secondary.active,
