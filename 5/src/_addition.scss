@@ -35,7 +35,7 @@
 .btn-group-toggle .btn-outline-secondary.disabled,
 .btn-group-toggle .btn-outline-secondary:disabled {
   color: var(--#{$prefix}gray-dark) !important;
-  background-color: var(--#{$prefix}secondary) !important;
+  background-color: transparent !important;
 }
 
 .btn-group-toggle .btn-outline-secondary.active,
