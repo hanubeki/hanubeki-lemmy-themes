@@ -1,10 +1,10 @@
+/* Root variables */
+
 :root, [data-bs-theme="light"] {
   --hb-post-background: rgba(var(--#{$prefix}light-rgb), 0.15);
 }
 
-pre {
-  color: var(--#{$prefix}gray-500) !important;
-}
+/* Button style overrides */
 
 .btn-group-toggle:has(.btn-outline-secondary) {
   background-color: transparent;
@@ -26,6 +26,8 @@ pre {
     background-color: var(--#{$prefix}secondary) !important;
   }
 }
+
+/* General Bootstrap dark values */
 
 .nav-tabs {
   --#{$prefix}nav-tabs-border-color: var(--#{$prefix}gray-700);
@@ -72,6 +74,8 @@ pre {
   }
 }
 
+/* Lemmy additions */
+
 .thumbnail {
   background-color: var(--#{$prefix}gray-700) !important;
 }
@@ -86,4 +90,10 @@ pre {
 
 .markdown-textarea > div > div > div.bg-light {
   background-color: var(--#{$prefix}gray-900) !important;
+}
+
+/* lm.korako.me specific styles */
+
+pre {
+  color: var(--#{$prefix}gray-500) !important;
 }

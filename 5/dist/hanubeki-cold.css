@@ -11999,6 +11999,7 @@ textarea.form-control-lg {
   --bs-body-line-height: var(--hlt-body-line-height) !important;
 }
 
+/* Root variables */
 :root {
   --hb-post-background: rgba(255, 255, 255, 0.8);
 }
@@ -12008,11 +12009,7 @@ textarea.form-control-lg {
     --hb-post-background: rgba(var(--hlt-light-rgb), 0.15);
   }
 }
-@media (prefers-color-scheme: dark) {
-  pre {
-    color: var(--hlt-gray-500) !important;
-  }
-}
+/* Button style overrides */
 .btn-group-toggle:has(.btn-outline-secondary) {
   border-radius: 0.5rem !important;
   background-color: var(--hlt-secondary);
@@ -12061,15 +12058,7 @@ textarea.form-control-lg {
     background-color: var(--hlt-secondary) !important;
   }
 }
-.card {
-  background-color: var(--hb-post-background);
-  border-radius: 0.5rem;
-}
-
-.form-control {
-  background-color: var(--hb-post-background) !important;
-}
-
+/* General Bootstrap dark values */
 @media (prefers-color-scheme: dark) {
   .nav-tabs {
     --hlt-nav-tabs-border-color: var(--hlt-gray-700);
@@ -12121,6 +12110,16 @@ textarea.form-control-lg {
     text-decoration-color: var(--hlt-gray-100) !important;
   }
 }
+/* Lemmy additions */
+.card {
+  background-color: var(--hb-post-background);
+  border-radius: 0.5rem;
+}
+
+.form-control {
+  background-color: var(--hb-post-background) !important;
+}
+
 @media (prefers-color-scheme: dark) {
   .thumbnail {
     background-color: var(--hlt-gray-700) !important;
@@ -12195,5 +12194,11 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 @media (prefers-color-scheme: dark) {
   .markdown-textarea > div > div > div.bg-light {
     background-color: var(--hlt-gray-900) !important;
+  }
+}
+/* lm.korako.me specific styles */
+@media (prefers-color-scheme: dark) {
+  pre {
+    color: var(--hlt-gray-500) !important;
   }
 }/*# sourceMappingURL=hanubeki-cold.css.map */

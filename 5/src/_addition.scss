@@ -1,3 +1,5 @@
+/* Root variables */
+
 :root {
   --hb-post-background: rgba(255, 255, 255, 0.8);
 }
@@ -8,13 +10,7 @@
   }
 }
 
-@if $enable-dark-mode {
-  @include color-mode(dark) {
-    pre {
-      color: var(--#{$prefix}gray-500) !important;
-    }
-  }
-}
+/* Button style overrides */
 
 .btn-group-toggle:has(.btn-outline-secondary) {
   border-radius: 0.5rem !important;
@@ -75,14 +71,7 @@
   }
 }
 
-.card {
-  background-color: var(--hb-post-background);
-  border-radius: 0.5rem;
-}
-
-.form-control {
-  background-color: var(--hb-post-background) !important;
-}
+/* General Bootstrap dark values */
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
@@ -155,6 +144,17 @@
       }
     }
   }
+}
+
+/* Lemmy additions */
+
+.card {
+  background-color: var(--hb-post-background);
+  border-radius: 0.5rem;
+}
+
+.form-control {
+  background-color: var(--hb-post-background) !important;
 }
 
 @if $enable-dark-mode {
@@ -241,6 +241,16 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   @include color-mode(dark) {
     .markdown-textarea > div > div > div.bg-light {
       background-color: var(--#{$prefix}gray-900) !important;
+    }
+  }
+}
+
+/* lm.korako.me specific styles */
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    pre {
+      color: var(--#{$prefix}gray-500) !important;
     }
   }
 }

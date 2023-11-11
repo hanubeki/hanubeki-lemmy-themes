@@ -11904,10 +11904,12 @@ textarea.form-control-lg {
   --bs-body-line-height: var(--hlt-body-line-height) !important;
 }
 
+/* Root variables */
 :root {
   --hb-post-background: rgba(255, 255, 255, 0.8);
 }
 
+/* Button style overrides */
 .btn-group-toggle:has(.btn-outline-secondary) {
   border-radius: 0.5rem !important;
   background-color: var(--hlt-secondary);
@@ -11938,6 +11940,8 @@ textarea.form-control-lg {
   background-color: var(--hlt-white) !important;
 }
 
+/* General Bootstrap dark values */
+/* Lemmy additions */
 .card {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
@@ -12003,4 +12007,6 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 .details:has(> div > div:only-child) {
   margin: 0;
-}/*# sourceMappingURL=hanubeki-fruits-lt.css.map */
+}
+
+/* lm.korako.me specific styles *//*# sourceMappingURL=hanubeki-fruits-lt.css.map */
