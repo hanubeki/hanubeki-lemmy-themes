@@ -12198,10 +12198,4 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   .markdown-textarea > div > div > div.bg-light {
     background-color: var(--hlt-gray-900) !important;
   }
-}
-/* lm.korako.me specific styles */
-@media (prefers-color-scheme: dark) {
-  pre {
-    color: var(--hlt-gray-500) !important;
-  }
 }/*# sourceMappingURL=hanubeki-mint-alt.css.map */
