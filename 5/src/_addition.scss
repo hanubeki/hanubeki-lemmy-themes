@@ -246,13 +246,3 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
     }
   }
 }
-
-/* lm.korako.me specific styles */
-
-@if $enable-dark-mode {
-  @include color-mode(dark) {
-    pre {
-      color: var(--#{$prefix}gray-500) !important;
-    }
-  }
-}
