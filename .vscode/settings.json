@@ -8,5 +8,6 @@
             "savePathReplacementPairs": null
         }
     ],
+    "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.forceBaseDirectory": "/5/src"
 }
