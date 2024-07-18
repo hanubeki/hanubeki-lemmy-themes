@@ -12011,7 +12011,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 /* PieFed */
 .card .list-group-item {
-  background: unset;
+  background: none;
   border: none;
 }
 
