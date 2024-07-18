@@ -1,7 +1,7 @@
 (function() {
     "use strict";
 
-   function switch_theme_rules(theme) {
+    function switch_theme_rules(theme) {
         for (let sheet_file = 0; sheet_file < document.styleSheets.length; sheet_file++) {
             if (document.styleSheets[sheet_file].href && document.styleSheets[sheet_file].href.includes("/hanubeki-") && !(document.styleSheets[sheet_file].href.includes("-lt/") || document.styleSheets[sheet_file].href.includes("-dk/"))) {
                 try {
