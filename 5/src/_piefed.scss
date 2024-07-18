@@ -82,3 +82,11 @@
 .voting_buttons .upvote_button.voted_down, .voting_buttons .downvote_button.voted_down {
   color: var(--#{$prefix}danger);
 }
+
+.post_reply_form .form-check {
+  bottom: 0.25rem;
+}
+
+.form-check .form-check-input {
+  top: -2px;
+}

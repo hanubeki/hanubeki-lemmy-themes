@@ -12279,3 +12279,11 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 .voting_buttons .upvote_button.voted_down, .voting_buttons .downvote_button.voted_down {
   color: var(--hlt-danger);
 }
+
+.post_reply_form .form-check {
+  bottom: 0.25rem;
+}
+
+.form-check .form-check-input {
+  top: -2px;
+}
