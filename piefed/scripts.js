@@ -1,5 +1,5 @@
 (function() {
-    'use strict';
+    "use strict";
 
    function switch_theme_rules(theme) {
         for (let sheet_file = 0; sheet_file < document.styleSheets.length; sheet_file++) {
