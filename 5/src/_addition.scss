@@ -161,13 +161,13 @@ div:has(> nav.navbar) {
 
 .form-control {
   background-color: var(--hb-post-background) !important;
+  color: var(--#{$prefix}primary) !important;
 }
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
     .form-control {
       background-color: var(--#{$prefix}body-bg) !important;
-      color: var(--#{$prefix}primary) !important;
     }
   }
 }

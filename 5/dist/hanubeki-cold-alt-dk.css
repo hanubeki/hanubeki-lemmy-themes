@@ -11942,6 +11942,7 @@ div:has(> nav.navbar) {
 
 .form-control {
   background-color: var(--hb-post-background) !important;
+  color: var(--hlt-primary) !important;
 }
 
 .post-listing {
@@ -12077,7 +12078,6 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 /* Lemmy additions */
 .form-control {
   background-color: var(--hlt-body-bg) !important;
-  color: var(--hlt-primary) !important;
 }
 
 .thumbnail {
