@@ -12288,6 +12288,11 @@ div.navbar {
   color: var(--hlt-danger);
 }
 
+@media (max-width: 767.98px) {
+  .post_options_link {
+    right: 0px;
+  }
+}
 .post_reply_form .form-check {
   bottom: 0.25rem;
 }

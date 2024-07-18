@@ -92,6 +92,12 @@ div.navbar {
   color: var(--#{$prefix}danger);
 }
 
+@include media-breakpoint-down(md) {
+  .post_options_link {
+    right: 0px;
+  }
+}
+
 .post_reply_form .form-check {
   bottom: 0.25rem;
 }
