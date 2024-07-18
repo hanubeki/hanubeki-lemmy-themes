@@ -12272,6 +12272,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   border-color: var(--hlt-primary);
 }
 
+.voting_buttons_new .upvote_button, .voting_buttons_new .downvote_button {
+  color: var(--hlt-info);
+}
+
 .voting_buttons .upvote_button.voted_up, .voting_buttons .downvote_button.voted_up {
   color: var(--hlt-success);
 }
