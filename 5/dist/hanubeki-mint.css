@@ -12199,3 +12199,57 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
     background-color: var(--hlt-gray-900) !important;
   }
 }
+/* PieFed */
+.card .list-group-item {
+  background: unset;
+  border: none;
+}
+
+.main_pane {
+  border: none;
+}
+
+#home_announcement {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0.5em;
+  border: none !important;
+  background-color: var(--hb-post-background);
+  border-radius: 0.5rem;
+}
+
+.post_teaser, .post_col, .topics_list {
+  margin: 0 !important;
+  margin-bottom: 1rem !important;
+  border: none !important;
+  background-color: var(--hb-post-background);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.topics_list {
+  padding-bottom: 0;
+}
+
+#post_replies .comment {
+  border: none;
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+#post_replies .comment .comment {
+  background: none;
+  padding-right: 0;
+}
+
+.voting_buttons div {
+  border-color: var(--hlt-primary);
+}
+
+.voting_buttons .upvote_button.voted_up, .voting_buttons .downvote_button.voted_up {
+  color: var(--hlt-success);
+}
+
+.voting_buttons .upvote_button.voted_down, .voting_buttons .downvote_button.voted_down {
+  color: var(--hlt-danger);
+}
