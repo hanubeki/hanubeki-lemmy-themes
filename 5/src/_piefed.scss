@@ -98,6 +98,10 @@ div.navbar {
   }
 }
 
+#outer_container a:not(.btn):active, footer a:not(.btn):active {
+  border-color: var(--#{$prefix}primary);
+}
+
 .post_reply_form .form-check {
   bottom: 0.25rem;
 }

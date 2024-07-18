@@ -12098,6 +12098,10 @@ div.navbar {
     right: 0px;
   }
 }
+#outer_container a:not(.btn):active, footer a:not(.btn):active {
+  border-color: var(--hlt-primary);
+}
+
 .post_reply_form .form-check {
   bottom: 0.25rem;
 }
