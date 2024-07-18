@@ -12117,6 +12117,12 @@ div:has(> nav.navbar) {
 }
 
 @media (prefers-color-scheme: dark) {
+  .form-control {
+    background-color: var(--hlt-body-bg) !important;
+    color: var(--hlt-primary) !important;
+  }
+}
+@media (prefers-color-scheme: dark) {
   .thumbnail {
     background-color: var(--hlt-gray-700) !important;
   }

@@ -79,6 +79,11 @@
 
 /* Lemmy additions */
 
+.form-control {
+  background-color: var(--#{$prefix}body-bg) !important;
+  color: var(--#{$prefix}primary) !important;
+}
+
 .thumbnail {
   background-color: var(--#{$prefix}gray-700) !important;
 }

@@ -12075,6 +12075,11 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 /* Lemmy additions */
+.form-control {
+  background-color: var(--hlt-body-bg) !important;
+  color: var(--hlt-primary) !important;
+}
+
 .thumbnail {
   background-color: var(--hlt-gray-700) !important;
 }
