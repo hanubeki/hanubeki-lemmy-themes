@@ -12005,6 +12005,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 /* Root variables */
 :root, [data-bs-theme=light] {
+  color-scheme: dark;
   --hb-post-background: rgba(var(--hlt-light-rgb), 0.15);
 }
 

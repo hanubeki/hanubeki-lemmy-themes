@@ -1,6 +1,7 @@
 /* Root variables */
 
 :root, [data-bs-theme="light"] {
+  color-scheme: dark;
   --hb-post-background: rgba(var(--#{$prefix}light-rgb), 0.15);
 }
 
