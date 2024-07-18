@@ -1,8 +1,8 @@
 function switch_theme_rules(theme) {
-    for (var sheet_file = 0; sheet_file < document.styleSheets.length; sheet_file++) {
+    for (let sheet_file = 0; sheet_file < document.styleSheets.length; sheet_file++) {
         if (document.styleSheets[sheet_file].href && document.styleSheets[sheet_file].href.includes("/hanubeki-") && !(document.styleSheets[sheet_file].href.includes("-lt/") || document.styleSheets[sheet_file].href.includes("-dk/"))) {
             try {
-                for (var sheet_rule = 0; sheet_rule < document.styleSheets[sheet_file].cssRules.length; sheet_rule++) {
+                for (let sheet_rule = 0; sheet_rule < document.styleSheets[sheet_file].cssRules.length; sheet_rule++) {
                     const rule = document.styleSheets[sheet_file].cssRules[sheet_rule];
 
                     if (rule && rule.media && rule.media.mediaText.includes("prefers-color-scheme")) {
@@ -40,7 +40,7 @@ function switch_theme_rules(theme) {
     }
 }
 
-let hltThemeToggle = function () {
+const hltThemeToggle = function () {
     if (document.querySelector(":root").getAttribute("data-bs-theme") === "dark") {
         switch_theme_rules("dark");
     } else {
@@ -48,7 +48,7 @@ let hltThemeToggle = function () {
     }
 }
 
-var observer = new MutationObserver(function (mutations) {
+const observer = new MutationObserver(function (mutations) {
     mutations.forEach(mutation => {
         if (mutation.type === "attributes" && mutation.attributeName === "data-bs-theme") {
             hltThemeToggle();
