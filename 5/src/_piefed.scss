@@ -52,10 +52,15 @@ div.navbar {
     margin: 0 -0.75rem 0.5rem !important;
     border-radius: 0;
   }
+
   .post_col {
     margin: 0 0 0.5rem !important;
     border-radius: 0;
   }
+}
+
+.post_teaser .thumbnail {
+  background-color: transparent !important;
 }
 
 #post_replies .comment {

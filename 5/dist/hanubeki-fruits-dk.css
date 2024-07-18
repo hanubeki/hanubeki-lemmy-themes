@@ -12154,6 +12154,10 @@ div.navbar {
     border-radius: 0;
   }
 }
+.post_teaser .thumbnail {
+  background-color: transparent !important;
+}
+
 #post_replies .comment {
   border: none;
   padding: 1rem;
