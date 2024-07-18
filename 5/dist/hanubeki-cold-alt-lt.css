@@ -12022,12 +12022,18 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 #home_announcement {
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
   border: none !important;
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
 }
 
+@media (max-width: 575.98px) {
+  #home_announcement {
+    margin: 0 -0.75rem 0.5rem !important;
+    border-radius: 0;
+  }
+}
 .post_teaser, .post_col, .topics_list {
   margin: 0 !important;
   margin-bottom: 1rem !important;
@@ -12037,13 +12043,27 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   padding: 1rem;
 }
 
+.post_col {
+  margin: 0 0.75rem 1rem !important;
+}
+
 .topics_list {
   padding-bottom: 0;
 }
 
+@media (max-width: 575.98px) {
+  .post_teaser, .topics_list {
+    margin: 0 -0.75rem 0.5rem !important;
+    border-radius: 0;
+  }
+  .post_col {
+    margin: 0 0 0.5rem !important;
+    border-radius: 0;
+  }
+}
 #post_replies .comment {
   border: none;
-  padding: 1em;
+  padding: 1rem;
   padding-bottom: 0;
 }
 
@@ -12052,6 +12072,12 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   padding-right: 0;
 }
 
+@media (max-width: 575.98px) {
+  #post_replies > div > .comments > .comment {
+    margin: 0 -0.75rem 0.5rem !important;
+    border-radius: 0;
+  }
+}
 .voting_buttons div {
   border-color: var(--hlt-primary);
 }
