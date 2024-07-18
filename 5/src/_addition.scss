@@ -150,6 +150,10 @@
 
 /* Lemmy additions */
 
+div:has(> nav.navbar) {
+  background-color: var(--hb-post-background);
+}
+
 .card {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;

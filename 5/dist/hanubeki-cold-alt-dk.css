@@ -11931,6 +11931,10 @@ textarea.form-control-lg {
 
 /* General Bootstrap dark values */
 /* Lemmy additions */
+div:has(> nav.navbar) {
+  background-color: var(--hb-post-background);
+}
+
 .card {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
@@ -12088,6 +12092,11 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 /* PieFed */
+div.navbar {
+  background-color: var(--hb-post-background);
+  border-bottom-color: transparent;
+}
+
 .card .list-group-item {
   background: none;
   border: none;

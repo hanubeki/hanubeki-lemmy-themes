@@ -1,5 +1,10 @@
 /* PieFed */
 
+div.navbar {
+  background-color: var(--hb-post-background);
+  border-bottom-color: transparent;
+}
+
 .card .list-group-item {
   background: none;
   border: none;
