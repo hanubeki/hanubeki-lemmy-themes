@@ -31,6 +31,7 @@ See https://join-lemmy.org/docs/administration/theming.html
 
 ### PieFed instance owners
 You will need to make custom themes per which you want.
+You may want to put [the script](/piefed/scripts.js) to theme directories for light/dark mode preference.
 
 ## License
 Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
