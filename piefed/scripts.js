@@ -1,4 +1,4 @@
-(function() {
+window.addEventListener("load", function() {
     "use strict";
 
     function switch_theme_rules(theme) {
@@ -66,4 +66,4 @@
     prefersColorScheme.addEventListener("change", e => {hltThemeToggle()});
 
     hltThemeToggle();
-})();
+});
