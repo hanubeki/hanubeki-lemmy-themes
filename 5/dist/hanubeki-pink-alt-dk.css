@@ -12098,6 +12098,45 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   background-color: var(--hlt-gray-900) !important;
 }
 
+/* Button style overrides */
+.btn-group:not(.btn-group-toggle):has(.btn-outline-secondary) {
+  border-radius: 0.5rem !important;
+  background-color: var(--hlt-secondary);
+  background-image: none;
+  padding: 0.25rem 0;
+}
+
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary {
+  margin: 0 0.25rem;
+  border-radius: 0.5rem !important;
+  color: var(--hlt-white);
+  background-color: transparent;
+  border-color: transparent !important;
+  --hlt-btn-padding-y: 0.125rem;
+  --hlt-btn-focus-shadow-rgb: var(--hlt-white-rgb);
+}
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary.disabled, .btn-group:not(.btn-group-toggle) .btn-outline-secondary:disabled {
+  color: var(--hlt-black) !important;
+  background-color: transparent !important;
+}
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary.active, .btn-group:not(.btn-group-toggle) .btn-outline-secondary:active {
+  color: var(--hlt-primary) !important;
+  background-color: var(--hlt-white) !important;
+  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)) !important;
+}
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
+  color: var(--hlt-secondary) !important;
+  background-color: var(--hlt-white) !important;
+}
+
+.btn-group:not(.btn-group-toggle) .btn-primary {
+  margin: 0 0.25rem;
+  border-radius: 0.5rem !important;
+  border-color: transparent !important;
+  --hlt-btn-padding-y: 0.125rem;
+  --hlt-btn-focus-shadow-rgb: var(--hlt-white-rgb);
+}
+
 /* PieFed */
 div.navbar {
   background-color: var(--hlt-body-bg);
@@ -12108,6 +12147,10 @@ div.navbar {
 .card .list-group-item {
   background: none;
   border: none;
+}
+
+.breadcrumb {
+  --hlt-breadcrumb-bg: transparent;
 }
 
 .main_pane {
@@ -12171,6 +12214,15 @@ div.navbar {
   padding-right: 0;
 }
 
+#post_replies .comment .replies {
+  border-left-color: var(--hlt-gray-300) !important;
+  border-top-color: var(--hlt-gray-300) !important;
+}
+
+#post_replies .replies .comment {
+  margin-right: 0 !important;
+}
+
 @media (max-width: 575.98px) {
   #post_replies > div > .comments > .comment {
     margin: 0 -0.75rem 0.5rem !important;
@@ -12197,6 +12249,9 @@ div.navbar {
   .post_options_link {
     right: 0px;
   }
+  .comment_actions_link {
+    right: -15px;
+  }
 }
 #outer_container a:not(.btn):active, footer a:not(.btn):active {
   border-color: var(--hlt-primary);
@@ -12208,4 +12263,32 @@ div.navbar {
 
 .form-check .form-check-input {
   top: -2px;
+}
+
+/* Button style overrides */
+.btn-group:not(.btn-group-toggle):has(.btn-outline-secondary) {
+  background-color: transparent;
+  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
+}
+
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary {
+  --hlt-btn-focus-shadow-rgb: var(--hlt-secondary-rgb);
+}
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary.disabled, .btn-group:not(.btn-group-toggle) .btn-outline-secondary:disabled {
+  color: var(--hlt-gray) !important;
+}
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary.active, .btn-group:not(.btn-group-toggle) .btn-outline-secondary:active {
+  background-color: var(--hlt-black) !important;
+  background-image: none !important;
+  border-color: transparent !important;
+}
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
+  color: var(--hlt-white) !important;
+  background-color: var(--hlt-secondary) !important;
+}
+
+/* PieFed */
+#post_replies .comment .replies {
+  border-left-color: var(--hlt-gray-700) !important;
+  border-top-color: var(--hlt-gray-700) !important;
 }
