@@ -284,7 +284,6 @@ div:has(> nav.navbar) {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
   padding: 0.5rem;
-  padding-right: 1rem;
 }
 
 @include media-breakpoint-down(sm) {
@@ -292,12 +291,6 @@ div:has(> nav.navbar) {
     margin: 0 -0.75rem 0.5rem !important;
     border-radius: 0;
   }
-}
-
-.comment > .comments > .comment {
-  margin: 0 !important;
-  background: none;
-  padding: 0;
 }
 
 .post-listing > .card {
@@ -326,12 +319,22 @@ div:has(> nav.navbar) {
   }
 }
 
+.comment > .comments > .comment {
+  margin: 0 !important;
+  background: none;
+  padding: 0;
+}
+
 .comments, div > .comments > .comment > .details {
   border: none !important;
 }
 
 .details {
   padding: 0.5rem 0 !important;
+}
+
+.details > div.ms-2 {
+  margin-right: 0.5rem;
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {

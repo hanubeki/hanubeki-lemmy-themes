@@ -86,6 +86,12 @@ div.navbar {
   --#{$prefix}breadcrumb-bg: transparent;
 }
 
+@include media-breakpoint-up(sm) {
+  #outer_container {
+    margin-top: 1rem;
+  }
+}
+
 .main_pane {
   border: none;
 }

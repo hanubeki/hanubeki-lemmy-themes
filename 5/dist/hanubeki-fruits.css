@@ -12385,7 +12385,6 @@ div:has(> nav.navbar) {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
   padding: 0.5rem;
-  padding-right: 1rem;
 }
 
 @media (max-width: 575.98px) {
@@ -12394,12 +12393,6 @@ div:has(> nav.navbar) {
     border-radius: 0;
   }
 }
-.comment > .comments > .comment {
-  margin: 0 !important;
-  background: none;
-  padding: 0;
-}
-
 .post-listing > .card {
   background: none;
 }
@@ -12421,12 +12414,22 @@ div:has(> nav.navbar) {
     color: var(--hlt-gray-300) !important;
   }
 }
+.comment > .comments > .comment {
+  margin: 0 !important;
+  background: none;
+  padding: 0;
+}
+
 .comments, div > .comments > .comment > .details {
   border: none !important;
 }
 
 .details {
   padding: 0.5rem 0 !important;
+}
+
+.details > div.ms-2 {
+  margin-right: 0.5rem;
 }
 
 div > .comments > .comment:has(> .details > div > div:only-child) {
@@ -12527,6 +12530,11 @@ div.navbar {
   --hlt-breadcrumb-bg: transparent;
 }
 
+@media (min-width: 576px) {
+  #outer_container {
+    margin-top: 1rem;
+  }
+}
 .main_pane {
   border: none;
 }
