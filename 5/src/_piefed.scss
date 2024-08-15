@@ -62,7 +62,7 @@
       }
 
       &:is(:focus, :hover):not(.active, :active) {
-        color: var(--#{$prefix}white) !important;
+        color: var(--#{$prefix}black) !important;
         background-color: var(--#{$prefix}secondary) !important;
       }
     }

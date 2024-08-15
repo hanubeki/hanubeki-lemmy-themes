@@ -2,6 +2,22 @@
 
 :root, [data-bs-theme="light"] {
   color-scheme: dark;
+
+  @each $color, $value in $theme-colors {
+    @if $color == "light" {
+    } @else if $color == "dark" {
+    } @else {
+      --#{$prefix}#{$color}: #{tint-color($value, 40%)};
+    }
+  }
+  @each $color, $value in $theme-colors {
+    @if $color == "light" {
+    } @else if $color == "dark" {
+    } @else {
+      --#{$prefix}#{$color}-rgb: #{to-rgb(tint-color($value, 40%))};
+    }
+  }
+
   --hb-post-background: rgba(var(--#{$prefix}light-rgb), 0.15);
 }
 
@@ -26,12 +42,76 @@
   }
 
   &:is(:focus, :hover):not(.active, :active) {
-    color: var(--#{$prefix}white) !important;
+    color: var(--#{$prefix}black) !important;
     background-color: var(--#{$prefix}secondary) !important;
   }
 }
 
 /* General Bootstrap dark values */
+
+@each $color, $value in $theme-colors {
+  @if $color == "light" {
+  } @else if $color == "dark" {
+  } @else {
+    .text-bg-#{$color} {
+      color: #{color-contrast(tint-color($value, 40%))} !important;
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  @if $color == "light" {
+  } @else if $color == "dark" {
+  } @else {
+    .btn-#{$color} {
+      @include button-variant(tint-color($value, 40%), tint-color($value, 40%));
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  @if $color == "light" {
+  } @else if $color == "dark" {
+  } @else {
+    .btn-outline-#{$color} {
+      @include button-variant(tint-color($value, 40%), tint-color($value, 40%));
+    }
+  }
+}
+
+.form-check-input {
+  &:checked {
+    background-color: $form-check-input-checked-bg-color-dark;
+    border-color: $form-check-input-checked-border-color-dark;
+
+    &[type="checkbox"] {
+      @if $enable-gradients {
+        --#{$prefix}form-check-bg-image: #{escape-svg($form-check-input-checked-bg-image-dark)}, var(--#{$prefix}gradient);
+      } @else {
+        --#{$prefix}form-check-bg-image: #{escape-svg($form-check-input-checked-bg-image-dark)};
+      }
+    }
+
+    &[type="radio"] {
+      @if $enable-gradients {
+        --#{$prefix}form-check-bg-image: #{escape-svg($form-check-radio-checked-bg-image-dark)}, var(--#{$prefix}gradient);
+      } @else {
+        --#{$prefix}form-check-bg-image: #{escape-svg($form-check-radio-checked-bg-image-dark)};
+      }
+    }
+  }
+
+  &[type="checkbox"]:indeterminate {
+    background-color: $form-check-input-indeterminate-bg-color-dark;
+    border-color: $form-check-input-indeterminate-border-color-dark;
+
+    @if $enable-gradients {
+      --#{$prefix}form-check-bg-image: #{escape-svg($form-check-input-indeterminate-bg-image-dark)}, var(--#{$prefix}gradient);
+    } @else {
+      --#{$prefix}form-check-bg-image: #{escape-svg($form-check-input-indeterminate-bg-image-dark)};
+    }
+  }
+}
 
 .nav-tabs {
   --#{$prefix}nav-tabs-border-color: var(--#{$prefix}gray-700);
@@ -44,6 +124,8 @@
 .dropdown-menu {
   --#{$prefix}dropdown-link-color: var(--#{$prefix}gray-300);
   --#{$prefix}dropdown-link-hover-color: var(--#{$prefix}gray-400);
+  --#{$prefix}dropdown-link-active-color: var(--#{$prefix}black);
+  --#{$prefix}dropdown-link-active-bg: #{tint-color($primary, 40%)};
 }
 
 .pagination {
@@ -80,7 +162,7 @@
 
 /* Lemmy additions */
 
-.form-control {
+.form-control, .form-select {
   background-color: var(--#{$prefix}body-bg) !important;
 }
 
