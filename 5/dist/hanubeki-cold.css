@@ -105,7 +105,7 @@
   --hlt-link-hover-color-rgb: 53, 124, 149;
   --hlt-code-color: #c37aa6;
   --hlt-highlight-color: #29313c;
-  --hlt-highlight-bg: #f1e580;
+  --hlt-highlight-bg: #E1E1E1;
   --hlt-border-width: 1px;
   --hlt-border-style: solid;
   --hlt-border-color: #707884;
@@ -178,7 +178,7 @@
     --hlt-link-hover-color-rgb: 165, 207, 222;
     --hlt-code-color: #dbafca;
     --hlt-highlight-color: #eaf1ff;
-    --hlt-highlight-bg: #82791f;
+    --hlt-highlight-bg: #343E48;
     --hlt-border-color: #707884;
     --hlt-border-color-translucent: rgba(234, 241, 255, 0.15);
     --hlt-form-valid-color: #adc49a;
