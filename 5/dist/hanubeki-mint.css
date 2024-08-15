@@ -12194,6 +12194,15 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   margin: 0;
 }
 
+.comment > article.mark {
+  background-color: var(--hlt-gray-100) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .comment > article.mark {
+    background-color: var(--hlt-gray-800) !important;
+  }
+}
 @media (prefers-color-scheme: dark) {
   .markdown-textarea > div > div > div.bg-light {
     background-color: var(--hlt-gray-900) !important;

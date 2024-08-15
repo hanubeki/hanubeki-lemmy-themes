@@ -253,6 +253,18 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   margin: 0;
 }
 
+.comment > article.mark {
+	background-color: var(--#{$prefix}gray-100) !important;
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .comment > article.mark {
+      background-color: var(--#{$prefix}gray-800) !important;
+    }
+  }
+}
+
 @if $enable-dark-mode {
   @include color-mode(dark) {
     .markdown-textarea > div > div > div.bg-light {

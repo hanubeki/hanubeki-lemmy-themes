@@ -12004,6 +12004,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   margin: 0;
 }
 
+.comment > article.mark {
+  background-color: var(--hlt-gray-100) !important;
+}
+
 /* Root variables */
 :root, [data-bs-theme=light] {
   color-scheme: dark;
@@ -12092,6 +12096,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 .post-title a:visited:hover {
   color: var(--hlt-gray-300) !important;
+}
+
+.comment > article.mark {
+  background-color: var(--hlt-gray-800) !important;
 }
 
 .markdown-textarea > div > div > div.bg-light {

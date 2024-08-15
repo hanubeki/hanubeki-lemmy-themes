@@ -12004,6 +12004,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   margin: 0;
 }
 
+.comment > article.mark {
+  background-color: var(--hlt-gray-100) !important;
+}
+
 /* Button style overrides */
 .btn-group:not(.btn-group-toggle):has(.btn-outline-secondary) {
   border-radius: 0.5rem !important;

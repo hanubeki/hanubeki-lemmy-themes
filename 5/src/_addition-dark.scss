@@ -96,6 +96,10 @@
   color: var(--#{$prefix}gray-300) !important;
 }
 
+.comment > article.mark {
+  background-color: var(--#{$prefix}gray-800) !important;
+}
+
 .markdown-textarea > div > div > div.bg-light {
   background-color: var(--#{$prefix}gray-900) !important;
 }
