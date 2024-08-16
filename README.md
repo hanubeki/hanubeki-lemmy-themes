@@ -36,4 +36,4 @@ You may want to put [the script](/piefed/scripts.js) to theme directories for li
 ## License
 Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
 
-`_palette.common.scss`, `_variables.common.scss`,  `_variables.force-dark.scss` and `mixins/*.scss` are using some portions from Bootstrap, Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+`_palette.common.scss`, `_variables.common.scss`, `_variables.force-dark.scss` and `mixins/*.scss` are using some portions from Bootstrap, Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
