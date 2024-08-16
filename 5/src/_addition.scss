@@ -166,6 +166,15 @@
           --#{$prefix}form-check-bg-image: #{escape-svg($form-check-input-indeterminate-bg-image-dark)};
         }
       }
+
+      &:focus {
+        @if $enable-shadows {
+          @include box-shadow($input-box-shadow, $input-focus-box-shadow-dark);
+        } @else {
+          // Avoid using mixin so we can pass custom focus shadow properly
+          box-shadow: $input-focus-box-shadow-dark;
+        }
+      }
     }
   }
 }
@@ -174,14 +183,11 @@
   @include color-mode(dark) {
     .form-range::-webkit-slider-thumb {
       background-color: #{tint-color($primary, 40%)};
+      box-shadow: $form-range-thumb-focus-box-shadow-dark;
     }
-  }
-}
-
-@if $enable-dark-mode {
-  @include color-mode(dark) {
     .form-range::-moz-range-thumb {
       background-color: #{tint-color($primary, 40%)};
+      box-shadow: $form-range-thumb-focus-box-shadow-dark;
     }
   }
 }
@@ -190,6 +196,14 @@
   @include color-mode(dark) {
     .input-group-text {
       color: #{tint-color($primary, 40%)};
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .nav-link:focus-visible {
+      box-shadow: $nav-link-focus-box-shadow-dark;
     }
   }
 }
@@ -228,10 +242,19 @@
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
+    .accordion {
+      --#{$prefix}accordion-btn-focus-box-shadow: #{$accordion-button-focus-box-shadow-dark};
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
     .pagination {
       --#{$prefix}pagination-hover-bg: var(--#{$prefix}gray-900);
       --#{$prefix}pagination-hover-border-color: var(--#{$prefix}gray-500);
       --#{$prefix}pagination-focus-bg: var(--#{$prefix}gray-700);
+      --#{$prefix}pagination-focus-box-shadow: #{$pagination-focus-box-shadow-dark};
       --#{$prefix}pagination-active-color: #{color-contrast(tint-color($primary, 40%))};
       --#{$prefix}pagination-active-bg: #{tint-color($primary, 40%)};
       --#{$prefix}pagination-active-border-color: #{tint-color($primary, 40%)};
@@ -283,6 +306,14 @@
       --#{$prefix}breadcrumb-bg: var(--#{$prefix}gray-900);
       --#{$prefix}breadcrumb-divider-color: var(--#{$prefix}gray-500); 
       --#{$prefix}breadcrumb-item-active-color: var(--#{$prefix}white);
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .btn-close {
+      --#{$prefix}btn-close-focus-shadow: #{$btn-close-focus-shadow-dark};
     }
   }
 }
@@ -341,6 +372,15 @@ div:has(> nav.navbar) {
   @include color-mode(dark) {
     .form-control, .form-select {
       background-color: var(--#{$prefix}body-bg) !important;
+
+      &:focus {
+        @if $enable-shadows {
+          @include box-shadow($input-box-shadow, $input-focus-box-shadow-dark);
+        } @else {
+          // Avoid using mixin so we can pass custom focus shadow properly
+          box-shadow: $input-focus-box-shadow-dark;
+        }
+      }
     }
   }
 }

@@ -115,18 +115,33 @@
       --#{$prefix}form-check-bg-image: #{escape-svg($form-check-input-indeterminate-bg-image-dark)};
     }
   }
+
+  &:focus {
+    @if $enable-shadows {
+      @include box-shadow($input-box-shadow, $input-focus-box-shadow-dark);
+    } @else {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      box-shadow: $input-focus-box-shadow-dark;
+    }
+  }
 }
 
 .form-range::-webkit-slider-thumb {
   background-color: #{tint-color($primary, 40%)};
+  box-shadow: $form-range-thumb-focus-box-shadow-dark;
 }
 
 .form-range::-moz-range-thumb {
   background-color: #{tint-color($primary, 40%)};
+  box-shadow: $form-range-thumb-focus-box-shadow-dark;
 }
 
 .input-group-text {
   color: #{tint-color($primary, 40%)};
+}
+
+.nav-link:focus-visible {
+  box-shadow: $nav-link-focus-box-shadow-dark;
 }
 
 .nav-tabs {
@@ -149,10 +164,15 @@
   --#{$prefix}dropdown-link-active-bg: #{tint-color($primary, 40%)};
 }
 
+.accordion {
+  --#{$prefix}accordion-btn-focus-box-shadow: #{$accordion-button-focus-box-shadow-dark};
+}
+
 .pagination {
   --#{$prefix}pagination-hover-bg: var(--#{$prefix}gray-900);
   --#{$prefix}pagination-hover-border-color: var(--#{$prefix}gray-500);
   --#{$prefix}pagination-focus-bg: var(--#{$prefix}gray-700);
+  --#{$prefix}pagination-focus-box-shadow: #{$pagination-focus-box-shadow-dark};
   --#{$prefix}pagination-active-color: #{color-contrast(tint-color($primary, 40%))};
   --#{$prefix}pagination-active-bg: #{tint-color($primary, 40%)};
   --#{$prefix}pagination-active-border-color: #{tint-color($primary, 40%)};
@@ -186,6 +206,10 @@
   --#{$prefix}breadcrumb-item-active-color: var(--#{$prefix}white);
 }
 
+.btn-close {
+  --#{$prefix}btn-close-focus-shadow: #{$btn-close-focus-shadow-dark};
+}
+
 @each $color, $value in $theme-colors {
   @if $color == "light" {
   } @else if $color == "dark" {
@@ -215,6 +239,15 @@
 
 .form-control, .form-select {
   background-color: var(--#{$prefix}body-bg) !important;
+
+  &:focus {
+    @if $enable-shadows {
+      @include box-shadow($input-box-shadow, $input-focus-box-shadow-dark);
+    } @else {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      box-shadow: $input-focus-box-shadow-dark;
+    }
+  }
 }
 
 .form-control::file-selector-button {

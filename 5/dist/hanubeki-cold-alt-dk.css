@@ -12299,17 +12299,26 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   border-color: #77b3c5;
   --hlt-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%2329313c' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
+}
 
 .form-range::-webkit-slider-thumb {
   background-color: #77b3c5;
+  box-shadow: 0 0 0 1px #29313c, 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
 }
 
 .form-range::-moz-range-thumb {
   background-color: #77b3c5;
+  box-shadow: 0 0 0 1px #29313c, 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
 }
 
 .input-group-text {
   color: #77b3c5;
+}
+
+.nav-link:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
 }
 
 .nav-tabs {
@@ -12332,10 +12341,15 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   --hlt-dropdown-link-active-bg: #77b3c5;
 }
 
+.accordion {
+  --hlt-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
+}
+
 .pagination {
   --hlt-pagination-hover-bg: var(--hlt-gray-900);
   --hlt-pagination-hover-border-color: var(--hlt-gray-500);
   --hlt-pagination-focus-bg: var(--hlt-gray-700);
+  --hlt-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
   --hlt-pagination-active-color: #29313c;
   --hlt-pagination-active-bg: #77b3c5;
   --hlt-pagination-active-border-color: #77b3c5;
@@ -12367,6 +12381,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   --hlt-breadcrumb-bg: var(--hlt-gray-900);
   --hlt-breadcrumb-divider-color: var(--hlt-gray-500);
   --hlt-breadcrumb-item-active-color: var(--hlt-white);
+}
+
+.btn-close {
+  --hlt-btn-close-focus-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
 }
 
 .link-primary:hover,
@@ -12417,6 +12435,9 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 /* Lemmy additions */
 .form-control, .form-select {
   background-color: var(--hlt-body-bg) !important;
+}
+.form-control:focus, .form-select:focus {
+  box-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
 }
 
 .form-control::file-selector-button {

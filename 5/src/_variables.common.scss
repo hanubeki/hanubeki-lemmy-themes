@@ -83,3 +83,17 @@ $form-check-input-indeterminate-color-dark:          $black;
 $form-check-input-indeterminate-bg-color-dark:       tint-color($primary, 40%);
 $form-check-input-indeterminate-border-color-dark:   $form-check-input-indeterminate-bg-color-dark;
 $form-check-input-indeterminate-bg-image-dark:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$form-check-input-indeterminate-color-dark}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/></svg>");
+
+$focus-ring-width-dark:                    .25rem;
+$focus-ring-opacity-dark:                  .25;
+$focus-ring-color-dark:                    rgba(tint-color($primary, 40%), $focus-ring-opacity-dark);
+$focus-ring-blur-dark:                     0;
+$focus-ring-box-shadow-dark:               0 0 $focus-ring-blur-dark $focus-ring-width-dark $focus-ring-color-dark;
+$input-btn-focus-box-shadow-dark:          $focus-ring-box-shadow-dark;
+$btn-focus-box-shadow-dark:                $input-btn-focus-box-shadow-dark;
+$input-focus-box-shadow-dark:              $input-btn-focus-box-shadow-dark;
+$form-range-thumb-focus-box-shadow-dark:   0 0 0 1px $black, $input-focus-box-shadow-dark;
+$nav-link-focus-box-shadow-dark:           $focus-ring-box-shadow-dark;
+$accordion-button-focus-box-shadow-dark:   $btn-focus-box-shadow-dark;
+$pagination-focus-box-shadow-dark:         $focus-ring-box-shadow-dark;
+$btn-close-focus-shadow-dark:              $focus-ring-box-shadow-dark;
