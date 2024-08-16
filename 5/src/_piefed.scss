@@ -82,6 +82,11 @@ div.navbar {
   border: none;
 }
 
+.warning_badge.nsfw {
+  border-color: var(--#{$prefix}danger);
+  color: var(--#{$prefix}danger);
+}
+
 .breadcrumb {
   --#{$prefix}breadcrumb-bg: transparent;
 }
@@ -181,6 +186,11 @@ div.navbar {
   }
 }
 
+.comment .show-more {
+  background-color: var(--#{$prefix}gray-700);
+  color: var(--#{$prefix}white);
+}
+
 .voting_buttons div {
   border-color: var(--#{$prefix}primary);
 }
@@ -189,10 +199,14 @@ div.navbar {
   color: var(--#{$prefix}info);
 }
 
+#masonry .item .masonry_info .row .col .upvote_button.voted_up, #masonry .item .masonry_info .row .col .downvote_button.voted_up,
+.voting_buttons_new .upvote_button.voted_up, .voting_buttons_new .downvote_button.voted_up,
 .voting_buttons .upvote_button.voted_up, .voting_buttons .downvote_button.voted_up {
   color: var(--#{$prefix}success);
 }
 
+#masonry .item .masonry_info .row .col .upvote_button.voted_down, #masonry .item .masonry_info .row .col .downvote_button.voted_down,
+.voting_buttons_new .upvote_button.voted_down, .voting_buttons_new .downvote_button.voted_down,
 .voting_buttons .upvote_button.voted_down, .voting_buttons .downvote_button.voted_down {
   color: var(--#{$prefix}danger);
 }
@@ -209,6 +223,10 @@ div.navbar {
 
 #outer_container a:not(.btn):active, footer a:not(.btn):active {
   border-color: var(--#{$prefix}primary);
+}
+
+.form-group.required label:after {
+  color: var(--#{$prefix}danger);
 }
 
 .post_reply_form .form-check {

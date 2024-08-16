@@ -12063,6 +12063,11 @@ div.navbar {
   border: none;
 }
 
+.warning_badge.nsfw {
+  border-color: var(--hlt-danger);
+  color: var(--hlt-danger);
+}
+
 .breadcrumb {
   --hlt-breadcrumb-bg: transparent;
 }
@@ -12148,6 +12153,11 @@ div.navbar {
     border-radius: 0;
   }
 }
+.comment .show-more {
+  background-color: var(--hlt-gray-700);
+  color: var(--hlt-white);
+}
+
 .voting_buttons div {
   border-color: var(--hlt-primary);
 }
@@ -12156,10 +12166,14 @@ div.navbar {
   color: var(--hlt-info);
 }
 
+#masonry .item .masonry_info .row .col .upvote_button.voted_up, #masonry .item .masonry_info .row .col .downvote_button.voted_up,
+.voting_buttons_new .upvote_button.voted_up, .voting_buttons_new .downvote_button.voted_up,
 .voting_buttons .upvote_button.voted_up, .voting_buttons .downvote_button.voted_up {
   color: var(--hlt-success);
 }
 
+#masonry .item .masonry_info .row .col .upvote_button.voted_down, #masonry .item .masonry_info .row .col .downvote_button.voted_down,
+.voting_buttons_new .upvote_button.voted_down, .voting_buttons_new .downvote_button.voted_down,
 .voting_buttons .upvote_button.voted_down, .voting_buttons .downvote_button.voted_down {
   color: var(--hlt-danger);
 }
@@ -12174,6 +12188,10 @@ div.navbar {
 }
 #outer_container a:not(.btn):active, footer a:not(.btn):active {
   border-color: var(--hlt-primary);
+}
+
+.form-group.required label:after {
+  color: var(--hlt-danger);
 }
 
 .post_reply_form .form-check {
