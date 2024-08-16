@@ -76,6 +76,7 @@ $mark-color-dark: $white;
 $mark-bg-dark: #82791f;
 
 $link-color-dark:                  tint-color($primary, 40%);
+$btn-box-shadow-dark:              inset 0 1px 0 rgba($black, .15), 0 1px 1px rgba($white, .075);
 $btn-link-focus-shadow-rgb-dark:   to-rgb(mix(color-contrast($link-color-dark), $link-color-dark, 15%));
 
 $form-check-input-checked-color-dark:          $black;

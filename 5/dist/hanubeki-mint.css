@@ -12064,6 +12064,11 @@ textarea.form-control-lg {
 }
 /* General Bootstrap dark values */
 @media (prefers-color-scheme: dark) {
+  .blockquote-footer {
+    color: var(--prefixgray-700);
+  }
+}
+@media (prefers-color-scheme: dark) {
   .text-bg-primary {
     color: #233333 !important;
   }
@@ -12081,6 +12086,9 @@ textarea.form-control-lg {
   }
   .text-bg-danger {
     color: #233333 !important;
+  }
+  .btn {
+    --hlt-btn-box-shadow: inset 0 1px 0 rgba(35, 51, 51, 0.15), 0 1px 1px rgba(226, 245, 243, 0.075);
   }
   .btn-primary {
     --hlt-btn-color: #233333;
@@ -12304,13 +12312,27 @@ textarea.form-control-lg {
   }
 }
 @media (prefers-color-scheme: dark) {
+  .form-range:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 1px #233333, 0 0 0 0.25rem rgba(133, 197, 196, 0.25);
+  }
+  .form-range:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 1px #233333, 0 0 0 0.25rem rgba(133, 197, 196, 0.25);
+  }
   .form-range::-webkit-slider-thumb {
     background-color: #85c5c4;
-    box-shadow: 0 0 0 1px #233333, 0 0 0 0.25rem rgba(133, 197, 196, 0.25);
   }
   .form-range::-moz-range-thumb {
     background-color: #85c5c4;
-    box-shadow: 0 0 0 1px #233333, 0 0 0 0.25rem rgba(133, 197, 196, 0.25);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .form-floating > :disabled ~ label,
+  .form-floating > .form-control:disabled ~ label {
+    color: var(--prefixgray-500);
+  }
+  .form-floating > :disabled ~ label::after,
+  .form-floating > .form-control:disabled ~ label::after {
+    background-color: var(--prefixgray-700);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -12397,6 +12419,7 @@ textarea.form-control-lg {
 }
 @media (prefers-color-scheme: dark) {
   .btn-close {
+    --hlt-btn-close-color: #e2f5f3;
     --hlt-btn-close-focus-shadow: 0 0 0 0.25rem rgba(133, 197, 196, 0.25);
   }
 }

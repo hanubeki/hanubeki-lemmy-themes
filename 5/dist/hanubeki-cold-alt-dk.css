@@ -12052,6 +12052,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 /* General Bootstrap dark values */
+.blockquote-footer {
+  color: var(--prefixgray-700);
+}
+
 .text-bg-primary {
   color: #29313c !important;
 }
@@ -12074,6 +12078,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 .text-bg-danger {
   color: #29313c !important;
+}
+
+.btn {
+  --hlt-btn-box-shadow: inset 0 1px 0 rgba(41, 49, 60, 0.15), 0 1px 1px rgba(234, 241, 255, 0.075);
 }
 
 .btn-primary {
@@ -12307,14 +12315,29 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   box-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
 }
 
+.form-range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px #29313c, 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
+}
+
+.form-range:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 1px #29313c, 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
+}
+
 .form-range::-webkit-slider-thumb {
   background-color: #77b3c5;
-  box-shadow: 0 0 0 1px #29313c, 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
 }
 
 .form-range::-moz-range-thumb {
   background-color: #77b3c5;
-  box-shadow: 0 0 0 1px #29313c, 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
+}
+
+.form-floating > :disabled ~ label,
+.form-floating > .form-control:disabled ~ label {
+  color: var(--prefixgray-500);
+}
+.form-floating > :disabled ~ label::after,
+.form-floating > .form-control:disabled ~ label::after {
+  background-color: var(--prefixgray-700);
 }
 
 .input-group-text {
@@ -12388,6 +12411,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 .btn-close {
+  --hlt-btn-close-color: #eaf1ff;
   --hlt-btn-close-focus-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
 }
 
