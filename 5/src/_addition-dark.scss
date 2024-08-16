@@ -163,6 +163,10 @@
   }
 }
 
+@each $state, $data in $form-validation-states-dark {
+  @include form-validation-state($state, $data...);
+}
+
 .input-group-text {
   color: #{tint-color($primary, 40%)};
 }

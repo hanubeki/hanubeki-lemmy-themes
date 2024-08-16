@@ -227,6 +227,15 @@
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
+    @each $state, $data in $form-validation-states-dark {
+      @include form-validation-state($state, $data...);
+    }
+  }
+}
+
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
     .input-group-text {
       color: #{tint-color($primary, 40%)};
     }
