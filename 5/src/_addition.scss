@@ -233,11 +233,11 @@
   }
 }
 
-
 @if $enable-dark-mode {
   @include color-mode(dark) {
     .input-group-text {
-      color: #{tint-color($primary, 40%)};
+      background-color: var(--hb-post-background);
+      color: var(--#{prefix}white);
     }
   }
 }

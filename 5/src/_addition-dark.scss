@@ -168,7 +168,8 @@
 }
 
 .input-group-text {
-  color: #{tint-color($primary, 40%)};
+  background-color: var(--hb-post-background);
+  color: var(--#{prefix}white);
 }
 
 .nav-link:focus-visible {

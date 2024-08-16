@@ -2705,7 +2705,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #1d819f;
+  color: #29313c;
   text-align: center;
   white-space: nowrap;
   background-color: #bfc7d5;
@@ -12499,7 +12499,8 @@ textarea.form-control-lg {
 }
 @media (prefers-color-scheme: dark) {
   .input-group-text {
-    color: #77b3c5;
+    background-color: var(--hb-post-background);
+    color: var(--prefixwhite);
   }
 }
 @media (prefers-color-scheme: dark) {
