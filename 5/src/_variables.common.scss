@@ -1,6 +1,18 @@
 $min-contrast-ratio: 2.5;
 $color-contrast-dark: $black;
 $color-contrast-light: $white;
+
+// scss-docs-start theme-text-variables
+$primary-text-emphasis:   shade-color($primary, 40%);
+$secondary-text-emphasis: shade-color($secondary, 40%);
+$success-text-emphasis:   shade-color($success, 40%);
+$info-text-emphasis:      shade-color($info, 40%);
+$warning-text-emphasis:   shade-color($warning, 40%);
+$danger-text-emphasis:    shade-color($danger, 40%);
+$light-text-emphasis:     $gray-500;
+$dark-text-emphasis:      $black;
+// scss-docs-end theme-text-variables
+
 $light-bg-subtle: $gray-100;
 $dark-bg-subtle: $gray-500;
 $light-border-subtle: $gray-300;
@@ -63,6 +75,18 @@ $kbd-bg: $gray-700;
 $pre-color: $gray-700;
 
 $color-mode-type: media-query;
+
+// scss-docs-start theme-text-dark-variables
+$primary-text-emphasis-dark:        tint-color($primary, 60%);
+$secondary-text-emphasis-dark:      tint-color($secondary, 60%);
+$success-text-emphasis-dark:        tint-color($success, 60%);
+$info-text-emphasis-dark:           tint-color($info, 60%);
+$warning-text-emphasis-dark:        tint-color($warning, 60%);
+$danger-text-emphasis-dark:         tint-color($danger, 60%);
+$light-text-emphasis-dark:          $gray-100;
+$dark-text-emphasis-dark:           $gray-700;
+// scss-docs-end theme-text-dark-variables
+
 $light-bg-subtle-dark: $gray-700;
 $dark-bg-subtle-dark: $gray-900;
 $light-border-subtle-dark: $gray-500;

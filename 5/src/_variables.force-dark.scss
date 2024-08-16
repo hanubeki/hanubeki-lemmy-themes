@@ -8,14 +8,14 @@
 
 // scss-docs-start sass-dark-mode-vars
 // scss-docs-start theme-text-dark-variables
-$primary-text-emphasis:        tint-color($primary, 40%);
-$secondary-text-emphasis:      tint-color($secondary, 40%);
-$success-text-emphasis:        tint-color($success, 40%);
-$info-text-emphasis:           tint-color($info, 40%);
-$warning-text-emphasis:        tint-color($warning, 40%);
-$danger-text-emphasis:         tint-color($danger, 40%);
+$primary-text-emphasis:        tint-color($primary, 60%);
+$secondary-text-emphasis:      tint-color($secondary, 60%);
+$success-text-emphasis:        tint-color($success, 60%);
+$info-text-emphasis:           tint-color($info, 60%);
+$warning-text-emphasis:        tint-color($warning, 60%);
+$danger-text-emphasis:         tint-color($danger, 60%);
 $light-text-emphasis:          $gray-100;
-$dark-text-emphasis:           $gray-300;
+$dark-text-emphasis:           $gray-700;
 // scss-docs-end theme-text-dark-variables
 
 // scss-docs-start theme-bg-subtle-dark-variables
