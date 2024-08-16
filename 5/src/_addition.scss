@@ -568,3 +568,13 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
     }
   }
 }
+
+/* Toastify */
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .toastify {
+      color: var(--#{$prefix}black);
+    }
+  }
+}

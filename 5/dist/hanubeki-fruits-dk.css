@@ -12011,6 +12011,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   background-color: var(--hlt-gray-100) !important;
 }
 
+/* Toastify */
 /* Root variables */
 :root, [data-bs-theme=light] {
   color-scheme: dark;
@@ -12827,6 +12828,11 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 
 .markdown-textarea > div > div > div.bg-light {
   background-color: var(--hlt-gray-900) !important;
+}
+
+/* Toastify */
+.toastify {
+  color: var(--hlt-black);
 }
 
 /* Button style overrides */

@@ -12884,6 +12884,12 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
     background-color: var(--hlt-gray-900) !important;
   }
 }
+/* Toastify */
+@media (prefers-color-scheme: dark) {
+  .toastify {
+    color: var(--hlt-black);
+  }
+}
 /* Button style overrides */
 .btn-group:not(.btn-group-toggle):has(.btn-outline-secondary) {
   border-radius: 0.5rem !important;
