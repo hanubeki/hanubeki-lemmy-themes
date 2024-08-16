@@ -12310,6 +12310,9 @@ textarea.form-control-lg {
   .form-check-input:focus {
     box-shadow: 0 0 0 0.25rem rgba(119, 179, 197, 0.25);
   }
+  .form-switch .form-check-input:checked {
+    --hlt-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2329313c'/%3e%3c/svg%3e");
+  }
 }
 @media (prefers-color-scheme: dark) {
   .form-range:focus::-webkit-slider-thumb {

@@ -192,6 +192,14 @@
         }
       }
     }
+
+    .form-switch .form-check-input:checked {
+      @if $enable-gradients {
+        --#{$prefix}form-switch-bg: #{escape-svg($form-switch-checked-bg-image-dark)}, var(--#{$prefix}gradient);
+      } @else {
+        --#{$prefix}form-switch-bg: #{escape-svg($form-switch-checked-bg-image-dark)};
+      }
+    }
   }
 }
 

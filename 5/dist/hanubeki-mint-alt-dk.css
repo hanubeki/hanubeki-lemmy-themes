@@ -12315,6 +12315,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   box-shadow: 0 0 0 0.25rem rgba(133, 197, 196, 0.25);
 }
 
+.form-switch .form-check-input:checked {
+  --hlt-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23233333'/%3e%3c/svg%3e");
+}
+
 .form-range:focus::-webkit-slider-thumb {
   box-shadow: 0 0 0 1px #233333, 0 0 0 0.25rem rgba(133, 197, 196, 0.25);
 }
