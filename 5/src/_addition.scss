@@ -126,6 +126,14 @@
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
+    .form-select:-moz-focusring {
+      text-shadow: 0 0 0 #{tint-color($primary, 40%)};
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
     .form-check-input {
       &:checked {
         background-color: $form-check-input-checked-bg-color-dark;
@@ -164,12 +172,45 @@
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
+    .form-range::-webkit-slider-thumb {
+      background-color: #{tint-color($primary, 40%)};
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .form-range::-moz-range-thumb {
+      background-color: #{tint-color($primary, 40%)};
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .input-group-text {
+      color: #{tint-color($primary, 40%)};
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
     .nav-tabs {
       --#{$prefix}nav-tabs-border-color: var(--#{$prefix}gray-700);
       --#{$prefix}nav-tabs-link-hover-border-color: var(--#{$prefix}gray-900) var(--#{$prefix}gray-900) var(--#{$prefix}gray-700);
       --#{$prefix}nav-tabs-link-active-color: var(--#{$prefix}gray-300);
       --#{$prefix}nav-tabs-link-active-bg: var(--#{$prefix}gray-900);
       --#{$prefix}nav-tabs-link-active-border-color: var(--#{$prefix}gray-700) var(--#{$prefix}gray-700) var(--#{$prefix}gray-900);
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .nav-pills {
+      --#{$prefix}nav-pills-link-active-color: #{color-contrast(tint-color($primary, 40%))};
+      --#{$prefix}nav-pills-link-active-bg: #{tint-color($primary, 40%)};
     }
   }
 }
@@ -191,8 +232,31 @@
       --#{$prefix}pagination-hover-bg: var(--#{$prefix}gray-900);
       --#{$prefix}pagination-hover-border-color: var(--#{$prefix}gray-500);
       --#{$prefix}pagination-focus-bg: var(--#{$prefix}gray-700);
+      --#{$prefix}pagination-active-color: #{color-contrast(tint-color($primary, 40%))};
+      --#{$prefix}pagination-active-bg: #{tint-color($primary, 40%)};
+      --#{$prefix}pagination-active-border-color: #{tint-color($primary, 40%)};
       --#{$prefix}pagination-disabled-bg: var(--#{$prefix}gray-700);
       --#{$prefix}pagination-disabled-border-color: var(--#{$prefix}gray-300);
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .progress,
+    .progress-stacked {
+      --#{$prefix}progress-bar-color: #{color-contrast(tint-color($primary, 40%))};
+      --#{$prefix}progress-bar-bg: #{tint-color($primary, 40%)};
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .list-group {
+      --#{$prefix}list-group-active-color: #{color-contrast(tint-color($primary, 40%))};
+      --#{$prefix}list-group-active-bg: #{tint-color($primary, 40%)};
+      --#{$prefix}list-group-active-border-color: #{tint-color($primary, 40%)};
     }
   }
 }
@@ -258,6 +322,14 @@ div:has(> nav.navbar) {
   @include color-mode(dark) {
     .form-control, .form-select {
       background-color: var(--#{$prefix}body-bg) !important;
+    }
+  }
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .form-control::file-selector-button {
+      color: #{tint-color($primary, 40%)};
     }
   }
 }

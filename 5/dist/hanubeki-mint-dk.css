@@ -12280,6 +12280,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   --hlt-btn-disabled-border-color: #c7979b;
 }
 
+.form-select:-moz-focusring {
+  text-shadow: 0 0 0 #85c5c4;
+}
+
 .form-check-input:checked {
   background-color: #85c5c4;
   border-color: #85c5c4;
@@ -12296,12 +12300,29 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   --hlt-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23233333' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
+.form-range::-webkit-slider-thumb {
+  background-color: #85c5c4;
+}
+
+.form-range::-moz-range-thumb {
+  background-color: #85c5c4;
+}
+
+.input-group-text {
+  color: #85c5c4;
+}
+
 .nav-tabs {
   --hlt-nav-tabs-border-color: var(--hlt-gray-700);
   --hlt-nav-tabs-link-hover-border-color: var(--hlt-gray-900) var(--hlt-gray-900) var(--hlt-gray-700);
   --hlt-nav-tabs-link-active-color: var(--hlt-gray-300);
   --hlt-nav-tabs-link-active-bg: var(--hlt-gray-900);
   --hlt-nav-tabs-link-active-border-color: var(--hlt-gray-700) var(--hlt-gray-700) var(--hlt-gray-900);
+}
+
+.nav-pills {
+  --hlt-nav-pills-link-active-color: #233333;
+  --hlt-nav-pills-link-active-bg: #85c5c4;
 }
 
 .dropdown-menu {
@@ -12315,8 +12336,23 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   --hlt-pagination-hover-bg: var(--hlt-gray-900);
   --hlt-pagination-hover-border-color: var(--hlt-gray-500);
   --hlt-pagination-focus-bg: var(--hlt-gray-700);
+  --hlt-pagination-active-color: #233333;
+  --hlt-pagination-active-bg: #85c5c4;
+  --hlt-pagination-active-border-color: #85c5c4;
   --hlt-pagination-disabled-bg: var(--hlt-gray-700);
   --hlt-pagination-disabled-border-color: var(--hlt-gray-300);
+}
+
+.progress,
+.progress-stacked {
+  --hlt-progress-bar-color: #233333;
+  --hlt-progress-bar-bg: #85c5c4;
+}
+
+.list-group {
+  --hlt-list-group-active-color: #233333;
+  --hlt-list-group-active-bg: #85c5c4;
+  --hlt-list-group-active-border-color: #85c5c4;
 }
 
 .tooltip {
@@ -12345,6 +12381,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 /* Lemmy additions */
 .form-control, .form-select {
   background-color: var(--hlt-body-bg) !important;
+}
+
+.form-control::file-selector-button {
+  color: #85c5c4;
 }
 
 .thumbnail {

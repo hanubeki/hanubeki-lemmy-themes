@@ -12276,6 +12276,11 @@ textarea.form-control-lg {
   }
 }
 @media (prefers-color-scheme: dark) {
+  .form-select:-moz-focusring {
+    text-shadow: 0 0 0 #caa0ba;
+  }
+}
+@media (prefers-color-scheme: dark) {
   .form-check-input:checked {
     background-color: #caa0ba;
     border-color: #caa0ba;
@@ -12293,12 +12298,33 @@ textarea.form-control-lg {
   }
 }
 @media (prefers-color-scheme: dark) {
+  .form-range::-webkit-slider-thumb {
+    background-color: #caa0ba;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .form-range::-moz-range-thumb {
+    background-color: #caa0ba;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .input-group-text {
+    color: #caa0ba;
+  }
+}
+@media (prefers-color-scheme: dark) {
   .nav-tabs {
     --hlt-nav-tabs-border-color: var(--hlt-gray-700);
     --hlt-nav-tabs-link-hover-border-color: var(--hlt-gray-900) var(--hlt-gray-900) var(--hlt-gray-700);
     --hlt-nav-tabs-link-active-color: var(--hlt-gray-300);
     --hlt-nav-tabs-link-active-bg: var(--hlt-gray-900);
     --hlt-nav-tabs-link-active-border-color: var(--hlt-gray-700) var(--hlt-gray-700) var(--hlt-gray-900);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .nav-pills {
+    --hlt-nav-pills-link-active-color: #3c2c35;
+    --hlt-nav-pills-link-active-bg: #caa0ba;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -12314,8 +12340,25 @@ textarea.form-control-lg {
     --hlt-pagination-hover-bg: var(--hlt-gray-900);
     --hlt-pagination-hover-border-color: var(--hlt-gray-500);
     --hlt-pagination-focus-bg: var(--hlt-gray-700);
+    --hlt-pagination-active-color: #3c2c35;
+    --hlt-pagination-active-bg: #caa0ba;
+    --hlt-pagination-active-border-color: #caa0ba;
     --hlt-pagination-disabled-bg: var(--hlt-gray-700);
     --hlt-pagination-disabled-border-color: var(--hlt-gray-300);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .progress,
+  .progress-stacked {
+    --hlt-progress-bar-color: #3c2c35;
+    --hlt-progress-bar-bg: #caa0ba;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .list-group {
+    --hlt-list-group-active-color: #3c2c35;
+    --hlt-list-group-active-bg: #caa0ba;
+    --hlt-list-group-active-border-color: #caa0ba;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -12364,6 +12407,11 @@ div:has(> nav.navbar) {
 @media (prefers-color-scheme: dark) {
   .form-control, .form-select {
     background-color: var(--hlt-body-bg) !important;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .form-control::file-selector-button {
+    color: #caa0ba;
   }
 }
 @media (prefers-color-scheme: dark) {
