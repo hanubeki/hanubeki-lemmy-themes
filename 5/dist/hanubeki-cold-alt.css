@@ -12087,6 +12087,36 @@ textarea.form-control-lg {
   .text-bg-danger {
     color: #29313c !important;
   }
+  .text-bg-light {
+    color: #29313c !important;
+  }
+  .text-bg-dark {
+    color: #eaf1ff !important;
+  }
+  .badge.bg-primary {
+    color: #29313c !important;
+  }
+  .badge.bg-secondary {
+    color: #29313c !important;
+  }
+  .badge.bg-success {
+    color: #29313c !important;
+  }
+  .badge.bg-info {
+    color: #29313c !important;
+  }
+  .badge.bg-warning {
+    color: #29313c !important;
+  }
+  .badge.bg-danger {
+    color: #29313c !important;
+  }
+  .badge.bg-light {
+    color: #29313c !important;
+  }
+  .badge.bg-dark {
+    color: #eaf1ff !important;
+  }
   .btn {
     --hlt-btn-box-shadow: inset 0 1px 0 rgba(41, 49, 60, 0.15), 0 1px 1px rgba(234, 241, 255, 0.075);
   }

@@ -12080,6 +12080,46 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   color: #233333 !important;
 }
 
+.text-bg-light {
+  color: #233333 !important;
+}
+
+.text-bg-dark {
+  color: #e2f5f3 !important;
+}
+
+.badge.bg-primary {
+  color: #233333 !important;
+}
+
+.badge.bg-secondary {
+  color: #233333 !important;
+}
+
+.badge.bg-success {
+  color: #233333 !important;
+}
+
+.badge.bg-info {
+  color: #233333 !important;
+}
+
+.badge.bg-warning {
+  color: #233333 !important;
+}
+
+.badge.bg-danger {
+  color: #233333 !important;
+}
+
+.badge.bg-light {
+  color: #233333 !important;
+}
+
+.badge.bg-dark {
+  color: #e2f5f3 !important;
+}
+
 .btn {
   --hlt-btn-box-shadow: inset 0 1px 0 rgba(35, 51, 51, 0.15), 0 1px 1px rgba(226, 245, 243, 0.075);
 }

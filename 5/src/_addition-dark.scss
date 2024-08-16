@@ -54,10 +54,24 @@
 }
 
 @each $color, $value in $theme-colors {
-  @if $color == "light" {
-  } @else if $color == "dark" {
-  } @else {
-    .text-bg-#{$color} {
+  .text-bg-#{$color} {
+    @if $color == "light" {
+      color: #{color-contrast($value)} !important;
+    } @else if $color == "dark" {
+      color: #{color-contrast($value)} !important;
+    } @else {
+      color: #{color-contrast(tint-color($value, 40%))} !important;
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .badge.bg-#{$color} {
+    @if $color == "light" {
+      color: #{color-contrast($value)} !important;
+    } @else if $color == "dark" {
+      color: #{color-contrast($value)} !important;
+    } @else {
       color: #{color-contrast(tint-color($value, 40%))} !important;
     }
   }
