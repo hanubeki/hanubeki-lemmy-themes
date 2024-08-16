@@ -121,6 +121,10 @@
         }
       }
     }
+
+    .btn-link {
+      --#{$prefix}btn-focus-shadow-rgb: #{$btn-link-focus-shadow-rgb-dark};
+    }
   }
 }
 

@@ -1,4 +1,6 @@
 $min-contrast-ratio: 2.5;
+$color-contrast-dark: $black;
+$color-contrast-light: $white;
 $light-bg-subtle: $gray-100;
 $dark-bg-subtle: $gray-500;
 $light-border-subtle: $gray-300;
@@ -72,6 +74,9 @@ $body-tertiary-color-dark: $gray-500;
 $body-tertiary-bg-dark: $gray-900;
 $mark-color-dark: $white;
 $mark-bg-dark: #82791f;
+
+$link-color-dark:                  tint-color($primary, 40%);
+$btn-link-focus-shadow-rgb-dark:   to-rgb(mix(color-contrast($link-color-dark), $link-color-dark, 15%));
 
 $form-check-input-checked-color-dark:          $black;
 $form-check-input-checked-bg-color-dark:       tint-color($primary, 40%);

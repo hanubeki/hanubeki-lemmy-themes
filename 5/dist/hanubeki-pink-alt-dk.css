@@ -12280,6 +12280,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   --hlt-btn-disabled-border-color: #c7979b;
 }
 
+.btn-link {
+  --hlt-btn-focus-shadow-rgb: 181, 143, 166;
+}
+
 .form-select:-moz-focusring {
   text-shadow: 0 0 0 #caa0ba;
 }

@@ -79,6 +79,10 @@
   }
 }
 
+.btn-link {
+  --#{$prefix}btn-focus-shadow-rgb: #{$btn-link-focus-shadow-rgb-dark};
+}
+
 .form-select:-moz-focusring {
   text-shadow: 0 0 0 #{tint-color($primary, 40%)};
 }

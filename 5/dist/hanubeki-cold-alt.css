@@ -12274,6 +12274,9 @@ textarea.form-control-lg {
     --hlt-btn-disabled-bg: #c7979b;
     --hlt-btn-disabled-border-color: #c7979b;
   }
+  .btn-link {
+    --hlt-btn-focus-shadow-rgb: 107, 160, 176;
+  }
 }
 @media (prefers-color-scheme: dark) {
   .form-select:-moz-focusring {
