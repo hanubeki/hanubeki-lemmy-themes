@@ -91,6 +91,10 @@
   --#{$prefix}btn-focus-shadow-rgb: #{$btn-link-focus-shadow-rgb-dark};
 }
 
+@each $color, $value in $table-variants-dark {
+  @include table-variant-dark($color, $value);
+}
+
 .form-select:-moz-focusring {
   text-shadow: 0 0 0 #{tint-color($primary, 40%)};
 }

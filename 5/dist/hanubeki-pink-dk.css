@@ -12292,6 +12292,118 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   --hlt-btn-focus-shadow-rgb: 181, 143, 166;
 }
 
+.table-primary {
+  --hlt-table-color: #ffecf4;
+  --hlt-table-bg: #422738;
+  --hlt-table-border-color: #a18a96;
+  --hlt-table-striped-bg: #4b3141;
+  --hlt-table-striped-color: #ffecf4;
+  --hlt-table-active-bg: #553b4b;
+  --hlt-table-active-color: #ffecf4;
+  --hlt-table-hover-bg: #503646;
+  --hlt-table-hover-color: #ffecf4;
+  color: var(--hlt-table-color);
+  border-color: var(--hlt-table-border-color);
+}
+
+.table-secondary {
+  --hlt-table-color: #ffecf4;
+  --hlt-table-bg: #362d32;
+  --hlt-table-border-color: #9b8d93;
+  --hlt-table-striped-bg: #40373c;
+  --hlt-table-striped-color: #ffecf4;
+  --hlt-table-active-bg: #4a4045;
+  --hlt-table-active-color: #ffecf4;
+  --hlt-table-hover-bg: #453b41;
+  --hlt-table-hover-color: #ffecf4;
+  color: var(--hlt-table-color);
+  border-color: var(--hlt-table-border-color);
+}
+
+.table-success {
+  --hlt-table-color: #ffecf4;
+  --hlt-table-bg: #253419;
+  --hlt-table-border-color: #929087;
+  --hlt-table-striped-bg: #303d24;
+  --hlt-table-striped-color: #ffecf4;
+  --hlt-table-active-bg: #3b462f;
+  --hlt-table-active-color: #ffecf4;
+  --hlt-table-hover-bg: #354229;
+  --hlt-table-hover-color: #ffecf4;
+  color: var(--hlt-table-color);
+  border-color: var(--hlt-table-border-color);
+}
+
+.table-info {
+  --hlt-table-color: #ffecf4;
+  --hlt-table-bg: #22233d;
+  --hlt-table-border-color: #918899;
+  --hlt-table-striped-bg: #2d2d46;
+  --hlt-table-striped-color: #ffecf4;
+  --hlt-table-active-bg: #38374f;
+  --hlt-table-active-color: #ffecf4;
+  --hlt-table-hover-bg: #33324b;
+  --hlt-table-hover-color: #ffecf4;
+  color: var(--hlt-table-color);
+  border-color: var(--hlt-table-border-color);
+}
+
+.table-warning {
+  --hlt-table-color: #ffecf4;
+  --hlt-table-bg: #4b3615;
+  --hlt-table-border-color: #a59185;
+  --hlt-table-striped-bg: #543f20;
+  --hlt-table-striped-color: #ffecf4;
+  --hlt-table-active-bg: #5d482b;
+  --hlt-table-active-color: #ffecf4;
+  --hlt-table-hover-bg: #594426;
+  --hlt-table-hover-color: #ffecf4;
+  color: var(--hlt-table-color);
+  border-color: var(--hlt-table-border-color);
+}
+
+.table-danger {
+  --hlt-table-color: #ffecf4;
+  --hlt-table-bg: #412124;
+  --hlt-table-border-color: #a0878c;
+  --hlt-table-striped-bg: #4b2b2e;
+  --hlt-table-striped-color: #ffecf4;
+  --hlt-table-active-bg: #543539;
+  --hlt-table-active-color: #ffecf4;
+  --hlt-table-hover-bg: #4f3034;
+  --hlt-table-hover-color: #ffecf4;
+  color: var(--hlt-table-color);
+  border-color: var(--hlt-table-border-color);
+}
+
+.table-light {
+  --hlt-table-color: #3c2c35;
+  --hlt-table-bg: #d8c0cb;
+  --hlt-table-border-color: #8a7680;
+  --hlt-table-striped-bg: #d0b9c4;
+  --hlt-table-striped-color: #3c2c35;
+  --hlt-table-active-bg: #c8b1bc;
+  --hlt-table-active-color: #3c2c35;
+  --hlt-table-hover-bg: #ccb5c0;
+  --hlt-table-hover-color: #3c2c35;
+  color: var(--hlt-table-color);
+  border-color: var(--hlt-table-border-color);
+}
+
+.table-dark {
+  --hlt-table-color: #ffecf4;
+  --hlt-table-bg: #53424b;
+  --hlt-table-border-color: #a997a0;
+  --hlt-table-striped-bg: #5c4b53;
+  --hlt-table-striped-color: #ffecf4;
+  --hlt-table-active-bg: #64535c;
+  --hlt-table-active-color: #ffecf4;
+  --hlt-table-hover-bg: #604f58;
+  --hlt-table-hover-color: #ffecf4;
+  color: var(--hlt-table-color);
+  border-color: var(--hlt-table-border-color);
+}
+
 .form-select:-moz-focusring {
   text-shadow: 0 0 0 #caa0ba;
 }
