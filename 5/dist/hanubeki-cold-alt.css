@@ -12379,6 +12379,38 @@ textarea.form-control-lg {
   }
 }
 @media (prefers-color-scheme: dark) {
+  .link-primary:hover,
+  .link-primary:focus {
+    color: RGBA(146, 194, 209, var(--hlt-link-opacity, 1)) !important;
+    text-decoration-color: RGBA(146, 194, 209, var(--hlt-link-underline-opacity, 1)) !important;
+  }
+  .link-secondary:hover,
+  .link-secondary:focus {
+    color: RGBA(174, 175, 206, var(--hlt-link-opacity, 1)) !important;
+    text-decoration-color: RGBA(174, 175, 206, var(--hlt-link-underline-opacity, 1)) !important;
+  }
+  .link-success:hover,
+  .link-success:focus {
+    color: RGBA(177, 194, 162, var(--hlt-link-opacity, 1)) !important;
+    text-decoration-color: RGBA(177, 194, 162, var(--hlt-link-underline-opacity, 1)) !important;
+  }
+  .link-info:hover,
+  .link-info:focus {
+    color: RGBA(161, 185, 210, var(--hlt-link-opacity, 1)) !important;
+    text-decoration-color: RGBA(161, 185, 210, var(--hlt-link-underline-opacity, 1)) !important;
+  }
+  .link-warning:hover,
+  .link-warning:focus {
+    color: RGBA(223, 197, 157, var(--hlt-link-opacity, 1)) !important;
+    text-decoration-color: RGBA(223, 197, 157, var(--hlt-link-underline-opacity, 1)) !important;
+  }
+  .link-danger:hover,
+  .link-danger:focus {
+    color: RGBA(210, 172, 175, var(--hlt-link-opacity, 1)) !important;
+    text-decoration-color: RGBA(210, 172, 175, var(--hlt-link-underline-opacity, 1)) !important;
+  }
+}
+@media (prefers-color-scheme: dark) {
   .link-dark {
     color: var(--hlt-gray-100) !important;
     text-decoration-color: var(--hlt-gray-100) !important;

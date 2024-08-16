@@ -186,6 +186,21 @@
   --#{$prefix}breadcrumb-item-active-color: var(--#{$prefix}white);
 }
 
+@each $color, $value in $theme-colors {
+  @if $color == "light" {
+  } @else if $color == "dark" {
+  } @else {
+    @if $link-shade-percentage != 0 {
+      .link-#{$color}:hover,
+      .link-#{$color}:focus {
+        $hover-color: if(color-contrast(tint-color($value, 40%)) == $color-contrast-light, shade-color(tint-color($value, 40%), $link-shade-percentage), tint-color(tint-color($value, 40%), $link-shade-percentage));
+        color: RGBA(#{to-rgb($hover-color)}, var(--#{$prefix}link-opacity, 1)) if($enable-important-utilities, !important, null);
+        text-decoration-color: RGBA(to-rgb($hover-color), var(--#{$prefix}link-underline-opacity, 1)) if($enable-important-utilities, !important, null);
+      }
+    }
+  }
+}
+
 .link-dark {
   color: var(--#{$prefix}gray-100) !important;
   text-decoration-color: var(--#{$prefix}gray-100) !important;
