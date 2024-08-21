@@ -44,7 +44,7 @@
     }
 
     const hltThemeToggle = function () {
-        if (document.querySelector(":root").getAttribute("data-bs-theme") === "dark") {
+        if (document.documentElement.getAttribute("data-bs-theme") === "dark") {
             switch_theme_rules("dark");
         } else {
             switch_theme_rules("light");
@@ -59,7 +59,7 @@
         });
     });
 
-    observer.observe(document.querySelector(":root"), {attributes: true});
+    observer.observe(document.documentElement, {attributes: true});
 
     const prefersColorScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
