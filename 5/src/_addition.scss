@@ -51,7 +51,6 @@
   &.active, &:active {
     color: var(--#{$prefix}white) !important;
     background-color: var(--#{$prefix}primary) !important;
-    background-image: none !important;
     border-color: transparent !important;
   }
 

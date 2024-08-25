@@ -24,7 +24,6 @@
   &.active, &:active {
     color: var(--#{$prefix}white) !important;
     background-color: var(--#{$prefix}promary) !important;
-    background-image: none !important;
     border-color: transparent !important;
   }
 
