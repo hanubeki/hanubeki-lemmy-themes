@@ -23,7 +23,7 @@
 
   &.active, &:active {
     color: var(--#{$prefix}white) !important;
-    background-color: var(--#{$prefix}promary) !important;
+    background-color: var(--#{$prefix}primary) !important;
     border-color: transparent !important;
   }
 
@@ -39,11 +39,37 @@
   border-color: transparent !important;
   --#{$prefix}btn-padding-y: 0.125rem;
   --#{$prefix}btn-focus-shadow-rgb: var(--#{$prefix}primary-rgb);
+
+  &.disabled, &:disabled {
+    color: var(--#{$prefix}black) !important;
+    background-color: transparent !important;
+  }
+
+  &.active, &:active {
+    color: var(--#{$prefix}white) !important;
+    background-color: var(--#{$prefix}primary) !important;
+    border-color: transparent !important;
+  }
+
+  &:is(:focus, :hover):not(.active, :active) {
+    color: var(--#{$prefix}white) !important;
+    background-color: var(--#{$prefix}primary) !important;
+  }
 }
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
     .btn-group:not(.btn-group-toggle) .btn-outline-secondary  {
+      &.active, &:active {
+        color: var(--#{$prefix}black) !important;
+      }
+    
+      &:is(:focus, :hover):not(.active, :active) {
+        color: var(--#{$prefix}black) !important;
+      }
+    }
+
+    .btn-group:not(.btn-group-toggle) .btn-outline-primary  {
       &.active, &:active {
         color: var(--#{$prefix}black) !important;
       }

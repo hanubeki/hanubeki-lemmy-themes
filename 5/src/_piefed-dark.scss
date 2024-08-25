@@ -10,6 +10,16 @@
   }
 }
 
+.btn-group:not(.btn-group-toggle) .btn-outline-primary  {
+  &.active, &:active {
+    color: var(--#{$prefix}black) !important;
+  }
+
+  &:is(:focus, :hover):not(.active, :active) {
+    color: var(--#{$prefix}black) !important;
+  }
+}
+
 /* PieFed */
 
 #post_replies .comment .replies {

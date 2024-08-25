@@ -12035,7 +12035,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 .btn-group:not(.btn-group-toggle) .btn-outline-secondary.active, .btn-group:not(.btn-group-toggle) .btn-outline-secondary:active {
   color: var(--hlt-white) !important;
-  background-color: var(--hlt-promary) !important;
+  background-color: var(--hlt-primary) !important;
   border-color: transparent !important;
 }
 .btn-group:not(.btn-group-toggle) .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
@@ -12049,6 +12049,19 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   border-color: transparent !important;
   --hlt-btn-padding-y: 0.125rem;
   --hlt-btn-focus-shadow-rgb: var(--hlt-primary-rgb);
+}
+.btn-group:not(.btn-group-toggle) .btn-primary.disabled, .btn-group:not(.btn-group-toggle) .btn-primary:disabled {
+  color: var(--hlt-black) !important;
+  background-color: transparent !important;
+}
+.btn-group:not(.btn-group-toggle) .btn-primary.active, .btn-group:not(.btn-group-toggle) .btn-primary:active {
+  color: var(--hlt-white) !important;
+  background-color: var(--hlt-primary) !important;
+  border-color: transparent !important;
+}
+.btn-group:not(.btn-group-toggle) .btn-primary:is(:focus, :hover):not(.active, :active) {
+  color: var(--hlt-white) !important;
+  background-color: var(--hlt-primary) !important;
 }
 
 /* PieFed */
