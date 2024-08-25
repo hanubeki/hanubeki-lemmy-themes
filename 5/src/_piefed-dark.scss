@@ -1,26 +1,12 @@
 /* Button style overrides */
 
-.btn-group:not(.btn-group-toggle):has(.btn-outline-secondary) {
-  background-color: transparent;
-  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
-}
-
-.btn-group:not(.btn-group-toggle) .btn-outline-secondary {
-  --#{$prefix}btn-focus-shadow-rgb: var(--#{$prefix}secondary-rgb);
-
-  &.disabled, &:disabled {
-    color: var(--#{$prefix}gray) !important;
-  }
-
+.btn-group:not(.btn-group-toggle) .btn-outline-secondary  {
   &.active, &:active {
-    background-color: var(--#{$prefix}black) !important;
-    background-image: none !important;
-    border-color: transparent !important;
+    color: var(--#{$prefix}black) !important;
   }
 
   &:is(:focus, :hover):not(.active, :active) {
     color: var(--#{$prefix}black) !important;
-    background-color: var(--#{$prefix}secondary) !important;
   }
 }
 
