@@ -44,7 +44,7 @@
   --#{$prefix}btn-focus-shadow-rgb: var(--#{$prefix}secondary-rgb);
 
   &.disabled, &:disabled {
-    color: var(--#{$prefix}gray) !important;
+    color: var(--#{$prefix}black) !important;
     background-color: transparent !important;
   }
 

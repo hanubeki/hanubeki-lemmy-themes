@@ -11916,7 +11916,7 @@ textarea.form-control-lg {
   --hlt-btn-focus-shadow-rgb: var(--hlt-secondary-rgb);
 }
 .btn-group-toggle .btn-outline-secondary.disabled, .btn-group-toggle .btn-outline-secondary:disabled {
-  color: var(--hlt-gray) !important;
+  color: var(--hlt-black) !important;
   background-color: transparent !important;
 }
 .btn-group-toggle .btn-outline-secondary.active, .btn-group-toggle .btn-outline-secondary:active {
@@ -12031,7 +12031,7 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   --hlt-btn-focus-shadow-rgb: var(--hlt-secondary-rgb);
 }
 .btn-group:not(.btn-group-toggle) .btn-outline-secondary.disabled, .btn-group:not(.btn-group-toggle) .btn-outline-secondary:disabled {
-  color: var(--hlt-gray) !important;
+  color: var(--hlt-black) !important;
   background-color: transparent !important;
 }
 .btn-group:not(.btn-group-toggle) .btn-outline-secondary.active, .btn-group:not(.btn-group-toggle) .btn-outline-secondary:active {
