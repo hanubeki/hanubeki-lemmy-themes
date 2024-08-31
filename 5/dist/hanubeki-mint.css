@@ -12936,10 +12936,10 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   .btn-group:not(.btn-group-toggle) .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
     color: var(--hlt-black) !important;
   }
-  .btn-group:not(.btn-group-toggle) .btn-outline-primary.active, .btn-group:not(.btn-group-toggle) .btn-outline-primary:active {
+  .btn-group:not(.btn-group-toggle) .btn-primary.active, .btn-group:not(.btn-group-toggle) .btn-primary:active {
     color: var(--hlt-black) !important;
   }
-  .btn-group:not(.btn-group-toggle) .btn-outline-primary:is(:focus, :hover):not(.active, :active) {
+  .btn-group:not(.btn-group-toggle) .btn-primary:is(:focus, :hover):not(.active, :active) {
     color: var(--hlt-black) !important;
   }
 }

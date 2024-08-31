@@ -10,7 +10,7 @@
   }
 }
 
-.btn-group:not(.btn-group-toggle) .btn-outline-primary  {
+.btn-group:not(.btn-group-toggle) .btn-primary  {
   &.active, &:active {
     color: var(--#{$prefix}black) !important;
   }
