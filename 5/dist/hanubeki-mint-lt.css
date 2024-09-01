@@ -76,7 +76,7 @@
   --hlt-white-rgb: 226, 245, 243;
   --hlt-black-rgb: 35, 51, 51;
   --hlt-font-sans-serif: "IBM Plex Sans JP", "M PLUS 2", "M PLUS 1", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Meiryo", "Source Han Sans VF", "Source Han Sans", "MS PGothic", "Osaka", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Verdana", "Ubuntu", "Cantarell", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --hlt-font-monospace: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "M PLUS 1 Code", "Source Han Sans HW VF", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
+  --hlt-font-monospace: "HackGen", "PlemolJP", "UDEV Gothic", "Sarasa Mono J", "M PLUS 1 Code", "Cascadia Next JP", "Source Han Sans HW VF", "Source Han Sans HW", "MS Gothic", "Osaka-Mono", "IPAGothic", monospace;
   --hlt-gradient: linear-gradient(180deg, rgba(226, 245, 243, 0.15), rgba(226, 245, 243, 0));
   --hlt-root-font-size: 93.75%;
   --hlt-body-font-family: var(--hlt-font-sans-serif);
