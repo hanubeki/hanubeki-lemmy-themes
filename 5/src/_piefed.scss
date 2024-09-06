@@ -208,7 +208,7 @@ div.navbar {
 }
 
 .voting_buttons_new .upvote_button, .voting_buttons_new .downvote_button {
-  color: var(--#{$prefix}info);
+  color: var(--#{$prefix}primary);
 }
 
 #masonry .item .masonry_info .row .col .upvote_button.voted_up, #masonry .item .masonry_info .row .col .downvote_button.voted_up,
