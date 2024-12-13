@@ -4,18 +4,20 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$theme: "hanubeki-mint-lt";
+$theme: "hlt-cold-alt-dk";
 $prefix: hlt-;
 $enable-dark-mode: false;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hanubeki-mint";
+@import "palette.hlt-cold";
 @import "palette.common";
-@import "variables.hanubeki-mint";
+@import "variables.hlt-cold-alt";
 @import "variables.common";
+@import "variables.force-dark";
 
 @import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
 
 @import "subset";
 
@@ -23,5 +25,7 @@ $enable-dark-mode: false;
 
 @import "prefixed";
 @import "addition";
+@import "addition-dark";
 
 @import "piefed";
+@import "piefed-dark";

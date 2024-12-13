@@ -4,14 +4,14 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$theme: "hanubeki-cold-alt";
+$theme: "hlt-fruits";
 $prefix: hlt-;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hanubeki-cold";
+@import "palette.hlt-fruits";
 @import "palette.common";
-@import "variables.hanubeki-cold-alt";
+@import "variables.hlt-fruits";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";

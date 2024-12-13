@@ -4,18 +4,18 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$theme: "hanubeki-fruits-lt";
+$theme: "hlt-cold-alt";
 $prefix: hlt-;
-$enable-dark-mode: false;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hanubeki-fruits";
+@import "palette.hlt-cold";
 @import "palette.common";
-@import "variables.hanubeki-fruits";
+@import "variables.hlt-cold-alt";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
 
 @import "subset";
 
