@@ -4,15 +4,15 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$theme: "hanubeki-mint-lt";
+$theme: "hlt-cold-alt-light";
 $prefix: hlt-;
 $enable-dark-mode: false;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hanubeki-mint";
+@import "palette.hlt-cold";
 @import "palette.common";
-@import "variables.hanubeki-mint-alt";
+@import "variables.hlt-cold-alt";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";

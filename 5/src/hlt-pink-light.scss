@@ -3,19 +3,19 @@
 
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
-
-$theme: "hanubeki-mint-alt";
+ 
+$theme: "hlt-pink-light";
 $prefix: hlt-;
+$enable-dark-mode: false;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hanubeki-mint";
+@import "palette.hlt-pink";
 @import "palette.common";
-@import "variables.hanubeki-mint-alt";
+@import "variables.hlt-pink";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/variables-dark";
 
 @import "subset";
 

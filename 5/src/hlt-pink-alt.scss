@@ -4,17 +4,15 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$theme: "hanubeki-mint-dk";
+$theme: "hlt-pink-alt";
 $prefix: hlt-;
-$enable-dark-mode: false;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hanubeki-mint";
+@import "palette.hlt-pink";
 @import "palette.common";
-@import "variables.hanubeki-mint-alt";
+@import "variables.hlt-pink-alt";
 @import "variables.common";
-@import "variables.force-dark";
 
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/variables-dark";
@@ -25,7 +23,5 @@ $enable-dark-mode: false;
 
 @import "prefixed";
 @import "addition";
-@import "addition-dark";
 
 @import "piefed";
-@import "piefed-dark";

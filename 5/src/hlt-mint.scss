@@ -4,18 +4,18 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$theme: "hanubeki-cold-lt";
+$theme: "hlt-mint";
 $prefix: hlt-;
-$enable-dark-mode: false;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hanubeki-cold";
+@import "palette.hlt-mint";
 @import "palette.common";
-@import "variables.hanubeki-cold";
+@import "variables.hlt-mint";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
 
 @import "subset";
 
