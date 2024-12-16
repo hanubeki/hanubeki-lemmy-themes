@@ -3,7 +3,7 @@
 
     function switch_theme_rules(theme) {
         for (let sheet_file = 0; sheet_file < document.styleSheets.length; sheet_file++) {
-            if (document.styleSheets[sheet_file].href && document.styleSheets[sheet_file].href.includes("/hanubeki-") && !(document.styleSheets[sheet_file].href.includes("-lt/") || document.styleSheets[sheet_file].href.includes("-dk/"))) {
+            if (document.styleSheets[sheet_file].href && document.styleSheets[sheet_file].href.includes("/hlt-") && !(document.styleSheets[sheet_file].href.includes("-light/") || document.styleSheets[sheet_file].href.includes("-dark/"))) {
                 try {
                     for (let sheet_rule = 0; sheet_rule < document.styleSheets[sheet_file].cssRules.length; sheet_rule++) {
                         const rule = document.styleSheets[sheet_file].cssRules[sheet_rule];
