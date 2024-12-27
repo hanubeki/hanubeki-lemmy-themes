@@ -22,10 +22,10 @@ $enable-dark-mode: false;
 @import "subset";
 
 @import "mixins";
+@import "mixins-dark";
+
+$enable-dark-mode: true;
 
 @import "prefixed";
 @import "addition";
-@import "addition-dark";
-
 @import "piefed";
-@import "piefed-dark";
