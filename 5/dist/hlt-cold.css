@@ -12760,6 +12760,11 @@ div:has(> nav.navbar) {
   background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
 }
 
+@media (prefers-color-scheme: dark) {
+  pre {
+    color: var(--hlt-gray-300);
+  }
+}
 .card {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;
@@ -13098,4 +13103,34 @@ div.navbar {
 
 .form-check .form-check-input {
   top: -2px;
+}
+
+.coolfieldset legend, .coolfieldset.expanded legend {
+  background: var(--hlt-gray-100) url(/static/images/expanded.gif) no-repeat center left;
+}
+
+.coolfieldset.collapsed legend {
+  background: var(--hlt-gray-100) url(/static/images/collapsed.gif) no-repeat center left;
+}
+
+.coolfieldset, .coolfieldset.expanded {
+  border-color: var(--hlt-border-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root .coolfieldset legend, :root .coolfieldset.expanded legend {
+    background: var(--hlt-gray-900) url(/static/images/expanded.gif) no-repeat center left;
+  }
+  :root .coolfieldset.collapsed legend {
+    background: var(--hlt-gray-900) url(/static/images/collapsed.gif) no-repeat center left;
+  }
+}
+.user_preview {
+  border-radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root .user_preview {
+    background-color: var(--hlt-black) !important;
+  }
 }

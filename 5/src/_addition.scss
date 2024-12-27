@@ -417,6 +417,14 @@ div:has(> nav.navbar) {
   background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
 }
 
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    pre {
+      color: var(--#{$prefix}gray-300);
+    }
+  }
+}
+
 .card {
   background-color: var(--hb-post-background);
   border-radius: 0.5rem;

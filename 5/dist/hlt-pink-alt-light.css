@@ -12214,3 +12214,19 @@ div.navbar {
 .form-check .form-check-input {
   top: -2px;
 }
+
+.coolfieldset legend, .coolfieldset.expanded legend {
+  background: var(--hlt-gray-100) url(/static/images/expanded.gif) no-repeat center left;
+}
+
+.coolfieldset.collapsed legend {
+  background: var(--hlt-gray-100) url(/static/images/collapsed.gif) no-repeat center left;
+}
+
+.coolfieldset, .coolfieldset.expanded {
+  border-color: var(--hlt-border-color);
+}
+
+.user_preview {
+  border-radius: 8px;
+}

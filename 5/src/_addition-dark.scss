@@ -282,6 +282,10 @@
 
 /* Lemmy additions */
 
+pre {
+  color: var(--#{$prefix}gray-300);
+}
+
 .form-control, .form-select {
   background-color: var(--#{$prefix}body-bg) !important;
 
