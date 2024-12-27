@@ -13041,6 +13041,14 @@ div.navbar {
   top: -2px;
 }
 
+.domain_link, .domain_link a {
+  color: var(--hlt-gray-500);
+}
+
+:root .domain_link, :root .domain_link a {
+  color: var(--hlt-gray-700);
+}
+
 .coolfieldset legend, .coolfieldset.expanded legend {
   background: var(--hlt-gray-100) url(/static/images/expanded.gif) no-repeat center left;
 }
@@ -13061,6 +13069,7 @@ div.navbar {
 }
 
 .user_preview {
+  background-color: var(--hlt-white) !important;
   border-radius: 8px;
 }
 

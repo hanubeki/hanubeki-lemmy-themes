@@ -249,6 +249,18 @@ div.navbar {
   top: -2px;
 }
 
+.domain_link, .domain_link a {
+  color: var(--#{$prefix}gray-500);
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark, true) {
+    .domain_link, .domain_link a {
+      color: var(--#{$prefix}gray-700);
+    }
+  }
+}
+
 .coolfieldset legend, .coolfieldset.expanded legend {
   background: var(--#{$prefix}gray-100) url(/static/images/expanded.gif) no-repeat center left;
 }
@@ -274,6 +286,7 @@ div.navbar {
 }
 
 .user_preview {
+  background-color: var(--#{$prefix}white) !important;
   border-radius: 8px;
 }
 
