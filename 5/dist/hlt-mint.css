@@ -13041,7 +13041,7 @@ div.navbar {
 }
 
 @media (prefers-color-scheme: dark) {
-  :root #post_replies .comment .replies {
+  #post_replies .comment .replies {
     border-left-color: var(--hlt-gray-700) !important;
     border-top-color: var(--hlt-gray-700) !important;
   }
@@ -13110,7 +13110,7 @@ div.navbar {
 }
 
 @media (prefers-color-scheme: dark) {
-  :root .domain_link, :root .domain_link a {
+  .domain_link, .domain_link a {
     color: var(--hlt-gray-700);
   }
 }
@@ -13127,10 +13127,10 @@ div.navbar {
 }
 
 @media (prefers-color-scheme: dark) {
-  :root .coolfieldset legend, :root .coolfieldset.expanded legend {
+  .coolfieldset legend, .coolfieldset.expanded legend {
     background: var(--hlt-gray-900) url(/static/images/expanded.gif) no-repeat center left;
   }
-  :root .coolfieldset.collapsed legend {
+  .coolfieldset.collapsed legend {
     background: var(--hlt-gray-900) url(/static/images/collapsed.gif) no-repeat center left;
   }
 }
@@ -13140,7 +13140,7 @@ div.navbar {
 }
 
 @media (prefers-color-scheme: dark) {
-  :root .user_preview {
+  .user_preview {
     background-color: var(--hlt-black) !important;
   }
 }

@@ -179,7 +179,7 @@ div.navbar {
 }
 
 @if $enable-dark-mode {
-  @include color-mode(dark, true) {
+  @include color-mode(dark) {
     #post_replies .comment .replies {
       border-left-color: var(--#{$prefix}gray-700) !important;
       border-top-color: var(--#{$prefix}gray-700) !important;
@@ -254,7 +254,7 @@ div.navbar {
 }
 
 @if $enable-dark-mode {
-  @include color-mode(dark, true) {
+  @include color-mode(dark) {
     .domain_link, .domain_link a {
       color: var(--#{$prefix}gray-700);
     }
@@ -274,7 +274,7 @@ div.navbar {
 }
 
 @if $enable-dark-mode {
-  @include color-mode(dark, true) {
+  @include color-mode(dark) {
     .coolfieldset legend, .coolfieldset.expanded legend {
       background: var(--#{$prefix}gray-900) url(/static/images/expanded.gif) no-repeat center left;
     }
@@ -291,7 +291,7 @@ div.navbar {
 }
 
 @if $enable-dark-mode {
-  @include color-mode(dark, true) {
+  @include color-mode(dark) {
     .user_preview {
       background-color: var(--#{$prefix}black) !important;
     }
