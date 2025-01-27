@@ -170,6 +170,14 @@ div.navbar {
 
 .comment > .row {
   margin: 0;
+
+  > :first-child {
+    padding-left: 0;
+  }
+  
+  > :last-child {
+    padding-right: 0;
+  }
 }
 
 #replies > .comment {

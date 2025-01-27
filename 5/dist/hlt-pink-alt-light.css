@@ -12148,6 +12148,12 @@ div.navbar {
 .comment > .row {
   margin: 0;
 }
+.comment > .row > :first-child {
+  padding-left: 0;
+}
+.comment > .row > :last-child {
+  padding-right: 0;
+}
 
 #replies > .comment {
   width: calc(100% - 0.5rem);
