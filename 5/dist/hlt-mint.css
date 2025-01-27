@@ -13025,7 +13025,7 @@ div.navbar {
 }
 
 @media (max-width: 575.98px) {
-  .post_replies > .col {
+  :is(#post_replies, .post_replies) > .col {
     padding-right: 0;
   }
 }
@@ -13043,7 +13043,6 @@ div.navbar {
   padding: 1rem;
   padding-bottom: 0;
 }
-
 #replies .comment .comment {
   background: none;
   padding-right: 0;

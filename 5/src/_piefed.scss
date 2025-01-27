@@ -163,7 +163,7 @@ div.navbar {
 }
 
 @include media-breakpoint-down(sm) {
-  .post_replies > .col {
+  :is(#post_replies, .post_replies) > .col {
       padding-right: 0;
   }
 }
@@ -181,11 +181,11 @@ div.navbar {
   border: none;
   padding: 1rem;
   padding-bottom: 0;
-}
 
-#replies .comment .comment {
-  background: none;
-  padding-right: 0;
+  .comment {
+    background: none;
+    padding-right: 0;
+  }
 }
 
 @include media-breakpoint-down(sm) {
