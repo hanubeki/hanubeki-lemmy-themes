@@ -485,9 +485,25 @@ div:has(> nav.navbar) {
 }
 
 @include media-breakpoint-down(sm) {
+  .post-listings, .comments {
+    margin-left: calc(-0.5 * var(--#{$prefix}gutter-x));
+    margin-right: calc(-0.5 * var(--#{$prefix}gutter-x));
+
+    .comments {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
   .post-listing, .comment {
-    margin: 0 -0.75rem 0.5rem !important;
+    margin-bottom: 0.5rem !important;
     border-radius: 0;
+  }
+
+  .post .post-listing {
+    margin-left: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
+    margin-right: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
+    margin-bottom: 1rem !important;
   }
 }
 

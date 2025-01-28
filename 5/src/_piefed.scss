@@ -124,7 +124,9 @@ div.navbar {
 
 @include media-breakpoint-down(sm) {
   #home_announcement {
-    margin: 0 -0.75rem 0.5rem !important;
+    margin-top: 0 !important;
+    margin-left: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
+    margin-right: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
     border-radius: 0;
   }
 }
@@ -147,14 +149,27 @@ div.navbar {
 }
 
 @include media-breakpoint-down(sm) {
+  .post_list {
+    margin-left: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
+    margin-right: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
+    border-radius: 0;
+  }
+
   .post_teaser, .topics_list {
-    margin: 0 -0.75rem 0.5rem !important;
+    margin-bottom: 0.5rem !important;
     border-radius: 0;
   }
 
   .post_col {
-    margin: 0 0 0.5rem !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     border-radius: 0;
+  }
+
+  div:has(> .topics_list) {
+    margin-left: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
+    margin-right: calc(-0.5 * var(--#{$prefix}gutter-x)) !important;
   }
 }
 
@@ -163,8 +178,13 @@ div.navbar {
 }
 
 @include media-breakpoint-down(sm) {
-  :is(#post_replies, .post_replies) > .col {
-      padding-right: 0;
+  #post_replies, .post_replies, #replies {
+    margin-left: calc(-0.5 * var(--#{$prefix}gutter-x));
+    margin-right: calc(-0.5 * var(--#{$prefix}gutter-x));
+  }
+
+  .post_replies > .col {
+    padding-right: calc(0.5 * var(--#{$prefix}gutter-x));
   }
 }
 
@@ -180,9 +200,10 @@ div.navbar {
   }
 }
 
-#replies > .comment {
-  width: calc(100% - 0.5rem);
-  max-width: unset;
+@include media-breakpoint-down(md) {
+  #replies > .comment {
+    max-width: unset;
+  }
 }
 
 #replies .comment {
@@ -191,14 +212,13 @@ div.navbar {
   padding-bottom: 0;
 
   .comment {
+    margin-bottom: 0 !important;
     background: none;
     padding-right: 0;
   }
-}
 
-@include media-breakpoint-down(sm) {
-  :is(#replies, .replies) > .comment {
-      width: calc(100% + 0.75rem);
+  > :has(+ [style*="display: none"]) {
+    padding-bottom: 1rem;
   }
 }
 
@@ -222,7 +242,7 @@ div.navbar {
 
 @include media-breakpoint-down(sm) {
   #replies > div > .comments > .comment {
-    margin: 0 -0.75rem 0.5rem !important;
+    margin: 0 0 0.5rem !important;
     border-radius: 0;
   }
 }
@@ -230,6 +250,10 @@ div.navbar {
 .comment .show-more {
   background-color: var(--#{$prefix}gray-700);
   color: var(--#{$prefix}white);
+}
+
+.comment .continue_thread {
+  padding: 1rem;
 }
 
 .voting_buttons div {
