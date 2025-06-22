@@ -11995,7 +11995,23 @@ textarea.form-control-lg {
   --bs-danger: var(--hlt-danger) !important;
   --bs-light: var(--hlt-light) !important;
   --bs-dark: var(--hlt-dark) !important;
+  --bs-body-color: var(--hlt-body-color) !important;
+  --bs-body-color-rgb: var(--hlt-body-color-rgb) !important;
+  --bs-body-bg: var(--hlt-body-bg) !important;
   --bs-body-line-height: var(--hlt-body-line-height) !important;
+  --bs-secondary-color: var(--hlt-secondary-color) !important;
+  --bs-secondary-bg: var(--hlt-secondary-bg) !important;
+  --bs-secondary-border-subtle: var(--hlt-secondary-border-subtle) !important;
+  --bs-link-color-rgb: var(--hlt-link-color-rgb) !important;
+  --bs-link-opacity: var(--hlt-link-opacity) !important;
+  --bs-border-color: var(--hlt-border-color) !important;
+  --bs-border-color-translucent: var(--hlt-border-color-translucent) !important;
+  --bs-border-width: var(--hlt-border-width) !important;
+  --bs-border-radius: var(--hlt-border-radius) !important;
+  --bs-box-shadow: var(--hlt-box-shadow) !important;
+  --bs-card-cap-color: var(--hlt-card-cap-color) !important;
+  --bs-card-cap-bg: var(--hlt-card-cap-bg) !important;
+  --bs-gutter-x: var(--hlt-gutter-x) !important;
 }
 
 /* Root variables */

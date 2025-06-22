@@ -8,5 +8,21 @@
   --bs-danger: var(--#{$prefix}danger) !important;
   --bs-light: var(--#{$prefix}light) !important;
   --bs-dark: var(--#{$prefix}dark) !important;
+  --bs-body-color: var(--#{$prefix}body-color) !important;
+  --bs-body-color-rgb: var(--#{$prefix}body-color-rgb) !important;
+  --bs-body-bg: var(--#{$prefix}body-bg) !important;
   --bs-body-line-height: var(--#{$prefix}body-line-height) !important;
+  --bs-secondary-color: var(--#{$prefix}secondary-color) !important;
+  --bs-secondary-bg: var(--#{$prefix}secondary-bg) !important;
+  --bs-secondary-border-subtle: var(--#{$prefix}secondary-border-subtle) !important;
+  --bs-link-color-rgb: var(--#{$prefix}link-color-rgb) !important;
+  --bs-link-opacity: var(--#{$prefix}link-opacity) !important;
+  --bs-border-color: var(--#{$prefix}border-color) !important;
+  --bs-border-color-translucent: var(--#{$prefix}border-color-translucent) !important;
+  --bs-border-width: var(--#{$prefix}border-width) !important;
+  --bs-border-radius: var(--#{$prefix}border-radius) !important;
+  --bs-box-shadow: var(--#{$prefix}box-shadow) !important;
+  --bs-card-cap-color: var(--#{$prefix}card-cap-color) !important;
+  --bs-card-cap-bg: var(--#{$prefix}card-cap-bg) !important;
+  --bs-gutter-x: var(--#{$prefix}gutter-x) !important;
 }
