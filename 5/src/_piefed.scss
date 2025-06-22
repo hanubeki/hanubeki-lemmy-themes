@@ -242,7 +242,7 @@ div.navbar {
 }
 
 @include media-breakpoint-down(md) {
-  :is(#replies, #more_replies) > .comment {
+  :is(#replies, #more_replies) .comment {
     max-width: unset;
   }
 }

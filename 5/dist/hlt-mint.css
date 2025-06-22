@@ -13124,7 +13124,7 @@ div.navbar {
   }
 }
 @media (max-width: 767.98px) {
-  :is(#replies, #more_replies) > .comment {
+  :is(#replies, #more_replies) .comment {
     max-width: unset;
   }
 }
