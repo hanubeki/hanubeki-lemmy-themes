@@ -11924,11 +11924,7 @@ textarea.form-control-lg {
   --bs-gutter-x: var(--hlt-gutter-x) !important;
 }
 
-/* Root variables */
-:root {
-  --hb-post-background: rgba(255, 255, 255, 0.8);
-}
-
+/* General Bootstrap dark values */
 :root {
   --hlt-primary: #caa0ba;
   --hlt-secondary: #b6aab0;
@@ -11942,48 +11938,8 @@ textarea.form-control-lg {
   --hlt-info-rgb: 154, 155, 194;
   --hlt-warning-rgb: 215, 183, 133;
   --hlt-danger-rgb: 199, 151, 155;
-  --hb-post-background: rgba(var(--hlt-light-rgb), 0.15);
 }
 
-/* Button style overrides */
-.btn-group-toggle:has(.btn-outline-secondary) {
-  border-radius: 0.5rem !important;
-  background-color: transparent !important;
-  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)) !important;
-  padding: 0.25rem 0;
-}
-
-.btn-group-toggle .btn-outline-secondary {
-  margin: 0 0.25rem;
-  border-radius: 0.5rem !important;
-  color: var(--hlt-secondary);
-  background-color: transparent;
-  border-color: transparent !important;
-  --hlt-btn-padding-y: 0.125rem;
-  --hlt-btn-focus-shadow-rgb: var(--hlt-secondary-rgb);
-}
-.btn-group-toggle .btn-outline-secondary.disabled, .btn-group-toggle .btn-outline-secondary:disabled {
-  color: var(--hlt-black) !important;
-  background-color: transparent !important;
-}
-.btn-group-toggle .btn-outline-secondary.active, .btn-group-toggle .btn-outline-secondary:active {
-  color: var(--hlt-white) !important;
-  background-color: var(--hlt-primary) !important;
-  border-color: transparent !important;
-}
-.btn-group-toggle .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
-  color: var(--hlt-white) !important;
-  background-color: var(--hlt-secondary) !important;
-}
-
-.btn-group-toggle .btn-outline-secondary.active, .btn-group-toggle .btn-outline-secondary:active {
-  color: var(--hlt-black) !important;
-}
-.btn-group-toggle .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
-  color: var(--hlt-black) !important;
-}
-
-/* General Bootstrap dark values */
 .blockquote-footer {
   color: var(--prefixgray-700);
 }
@@ -12727,6 +12683,53 @@ textarea.form-control-lg {
 .link-dark:focus, .link-dark:hover {
   color: var(--hlt-gray-100) !important;
   text-decoration-color: var(--hlt-gray-100) !important;
+}
+
+/* Root variables */
+:root {
+  --hb-post-background: rgba(255, 255, 255, 0.8);
+}
+
+:root {
+  --hb-post-background: rgba(var(--hlt-light-rgb), 0.15);
+}
+
+/* Button style overrides */
+.btn-group-toggle:has(.btn-outline-secondary) {
+  border-radius: 0.5rem !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)) !important;
+  padding: 0.25rem 0;
+}
+
+.btn-group-toggle .btn-outline-secondary {
+  margin: 0 0.25rem;
+  border-radius: 0.5rem !important;
+  color: var(--hlt-secondary);
+  background-color: transparent;
+  border-color: transparent !important;
+  --hlt-btn-padding-y: 0.125rem;
+  --hlt-btn-focus-shadow-rgb: var(--hlt-secondary-rgb);
+}
+.btn-group-toggle .btn-outline-secondary.disabled, .btn-group-toggle .btn-outline-secondary:disabled {
+  color: var(--hlt-black) !important;
+  background-color: transparent !important;
+}
+.btn-group-toggle .btn-outline-secondary.active, .btn-group-toggle .btn-outline-secondary:active {
+  color: var(--hlt-white) !important;
+  background-color: var(--hlt-primary) !important;
+  border-color: transparent !important;
+}
+.btn-group-toggle .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
+  color: var(--hlt-white) !important;
+  background-color: var(--hlt-secondary) !important;
+}
+
+.btn-group-toggle .btn-outline-secondary.active, .btn-group-toggle .btn-outline-secondary:active {
+  color: var(--hlt-black) !important;
+}
+.btn-group-toggle .btn-outline-secondary:is(:focus, :hover):not(.active, :active) {
+  color: var(--hlt-black) !important;
 }
 
 /* Lemmy additions */

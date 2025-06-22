@@ -11960,7 +11960,6 @@ textarea.form-control-lg {
   background-color: var(--hlt-secondary) !important;
 }
 
-/* General Bootstrap dark values */
 /* Lemmy additions */
 div:has(> nav.navbar) {
   background-color: var(--hlt-body-bg);

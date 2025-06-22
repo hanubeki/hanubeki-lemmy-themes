@@ -27,5 +27,6 @@ $enable-dark-mode: false;
 $enable-dark-mode: true;
 
 @import "prefixed";
+@import "dark-mode";
 @import "addition";
 @import "piefed";
