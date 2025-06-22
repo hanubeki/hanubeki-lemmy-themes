@@ -12233,8 +12233,14 @@ div.navbar {
   padding-right: 0;
 }
 
+@media (max-width: 575.98px) {
+  #more_replies > .row {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
 @media (max-width: 767.98px) {
-  #replies > .comment {
+  :is(#replies, #more_replies) > .comment {
     max-width: unset;
   }
 }

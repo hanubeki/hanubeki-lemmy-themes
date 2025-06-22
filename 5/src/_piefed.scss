@@ -234,8 +234,15 @@ div.navbar {
   }
 }
 
+@include media-breakpoint-down(sm) {
+  #more_replies > .row {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
 @include media-breakpoint-down(md) {
-  #replies > .comment {
+  :is(#replies, #more_replies) > .comment {
     max-width: unset;
   }
 }
