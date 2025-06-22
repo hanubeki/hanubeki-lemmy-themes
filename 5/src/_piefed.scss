@@ -81,6 +81,40 @@
   }
 }
 
+/* Dropdown */
+.ts-control {
+  background: transparent !important;
+}
+
+.ts-dropdown {
+  border-color: var(--hlt-border-color);
+  background-color: var(--#{$prefix}body-bg);
+  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)), linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
+  color: var(--#{$prefix}primary);
+}
+
+@if $enable-dark-mode {
+  @include color-mode(dark) {
+    .ts-dropdown {
+      background-image: none;
+    }
+  }
+}
+
+.ts-dropdown, .ts-control, .ts-control input {
+  color: var(--#{$prefix}primary);
+}
+
+.ts-dropdown .active {
+  background-color: var(--#{$prefix}light-bg-subtle);
+  color: var(--#{$prefix}primary);
+}
+
+.ts-dropdown [data-selectable] .highlight {
+  background-color: var(--#{$prefix}highlight-bg);
+  color: var(--#{$prefix}highlight-color);
+}
+
 /* PieFed */
 
 div.navbar {

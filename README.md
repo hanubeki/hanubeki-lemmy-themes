@@ -5,7 +5,7 @@
 * Mobile friendly (if instance owner installs these themes)
 
 ## 5
-These files are themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) 0.19.6 and [PieFed](https://codeberg.org/rimu/pyfedi/), based on Bootstrap 5.3.3.
+These files are themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) 0.19.6 and [PieFed](https://codeberg.org/rimu/pyfedi/) v1.0.0, based on Bootstrap 5.3.7.
 
 Caution: theme names were changed to `hanubeki-*` to `hlt-*`, to support [LemmyNet/lemmy-ui#2638](https://github.com/LemmyNet/lemmy-ui/pull/2638).
 

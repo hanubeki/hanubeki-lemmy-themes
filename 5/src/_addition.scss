@@ -533,10 +533,17 @@ div:has(> nav.navbar) {
   }
 }
 
-.comment > .comments > .comment {
+.comment > .comments > .comment, .comment > .replies > .comment {
   margin: 0 !important;
   background: none;
   padding: 0;
+}
+
+#more_replies .comment {
+    border: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0
 }
 
 .comments, div > .comments > .comment > .details {
