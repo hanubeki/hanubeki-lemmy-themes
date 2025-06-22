@@ -237,7 +237,7 @@ div.navbar {
 @include media-breakpoint-down(sm) {
   #more_replies > .row {
     margin-left: 0;
-    padding-left: 0;
+    margin-right: 0;
   }
 }
 
