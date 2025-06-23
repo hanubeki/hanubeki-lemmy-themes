@@ -12959,6 +12959,11 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
   color: var(--hlt-primary) !important;
 }
 
+.ts-dropdown .optgroup-header {
+  background: transparent !important;
+  color: var(--hlt-body-color) !important;
+}
+
 .ts-dropdown .active {
   background-color: var(--hlt-light-bg-subtle) !important;
   color: var(--hlt-primary) !important;
