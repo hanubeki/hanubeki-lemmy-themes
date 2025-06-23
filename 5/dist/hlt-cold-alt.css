@@ -13004,29 +13004,29 @@ div > .comments > .comment:has(> .details > div > div:only-child) {
 }
 
 .ts-dropdown {
-  border-color: var(--hlt-border-color);
-  background-color: var(--hlt-body-bg);
-  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)), linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background));
-  color: var(--hlt-primary);
+  border-color: var(--hlt-border-color) !important;
+  background-color: var(--hlt-body-bg) !important;
+  background-image: linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)), linear-gradient(0deg, var(--hb-post-background), var(--hb-post-background)) !important;
+  color: var(--hlt-primary) !important;
 }
 
 @media (prefers-color-scheme: dark) {
   .ts-dropdown {
-    background-image: none;
+    background-image: none !important;
   }
 }
 .ts-dropdown, .ts-control, .ts-control input {
-  color: var(--hlt-primary);
+  color: var(--hlt-primary) !important;
 }
 
 .ts-dropdown .active {
-  background-color: var(--hlt-light-bg-subtle);
-  color: var(--hlt-primary);
+  background-color: var(--hlt-light-bg-subtle) !important;
+  color: var(--hlt-primary) !important;
 }
 
 .ts-dropdown [data-selectable] .highlight {
-  background-color: var(--hlt-highlight-bg);
-  color: var(--hlt-highlight-color);
+  background-color: var(--hlt-highlight-bg) !important;
+  color: var(--hlt-highlight-color) !important;
 }
 
 /* PieFed */
