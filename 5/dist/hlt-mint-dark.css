@@ -5282,7 +5282,7 @@ textarea.form-control-lg {
 
 :root,
 [data-bs-theme=light] {
-  --hlt-btn-close-filter: ;
+  --hlt-btn-close-filter: invert(1) grayscale(100%) brightness(200%);
 }
 
 .toast {
@@ -6098,9 +6098,9 @@ textarea.form-control-lg {
 
 :root,
 [data-bs-theme=light] {
-  --hlt-carousel-indicator-active-bg: #e2f5f3;
-  --hlt-carousel-caption-color: #e2f5f3;
-  --hlt-carousel-control-icon-filter: ;
+  --hlt-carousel-indicator-active-bg: #233333;
+  --hlt-carousel-caption-color: #233333;
+  --hlt-carousel-control-icon-filter: invert(1) grayscale(100);
 }
 
 .spinner-grow,
