@@ -12234,15 +12234,6 @@ div.navbar {
   background-color: transparent !important;
 }
 
-@media (max-width: 575.98px) {
-  #post_replies, .post_replies, #replies {
-    margin-left: calc(-0.5 * var(--hlt-gutter-x));
-    margin-right: calc(-0.5 * var(--hlt-gutter-x));
-  }
-  .post_replies > .col {
-    padding-right: calc(0.5 * var(--hlt-gutter-x));
-  }
-}
 .comment > .row {
   margin: 0;
 }

@@ -217,17 +217,6 @@ div.navbar {
   background-color: transparent !important;
 }
 
-@include media-breakpoint-down(sm) {
-  #post_replies, .post_replies, #replies {
-    margin-left: calc(-0.5 * var(--#{$prefix}gutter-x));
-    margin-right: calc(-0.5 * var(--#{$prefix}gutter-x));
-  }
-
-  .post_replies > .col {
-    padding-right: calc(0.5 * var(--#{$prefix}gutter-x));
-  }
-}
-
 .comment > .row {
   margin: 0;
 
