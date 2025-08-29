@@ -4,14 +4,14 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$theme: "hlt-pink";
-$prefix: hlt-;
+$theme: "hpt-mint-alt";
+$prefix: hpt-;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hlt-pink";
+@import "palette.hpt-mint";
 @import "palette.common";
-@import "variables.hlt-pink";
+@import "variables.hpt-mint-alt";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";

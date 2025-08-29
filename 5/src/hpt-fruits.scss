@@ -4,14 +4,14 @@
 @import "../../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-$theme: "hlt-cold";
-$prefix: hlt-;
+$theme: "hpt-fruits";
+$prefix: hpt-;
 
 @import "../../node_modules/bootstrap/scss/functions";
 
-@import "palette.hlt-cold";
+@import "palette.hpt-fruits";
 @import "palette.common";
-@import "variables.hlt-cold";
+@import "variables.hpt-fruits";
 @import "variables.common";
 
 @import "../../node_modules/bootstrap/scss/variables";

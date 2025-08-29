@@ -1,15 +1,14 @@
-# hanubeki-lemmy-themes
-* Full Bootstrap CSS theme with addition for Lemmy and PieFed
+# hanubeki-piefed-themes
+* Full Bootstrap CSS theme with addition for PieFed
 * Flat design, inspired from Material You
-* 4 color schemes, auto/manual light/dark modes
+* 4 color schemes, light/dark modes preferences
 * Mobile friendly (if instance owner installs these themes)
 
 ## 5
-These files are themes for [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) 0.19.6 and [PieFed](https://codeberg.org/rimu/pyfedi/) v1.0.0, based on Bootstrap 5.3.7.
-
-Caution: theme names were changed to `hanubeki-*` to `hlt-*`, to support [LemmyNet/lemmy-ui#2638](https://github.com/LemmyNet/lemmy-ui/pull/2638).
+These files are themes for [PieFed](https://codeberg.org/rimu/pyfedi/) v1.0.0, based on Bootstrap 5.3.8.
 
 ## Preview
+TODO: Change images to screenshot from PieFed
 
 ### hanubeki-cold
 ![hanubeki-cold](/preview/hanubeki-cold.png)
@@ -28,12 +27,8 @@ Caution: theme names were changed to `hanubeki-*` to `hlt-*`, to support [LemmyN
 ### Common users
 Use Stylish or Stylus and paste all lines of *one* css to the editor.
 
-### Lemmy instance owners
-See https://join-lemmy.org/docs/administration/theming.html
-
 ### PieFed instance owners
-You will need to make custom themes per which you want.
-You may want to put [the script](/piefed/scripts.js) to theme directories for light/dark mode preference.
+Put theme folders to `/main/app/templates/themes`.
 
 ## License
 Licensed under MIT (https://github.com/hanubeki/hanubeki-lemmy-themes/blob/main/LICENSE)
