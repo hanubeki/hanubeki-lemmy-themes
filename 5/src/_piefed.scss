@@ -242,7 +242,7 @@ div.navbar {
   }
 }
 
-#replies .comment {
+:is(#replies, #more_replies) .comment {
   border: none;
   padding: 1rem;
   padding-bottom: 0;
@@ -258,14 +258,14 @@ div.navbar {
   }
 }
 
-#replies .comment .replies {
+:is(#replies, #more_replies) .comment .replies {
   border-left-color: var(--#{$prefix}gray-300) !important;
   border-top-color: var(--#{$prefix}gray-300) !important;
 }
 
 @if $enable-dark-mode {
   @include color-mode(dark) {
-    #replies .comment .replies {
+    :is(#replies, #more_replies) .comment .replies {
       border-left-color: var(--#{$prefix}gray-700) !important;
       border-top-color: var(--#{$prefix}gray-700) !important;
     }

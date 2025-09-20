@@ -13105,26 +13105,26 @@ div.navbar {
     max-width: unset;
   }
 }
-#replies .comment {
+:is(#replies, #more_replies) .comment {
   border: none;
   padding: 1rem;
   padding-bottom: 0;
 }
-#replies .comment .comment {
+:is(#replies, #more_replies) .comment .comment {
   margin-bottom: 0 !important;
   background: none;
   padding-right: 0;
 }
-#replies .comment > :has(+ [style*="display: none"]) {
+:is(#replies, #more_replies) .comment > :has(+ [style*="display: none"]) {
   padding-bottom: 1rem;
 }
 
-#replies .comment .replies {
+:is(#replies, #more_replies) .comment .replies {
   border-left-color: var(--hpt-gray-300) !important;
   border-top-color: var(--hpt-gray-300) !important;
 }
 
-[data-bs-theme=dark] #replies .comment .replies {
+[data-bs-theme=dark] :is(#replies, #more_replies) .comment .replies {
   border-left-color: var(--hpt-gray-700) !important;
   border-top-color: var(--hpt-gray-700) !important;
 }
